@@ -1,0 +1,93 @@
+/* base.html styling */
+
+header > .button-collapse {
+	position: fixed;
+	display: block !important;
+	color: white;
+}
+
+/* home.html styling */
+
+.home-cover {
+	max-height: 100vh;
+	overflow: hidden !important;
+}
+
+.home-cover > img {
+	width: 100vw;
+}
+
+.home-inci-header {
+	position: absolute;
+	top: 40vh;
+	width: 100%;
+	text-align: center;
+	font-size: 6rem;
+}
+
+/* sponsors.html styling */
+
+.sponsors-cover {
+	max-height: 100vh;
+	overflow: hidden !important;
+}
+
+.sponsors-cover > img {
+	width: 100vw;
+}
+
+.sponsors-cover-header {
+	position: absolute;
+	top: 40vh;
+	width: 100%;
+	text-align: center;
+	font-size: 6rem;
+	color: #00FF00;
+}
+
+/* team.html styling */
+
+.team-cover-header {
+	position: absolute;
+	top: 40vh;
+	width: 100%;
+	text-align: center;
+	font-size: 6rem;
+	color: white;
+}
+
+.team-cover {
+	max-height: 100vh;
+	overflow: hidden !important;
+}
+
+.team-cover > img {
+	height: 100vh;
+}
+
+.team-heading {
+	font-weight: 300;
+}
+
+.team-container {
+	background-color: #607D8B;
+}
+
+.team-container img {
+	width: 200px !important;
+	height: 200px !important;
+}
+
+.team-container .card {
+	padding-top: 10px;
+}
+
+.team-container .row {
+	margin-bottom: 0px;
+}
+
+.team-container h2 {
+	margin: 0px;
+	padding: 20px;
+	color: white;
+}
