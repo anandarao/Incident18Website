@@ -1,56 +1,42 @@
 {% extends 'base/base.html' %}
-
 {% load static %}
+
+{% block head_block %}
+
+<script type="text/javascript" src="{% static 'js/sponsors.js' %}"></script>
+
+{% endblock %}
+
 {% block body_block %}
-    <div class="v ai l">
-      <div class="bz">
-        <img src="{% static 'images/team.jpg' %}" alt="">
-      </div>
-      <div class="header-wrapper c valign-wrapper">
-        <div class="d jt offset-s2 ci">
-          <h1>Team!</h1>
-          <span class="dx">Founded in 2015, we strive to be the best at what we do. This is made possible by our amazing team located around the world.</span>
-        </div>
-      </div>
-    </div>
 
-    <div class="v l full-height">
-      <div class="c ci">
-        <div class="d iv jc offset-m1 cy">
+<div class="team-cover">
+  <img src="{% static 'images/team.jpg' %}" alt="">
+</div>
+<div class="team-cover-header">Team</div>
 
-        {% for team in teams %}
+<div class="team-container">
+  {% for team in teams %}
 
-          <div class="c">
-            <div class="d iv ki center-on-small-only">
-              <h3 class="section-title">{{ team.name }}</h3>
-            </div>
+    <h2 class="team-heading center">{{ team.name }}</h2>
+    <div class="row">
+      {% for teammember in team.teammember_set.all %}
 
-            <div class="d iv km">
-              <div class="c">
-
-                {% for teammember in team.teammember_set.all %}
-                <div class="d iv kr">
-                  <div class="avatar-wrapper">
-                    <span class="k">
-                      <img src="{{ teammember.image.url }}" alt="">
-                    </span>
-                  </div>
-                  <div class="avatar-name">
-                    <span class="fx">{{teammember.name}}</span>
-                    <span class="cx">{{teammember.post}}</span>
-                    <span class="cx">{{teammember.email}}</span>
-                    <span class="cx">{{teammember.phone_number}}</span>
-                  </div>
-                </div>
-
-                {% endfor %}
-              </div>
+        <div class="col s12 m6 l3">
+          <div class="card center">
+            <img src="{{ teammember.image.url }}" alt="" class="circle responsive-img">
+            <div class="avatar-name">
+              <span class="team-member-name">{{teammember.name}}</span><br>
+              <span class="team-member-post">{{teammember.post}}</span><br>
+              <span class="team-member-email">{{teammember.email}}</span><br>
+              <span class="team-member-phone">{{teammember.phone_number}}</span>
             </div>
           </div>
-
-        {% endfor %}
         </div>
-      </div>
+
+      {% endfor %}
     </div>
+
+  {% endfor %}
+<div>
 
 {% endblock %}
