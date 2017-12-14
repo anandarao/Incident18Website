@@ -31,7 +31,7 @@
 		window.addEventListener( 'scroll', noscroll );
 
 		// initial animation
-		classie.add( container, 'loading' );
+		$("#ip-container").addClass('loading');
 
 		if( support.animations ) {
 			container.addEventListener( animEndEventName, onEndInitialAnimation );
@@ -52,8 +52,8 @@
 
 					// reached the end
 					if( progress === 1 ) {
-						classie.remove( container, 'loading' );
-						classie.add( container, 'loaded' );
+						$("#ip-container").removeClass('loading');
+						$("#ip-container").addClass('loaded');
 						clearInterval( interval );
 
 						var onEndHeaderAnimation = function(ev) {
@@ -61,11 +61,7 @@
 								if( ev.target !== header ) return;
 								this.removeEventListener( animEndEventName, onEndHeaderAnimation );
 							}
-
-							classie.add( document.body, 'layout-switch' );
-							window.removeEventListener( 'scroll', noscroll );
 						};
-						console.log("hello");
 
 						if( support.animations ) {
 							header.addEventListener( animEndEventName, onEndHeaderAnimation );
