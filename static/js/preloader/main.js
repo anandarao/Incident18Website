@@ -13,7 +13,7 @@
 	var support = { animations : Modernizr.cssanimations },
 		container = document.getElementById( 'ip-container' ),
 		header = container.querySelector( 'header.ip-header' ),
-		loader = new PathLoader( document.getElementById( 'ip-loader-circle' ) ),
+		loader = new PathLoader( document.getElementById( 'image-inci' ) ),
 		animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
 		// animation end event name
 		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
@@ -65,6 +65,7 @@
 							classie.add( document.body, 'layout-switch' );
 							window.removeEventListener( 'scroll', noscroll );
 						};
+						console.log("hello");
 
 						if( support.animations ) {
 							header.addEventListener( animEndEventName, onEndHeaderAnimation );
