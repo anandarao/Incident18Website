@@ -17,11 +17,13 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/preloader/effect1.css' %}" />
   <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
 
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="{% static 'js/preloader/modernizr.custom.js' %}"></script>
 
   {% block head_block %}  <!-- head block starts here -->               
 
@@ -29,6 +31,18 @@
 </head>
 
 <body>
+
+  <!-- preloader -->
+  <div id="ip-container" class="ip-container">
+    <header class="ip-header">
+      <div class="ip-loader">
+        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+          <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+          <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg>
+      </div>
+    </header>
+  </div>
 
   <!-- Navbar -->
   <header>
@@ -47,6 +61,10 @@
 
     {% endblock %} <!-- body block ends here -->
   </main>
+
+  <script src="{% static 'js/preloader/classie.js' %}"></script>
+  <script src="{% static 'js/preloader/pathLoader.js' %}"></script>
+  <script src="{% static 'js/preloader/main.js' %}"></script>
 
 </body>
 </html>
