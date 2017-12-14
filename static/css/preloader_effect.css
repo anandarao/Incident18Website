@@ -1,0 +1,77 @@
+.ip-header {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	min-height: 460px;
+	width: 100%;
+	height: 100%;
+	background: #f1f1f1;
+}
+
+.ip-header h1 {
+	margin: 0;
+}
+
+.ip-loader {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	cursor: default;
+	pointer-events: none;
+}
+
+.ip-loader {
+	bottom: 45%;
+}
+
+.ip-header {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Animations */
+
+/* Initial animation of header elements */
+.loading .ip-loader {
+	opacity: 1;
+	-webkit-animation: animInitialLoader 1s cubic-bezier(0.7,0,0.3,1) both;
+	animation: animInitialLoader 1s cubic-bezier(0.7,0,0.3,1) both;
+}
+
+@-webkit-keyframes animInitialLoader {
+	from { opacity: 0; -webkit-transform: scale3d(0.5,0.5,1); }
+}
+
+@keyframes animInitialLoader {
+	from { opacity: 0; -webkit-transform: scale3d(0.5,0.5,1); transform: scale3d(0.5,0.5,1); }
+}
+
+/* Header elements when loading finishes */
+.loaded .ip-loader {
+	opacity: 1;
+	-webkit-animation: animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
+	animation: animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
+}
+
+@-webkit-keyframes animLoadedLoader {
+	to { opacity: 0; -webkit-transform: translate3d(0,-100%,0) scale3d(0.3,0.3,1); }
+}
+
+@keyframes animLoadedLoader {
+	to { opacity: 0; -webkit-transform: translate3d(0,-100%,0) scale3d(0.3,0.3,1); transform: translate3d(0,-100%,0) scale3d(0.3,0.3,1); }
+}
+
+/* Header animation when loading finishes */
+.loaded .ip-header {
+	-webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
+	animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
+}
+
+@-webkit-keyframes animLoadedHeader {
+	to { -webkit-transform: translate3d(0,-100%,0); }
+}
+
+@keyframes animLoadedHeader {
+	to { -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); }
+}
