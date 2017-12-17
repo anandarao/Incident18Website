@@ -52,7 +52,11 @@
 						setInterval( function() {
 							$("#ip-container").removeClass('loading');
 							$("#ip-container").addClass('loaded');
+							$("header").show().fadeTo('slow', 1);
 						}, 500);
+						setInterval( function() {
+							$("#ribbon").addClass("ribbon");
+						}, 1500);
 						clearInterval( interval );
 
 						var onEndHeaderAnimation = function(ev) {
@@ -63,13 +67,6 @@
 
 							window.removeEventListener( 'scroll', noscroll );
 						};
-
-						if( support.animations ) {
-							header.addEventListener( animEndEventName, onEndHeaderAnimation );
-						}
-						else {
-							onEndHeaderAnimation();
-						}
 					}
 				}, 20 );
 		};
