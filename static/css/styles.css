@@ -24,8 +24,8 @@ header {
 
 .ribbon {
   width: 90vw;
-  height: 65px;
-  margin: 95px auto 0px;
+  height: 60px;
+  margin: 85px auto 0px;
   position: relative;
   background: #e53935;
   -webkit-animation: main 500ms;
@@ -264,7 +264,7 @@ p {
 
 #canvas {
 	position: relative;
-	top: 20vh;
+	top: 17vh;
 }
 
 .ip-header {
