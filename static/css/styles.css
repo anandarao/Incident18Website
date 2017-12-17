@@ -1,7 +1,7 @@
 /* base.html styling */
 
 body {
-	background-color: #f1f1f1 !important;
+	background-color: #F8F3E0 !important;
 }
 
 a.button-collapse {
@@ -25,10 +25,9 @@ header {
 .ribbon {
   width: 90vw;
   height: 65px;
-  margin: 50px auto 0px;
+  margin: 95px auto 0px;
   position: relative;
-  color: #fff;
-  background: #3D79D0;
+  background: #e53935;
   -webkit-animation: main 500ms;
   -moz-animation: main 500ms;
   -ms-animation: main 500ms;
@@ -45,19 +44,19 @@ header {
   bottom: -20px;
   z-index: -1;
   border: 20px solid transparent;
-  border-right-color: #043140;
+  border-right-color: #7a1111;
   
-  -webkit-animation: edge 1000ms;
-  -moz-animation: edge 1000ms;
-  -ms-animation: edge 1000ms;
-  animation: edge 1000ms;
+  -webkit-animation: edge 700ms;
+  -moz-animation: edge 700ms;
+  -ms-animation: edge 700ms;
+  animation: edge 700ms;
 }
 
 .ribbon i:nth-child(2) {
   left: auto;
   right: -20px;
   border-right-color: transparent;
-  border-left-color: #043140;
+  border-left-color: #7a1111;
 }
 
 .ribbon i:nth-child(3), .ribbon i:last-child {
@@ -65,7 +64,7 @@ header {
   bottom: -20px;
   left: -40px;
   z-index: -2;
-  border: 30px solid #1D53C0;
+  border: 30px solid #e53935;
   border-left-color: transparent;
   
   -webkit-animation: back 600ms;
@@ -83,7 +82,7 @@ header {
   bottom: -20px;
   left: auto;
   right: -40px;
-  border: 30px solid #1D53C0;
+  border: 30px solid #e53935;
   border-right-color: transparent;
 
   -webkit-transform-origin: 0 0;
@@ -265,7 +264,7 @@ p {
 
 #canvas {
 	position: relative;
-	top: 35vh;
+	top: 20vh;
 }
 
 .ip-header {
@@ -298,9 +297,9 @@ p {
 }
 
 @-webkit-keyframes animLoadedLoader {
-	to { -webkit-transform: translate3d(0,-60%,0) scale3d(0.3,0.3,1); }
+	to { -webkit-transform: translate3d(0,-42%,0) scale3d(0.42,0.42,1); }
 }
 
 @keyframes animLoadedLoader {
-	to { -webkit-transform: translate3d(0,-60%,0) scale3d(0.3,0.3,1); transform: translate3d(0,-60%,0) scale3d(0.3,0.3,1); }
+	to { -webkit-transform: translate3d(0,-42%,0) scale3d(0.42,0.42,1); transform: translate3d(0,-42%,0) scale3d(0.42,0.42,1); }
 }

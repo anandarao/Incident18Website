@@ -9,13 +9,15 @@
 
 	// canvas related variables
 	var canvas = document.getElementById( "canvas" );
-	var ctx=canvas.getContext( "2d" );
+	var ctx = canvas.getContext( "2d" );
 	var cw,ch;
 
 	// load the logo and the logo outline
 	// then start the animation
 	var logoOutline;
 	var logo = fetch_loader();
+	var logo_background = fetch_loader_background();
+	var alpha = 0;
 
 	function init() {
 		var onEndInitialAnimation = function() {
@@ -77,9 +79,10 @@
 	function start(){
 
 		logoOutline = outlinePNG( logo, 'lightgray' );
+		ctx.globalAlpha = alpha;
 
-		cw = canvas.width = logoOutline.width;
-		ch = canvas.height = logoOutline.height;
+		cw = canvas.width = 600;
+		ch = canvas.height = 600;
 		
 		logo.displayY = logo.height - 4;
 		
@@ -90,14 +93,22 @@
 
 		y = logo.displayY;
 
+		if (alpha < 1) {
+			alpha += 0.02;
+		}
+
 		// clear the logo canvas
-		ctx.clearRect( 0, 0, cw, ch );
+		ctx.clearRect( 0, 0, 600, 600 );
+
+		ctx.globalAlpha = alpha;
+
+		ctx.drawImage(logo_background, 0, 0);
 
 		// use the clipping version of drawImage to 
 		// increasingly reveal the logo from the bottom
 		ctx.drawImage(
 			logo, 0, y, logo.width, logo.height - y,
-			4, y + 4, logo.width, logo.height - y
+			265 + 4, 200 + y + 4, logo.width, logo.height - y
 		);
 
 		// reduce .displayY which increases the reveal
@@ -107,7 +118,6 @@
 		if ( logo.displayY > 0 ) {
 
 			// draw logo outline
-			ctx.drawImage( logoOutline, 0, 0 );
 		
 			// request another loop until the logo is fully displayed
 			requestAnimationFrame( animate );
