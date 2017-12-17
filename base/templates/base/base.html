@@ -31,6 +31,12 @@
       return logo;
     }
 
+    function fetch_loader_background() {
+      var logo_background = new Image();
+      logo_background.src = "{% static 'images/inci-loader-back.jpg' %}";
+      return logo_background;
+    }
+
   </script>
 
   {% block head_block %}  <!-- head block starts here -->               
