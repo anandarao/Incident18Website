@@ -10,11 +10,6 @@ a.button-collapse {
 	color: #000000;
 }
 
-header {
-	display: none;
-	opacity: 0;
-}
-
 /* Ribbon */
 
 .ribbon-wrapper {
@@ -251,6 +246,7 @@ p {
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	pointer-events: none;
 }
 
 .ip-loader {

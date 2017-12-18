@@ -8,5 +8,19 @@
 {% endblock %}
 
 {% block body_block %}
-
+  <div class="ribbon-wrapper">
+    <div id="ribbon">
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+    </div>
+  </div>
+  <!-- preloader -->
+  <div id="ip-container" class="ip-container">
+      <div class="ip-loader center">
+        <canvas id="canvas"></canvas>
+      </div>
+  </div>
+<script src="{% static 'js/preloader.js' %}"></script>
 {% endblock %}
