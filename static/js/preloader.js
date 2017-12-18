@@ -1,9 +1,9 @@
 (function() {
 
 	var support = { animations : Modernizr.cssanimations },
-		container = document.getElementById( 'ip-container' ),
-		header = container.querySelector( 'header.ip-header' ),
-		animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
+	container = document.getElementById( 'ip-container' ),
+	header = container.querySelector( 'header.ip-header' ),
+	animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
 		// animation end event name
 		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
 
@@ -32,6 +32,7 @@
 
 		// initial animation
 		$("#ip-container").addClass('loading');
+		$(".ribbon-wrapper > a").hide();
 
 		if( support.animations ) {
 			container.addEventListener( animEndEventName, onEndInitialAnimation );
@@ -57,6 +58,7 @@
 						}, 500);
 						setInterval( function() {
 							$("#ribbon").addClass("ribbon");
+							$(".ribbon-wrapper > a").show('slow').animate({opacity:1});
 						}, 1500);
 						clearInterval( interval );
 
@@ -108,7 +110,7 @@
 		ctx.drawImage(
 			logo, 0, y, logo.width, logo.height - y,
 			265 + 4, 200 + y + 4, logo.width, logo.height - y
-		);
+			);
 
 		// reduce .displayY which increases the reveal
 		logo.displayY--;
@@ -117,7 +119,7 @@
 		if ( logo.displayY > 0 ) {
 
 			// draw logo outline
-		
+
 			// request another loop until the logo is fully displayed
 			requestAnimationFrame( animate );
 		}

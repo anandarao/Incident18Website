@@ -2,69 +2,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Website for Incident 2018">
-  <meta name="author" content="Incident 2018 Website Team">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Website for Incident 2018">
+	<meta name="author" content="Incident 2018 Website Team">
 
-  <title>Incident 2018</title>
+	<title>Incident 2018</title>
 
-  <!-- favicon -->
-  <link rel="shortcut icon" href="{% static 'images/inci-logo.png' %}">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="{% static 'images/inci-logo.png' %}">
 
-  <!-- Material Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Material Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
 
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/materialize/0.98.2/js/materialize.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-  <script type="text/javascript">
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/materialize/0.98.2/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script type="text/javascript">
 
-    function fetch_loader() {
-      var logo = new Image();
-      logo.src = "{% static 'images/inci-loader.png' %}";
-      return logo;
-    }
+		function fetch_loader() {
+			var logo = new Image();
+			logo.src = "{% static 'images/inci-loader.png' %}";
+			return logo;
+		}
 
-    function fetch_loader_background() {
-      var logo_background = new Image();
-      logo_background.src = "{% static 'images/inci-loader-back.jpg' %}";
-      return logo_background;
-    }
+		function fetch_loader_background() {
+			var logo_background = new Image();
+			logo_background.src = "{% static 'images/inci-loader-back.jpg' %}";
+			return logo_background;
+		}
 
-  </script>
+	</script>
 
-  {% block head_block %}  <!-- head block starts here -->               
+	{% block head_block %}  <!-- head block starts here -->               
 
-  {% endblock %} <!-- head block ends here -->
+	{% endblock %} <!-- head block ends here -->
 </head>
 
 <body>
 
-  <!-- Navbar -->
-  <header>
-    <ul id="slide-out" class="side-nav">
-      <li><a href="{% url 'base:index' %}">Home</a></li>
-      <li><a href="{% url 'base:events' %}">Events</a></li>
-      <li><a href="{% url 'base:highlights' %}">Highlights</a></li>
-      <li><a href="{% url 'base:sponsors' %}">Sponsors</a></li>
-      <li><a href="{% url 'base:team' %}">Team</a></li>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse show-on-large">
-      <i class="material-icons medium">menu</i>
-    </a>
-  </header>
+	<header></header>
 
-  <main>
-    {% block body_block %}  <!-- body block starts here -->               
+	<main>
+		{% block body_block %}  <!-- body block starts here -->               
 
-    {% endblock %} <!-- body block ends here -->
-  </main>
+		{% endblock %} <!-- body block ends here -->
+	</main>
+
+	<script type="text/javascript">
+		$(".ribbon-wrapper > img").click(function() {window.location.href = "{% url 'base:index' %}";});
+	</script>
 
 </body>
 </html>
