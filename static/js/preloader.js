@@ -54,7 +54,6 @@
 						setInterval( function() {
 							$("#ip-container").removeClass('loading');
 							$("#ip-container").addClass('loaded');
-							$("header").show().fadeTo('slow', 1);
 						}, 500);
 						setInterval( function() {
 							$("#ribbon").addClass("ribbon");
