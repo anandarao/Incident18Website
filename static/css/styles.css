@@ -159,6 +159,17 @@ p {
 	font-size: 6rem;
 }
 
+/* events.html styling */
+
+.events-cover {
+	max-height: 100vh;
+	overflow: hidden !important;
+}
+
+#map {
+        height: 100vh;
+}
+
 /* sponsors.html styling */
 
 .sponsors-cover {

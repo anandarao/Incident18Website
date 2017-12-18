@@ -12,3 +12,9 @@ def team(request):
 
 def sponsors(request):
 	return render(request, 'base/sponsors.html')
+
+def events(request):
+	return render(request, 'base/events.html')
+
+def highlights(request):
+	return render(request, 'base/highlights.html')
