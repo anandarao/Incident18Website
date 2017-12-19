@@ -17,6 +17,7 @@ a.button-collapse {
 .ribbon-wrapper {
 	position: absolute;
 	left: 5vw;
+	z-index: 10;
 }
 
 .ribbon-wrapper > img {
@@ -68,7 +69,6 @@ a.button-collapse {
 	margin: 85px auto 0px;
 	position: relative;
 	background: #e53935;
-	z-index: 9;
 	-webkit-animation: main 500ms;
 	-moz-animation: main 500ms;
 	-ms-animation: main 500ms;
@@ -258,25 +258,13 @@ a.button-collapse {
 
 /* preloader */
 
-.ip-header {
-	position: fixed;
-	top: 0;
-	z-index: 100;
-	min-height: 460px;
-	width: 100%;
-	height: 100%;
-	background: #f1f1f1;
-}
-
-.ip-header h1 {
-	margin: 0;
-}
 
 .ip-container {
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	pointer-events: none;
+	z-index: 20;
 }
 
 .ip-loader {
@@ -291,11 +279,6 @@ a.button-collapse {
 #canvas {
 	position: relative;
 	top: 17vh;
-}
-
-.ip-header {
-	display: block;
-	margin: 0 auto;
 }
 
 /* Animations */
