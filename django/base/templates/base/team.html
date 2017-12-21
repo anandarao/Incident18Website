@@ -1,0 +1,53 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block head_block %}
+
+<script type="text/javascript" src="{% static 'js/team.js' %}"></script>
+
+{% endblock %}
+
+{% block body_block %}
+
+<div class="ribbon-wrapper">
+	<img class="back" src="{% static 'images/inci-loader-back.jpg' %}" height="260">
+	<img class="logo" src="{% static 'images/inci-loader.png' %}" height="100">
+	<a href="{% url 'base:highlights' %}">Highights</a>
+	<a href="{% url 'base:events' %}">Events</a>
+	<a href="{% url 'base:sponsors' %}">Sponsors</a>
+	<a href="{% url 'base:team' %}">Team</a>
+	<div id="ribbon" class="ribbon">
+		<i></i>
+		<i></i>
+		<i></i>
+		<i></i>
+	</div>
+</div>
+
+
+<!--div class="team-container">
+{% for team in teams %}
+
+<h2 class="team-heading center">{{ team.name }}</h2>
+<div class="row">
+{% for teammember in team.teammember_set.all %}
+
+<div class="col s12 m6 l3">
+<div class="card center">
+<img src="{{ teammember.image.url }}" alt="" class="circle responsive-img">
+<div class="avatar-name">
+<span class="team-member-name">{{teammember.name}}</span><br>
+<span class="team-member-post">{{teammember.post}}</span><br>
+<span class="team-member-email">{{teammember.email}}</span><br>
+<span class="team-member-phone">{{teammember.phone_number}}</span>
+</div>
+</div>
+</div>
+
+{% endfor %}
+</div>
+
+{% endfor %}
+<div-->
+
+{% endblock %}
