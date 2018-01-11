@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Slabo+27px|Maven+Pro|Poiret+One');
 
 /* base.html styling */
 
 body {
-	background-color: #F8F3E0 !important;
+	background: linear-gradient(rgb(231, 214, 151), white) !important;
 }
 
 a.button-collapse {
@@ -15,7 +15,7 @@ a.button-collapse {
 /* Ribbon */
 
 .ribbon-wrapper {
-	position: absolute;
+	position: fixed;
 	left: 5vw;
 	z-index: 10;
 }
@@ -213,6 +213,14 @@ a.button-collapse {
 
 /* sponsors.html styling */
 
+#sponsors-heading, #sponsors-heading > .row {
+	height: 100vh;
+}
+
+.sponsors-h {
+	font-family: 'Maven Pro', sans-serif;
+}
+
 .sponsors-cover {
 	max-height: 100vh;
 	overflow: hidden !important;
@@ -229,6 +237,52 @@ a.button-collapse {
 	text-align: center;
 	font-size: 6rem;
 	color: #00FF00;
+}
+
+.sponsor-p {
+	margin: 0px;
+}
+
+.sponsor-title {
+	font-family: 'Slabo 27px', serif;
+	color: #37474f;
+}
+
+.sponsor-desig {
+	font-style: italic;
+	color: #607d8b;
+}
+
+.sponsor-single {
+	font-size: 2.8rem;
+}
+
+.sponsor-design-single {
+	font-size: 1.2rem;
+}
+
+.sponsor-double {
+	font-size: 2.5rem;
+}
+
+.sponsor-design-double {
+	font-size: 0.9rem;
+}
+
+#sponsors-container > div {
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+.sponsors-para-col {
+	padding: 100px !important;
+	padding-top: 50px !important;
+}
+
+.sponsors-para-col > p {
+	text-align: justify;
+	font-size: 1.4rem;
+	font-family: 'Poiret One', cursive;
 }
 
 /* team.html styling */
