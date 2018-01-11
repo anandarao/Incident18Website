@@ -47,17 +47,6 @@
 
 	<header></header>
 
-	<main>
-		<div id="social-icons" class="right">
-			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-		</div>
-		
-	</main>
-
 	<div class="ribbon-wrapper">
 		<img class="back" src="images/inci-loader-back.jpg" height="260">
 		<img class="logo" src="images/inci-loader.png" height="100">
@@ -72,6 +61,61 @@
 			<i></i>
 		</div>
 	</div>
+
+	<main>
+		<div id="social-icons" class="right">
+			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
+			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
+			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
+			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
+			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+		</div>
+
+	<div id="sponsors-heading">
+		<div class="row valign-wrapper">
+			<div class="col l6 m6 s12 center-align sponsors-para-col">
+				<h1 class="center-align sponsors-h">Sponsors</h1>
+				<p>Vivamus id sapien mauris. Duis tellus est, condimentum tempor nulla quis, vehicula hendrerit sem. Praesent varius tristique urna eget maximus. Cras pellentesque enim a ante lobortis consectetur. Vivamus fringilla ipsum vitae porttitor consectetur. Vivamus vitae risus finibus, euismod nisi et, lacinia justo. Maecenas eu sapien aliquet, venenatis tortor et, iaculis purus. Aliquam ut nibh placerat, interdum lacus non, auctor ligula. Quisque dapibus ante dolor, quis facilisis metus faucibus nec. Vivamus pharetra ante at aliquet tempus.<br/><br/>Sed ac mauris vitae sem molestie ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec nulla at nisi aliquam tempus. Integer sed rhoncus mauris. Quisque quis cursus augue. Mauris tortor lacus, auctor viverra lorem eu, ultricies molestie erat. Duis elit massa, bibendum nec velit vitae, mattis condimentum velit.</p>
+			</div>
+			<div class="col l6 m6 s12 center-align">
+				<img src="http://via.placeholder.com/350x350" />
+				<p class="sponsor-p sponsor-single sponsor-title">Sponsor 1</p>
+				<p class="sponsor-p sponsor-desig-single sponsor-desig">Designation 1</p>
+			</div>
+		</div>
+	</div>
+	<div id="sponsors-container" class="container">
+		<div class="row">
+			<div class="col l6 m6 s12 center-align">
+				<img src="http://via.placeholder.com/300x300" />
+				<p class="sponsor-p sponsor-double sponsor-title">Sponsor 2</p>
+				<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 2</p>
+			</div>
+			<div class="col l6 m6 s12 center-align">
+				<img src="http://via.placeholder.com/300x300" />
+				<p class="sponsor-p sponsor-double sponsor-title">Sponsor 2</p>
+				<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 2</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col l4 m4 s12 center-align">
+				<img src="http://via.placeholder.com/250x250" />
+				<p class="sponsor-p sponsor-double sponsor-title">Sponsor 3</p>
+				<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 3</p>
+			</div>
+			<div class="col l4 m4 s12 center-align">
+				<img src="http://via.placeholder.com/250x250" />
+				<p class="sponsor-p sponsor-double sponsor-title">Sponsor 3</p>
+				<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 3</p>
+			</div>
+			<div class="col l4 m4 s12 center-align">
+				<img src="http://via.placeholder.com/250x250" />
+				<p class="sponsor-p sponsor-double sponsor-title">Sponsor 3</p>
+				<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 3</p>
+			</div>
+		</div>
+	</div>
+	</main>
 
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
