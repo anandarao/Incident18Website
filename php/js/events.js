@@ -109,7 +109,7 @@ function initMap() {
 	var categories = [
 		{
 			position: new google.maps.LatLng(30, -105),
-			icon: '../images/events/dance/dance.png',
+			icon: 'images/events/dance/dance.png',
 			type: 'dance'
 		}
 	];
@@ -138,7 +138,7 @@ function initMap() {
 		{
 			name: 'Tandav',
 			position: new google.maps.LatLng(35, -100),
-			icon: '../images/events/dance/tandav.png',
+			icon: 'images/events/dance/tandav.png',
 			category: 'dance',
 			description: 'bla-bla',
 			rules: 'bla-bla',

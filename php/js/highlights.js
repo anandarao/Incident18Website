@@ -109,7 +109,7 @@ function initMap() {
 	var categories = [
 		{
 			position: new google.maps.LatLng(30, -105),
-			icon: '../images/highlights/workshops/workshops.png',
+			icon: 'images/highlights/workshops/workshops.png',
 			type: 'workshops'
 		}
 	];
@@ -138,7 +138,7 @@ function initMap() {
 		{
 			name: 'Frisbee',
 			position: new google.maps.LatLng(35, -100),
-			icon: '../images/highlights/workshops/frisbee.png',
+			icon: 'images/highlights/workshops/frisbee.png',
 			category: 'workshops',
 			description: 'bla-bla',
 			cost: 'bla-bla',
