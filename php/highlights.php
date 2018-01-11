@@ -73,6 +73,14 @@
 		</div>
 	</div>
 
+	<div class="highlights-cover">
+		<div id="map"></div>
+	</div>
+
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBteW6a1uMjnJ7XHAPMvR49B3Y4UKzOqaQ&callback=initMap">
+	</script>
+
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
 	</script>

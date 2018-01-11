@@ -4,61 +4,193 @@ $(function() {
 });
 
 function initMap() {
-	var originalMapCenter = new google.maps.LatLng(0, 0);
-	var position1 = new google.maps.LatLng(30, 30);
-	var position2 = new google.maps.LatLng(31, 31);
-	var position3 = new google.maps.LatLng(30, 31);
+	var originalMapCenter = new google.maps.LatLng(13, 0);
 	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 3,
 		center: originalMapCenter,
-		maxZoom : 10,
+		maxZoom : 8,
 		minZoom : 3,
-		mapTypeControlOptions: {
-			style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-			position: google.maps.ControlPosition.BOTTOM_CENTER
-		},
+		styles:[
+		  {
+		    "elementType": "labels",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.land_parcel",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.neighborhood",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "landscape",
+		    "stylers": [
+		      {
+		        "color": "#bababa"
+		      },
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road",
+		    "elementType": "labels.icon",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "transit",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "water",
+		    "stylers": [
+		      {
+		        "color": "#ffffff"
+		      },
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  }
+		],
+		disableDefaultUI: true
+
 	});
 
-	var infowindow = new google.maps.InfoWindow({
-		content: 'Change the zoom level',
-		position: originalMapCenter
-	});
-	infowindow.open(map);
+	// Categories of Events
 
-	var marker1 = new google.maps.Marker({
-		position: position1,
-		map: map,
-		label: '1'
+	var categories = [
+		{
+			position: new google.maps.LatLng(30, -105),
+			icon: '../images/events/dance/dance.png',
+			type: 'dance'
+		}
+	];
+
+	var category_markers = []
+
+	categories.forEach(function(category) {
+		var marker = new google.maps.Marker({
+			position: category.position,
+			map: map,
+			icon: category.icon,
+			title: "Click to zoom"
+		});
+
+		marker.addListener('click', function() {
+			map.setZoom(4);
+			map.setCenter(marker.getPosition());
+		});
+
+		category_markers.push(marker);
 	});
 
-	var marker2 = new google.maps.Marker({
-		position: position2,
-		map: null,
-		label: '2'
-	});
+	// Events
 
-	var marker3 = new google.maps.Marker({
-		position: position3,
-		map: null,
-		label: '3'
+	var events = [
+		{
+			name: 'Tandav',
+			position: new google.maps.LatLng(35, -100),
+			icon: '../images/events/dance/tandav.png',
+			category: 'dance',
+			description: 'bla-bla',
+			rules: 'bla-bla',
+			prizes: 'bla-bla',
+			contact: 'bla-bla'
+		}
+	];
+
+	var event_markers = []
+
+	events.forEach(function(event) {
+		var marker = new google.maps.Marker({
+			position: event.position,
+			map: null,
+			icon: event.icon,
+			title: event.name
+		});
+
+		marker.addListener('click', function() {
+
+			// replace this with modal
+
+			var infowindow = new google.maps.InfoWindow({
+          		content: event.name
+        	});
+
+        	infowindow.open(map, marker);
+		});
+
+		event_markers.push(marker);
 	});
 
 	map.addListener('zoom_changed', function() {
-		infowindow.setContent('Zoom: ' + map.getZoom());
+		if (map.getZoom() >= 4)
+		{
+			category_markers.forEach(function(marker) {
+				marker.setMap(null);
+			});
 
-		var zoom_level = map.getZoom();
-
-		if (zoom_level >= 7){
-			marker1.setMap(null);
-			marker2.setMap(map);
-			marker3.setMap(map);
+			event_markers.forEach(function(marker) {
+				marker.setMap(map);
+			});
 		}
 		else
 		{
-			marker1.setMap(map);
-			marker2.setMap(null);
-			marker3.setMap(null);
-		}
+			category_markers.forEach(function(marker) {
+				marker.setMap(map);
+			});
 
+			event_markers.forEach(function(marker) {
+				marker.setMap(null);
+			});
+		}
 	});
 }

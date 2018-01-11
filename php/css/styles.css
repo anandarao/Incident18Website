@@ -15,7 +15,7 @@ a.button-collapse {
 /* Ribbon */
 
 .ribbon-wrapper {
-	position: absolute;
+	position: fixed;
 	left: 5vw;
 	z-index: 10;
 }
@@ -68,7 +68,7 @@ a.button-collapse {
 	height: 60px;
 	margin: 85px auto 0px;
 	position: relative;
-	background: #e53935;
+	background: #D32F2F;
 	-webkit-animation: main 500ms;
 	-moz-animation: main 500ms;
 	-ms-animation: main 500ms;
@@ -105,7 +105,7 @@ a.button-collapse {
 	bottom: -20px;
 	left: -40px;
 	z-index: -2;
-	border: 30px solid #e53935;
+	border: 30px solid #D32F2F;
 	border-left-color: transparent;
 
 	-webkit-animation: back 600ms;
@@ -123,7 +123,7 @@ a.button-collapse {
 	bottom: -20px;
 	left: auto;
 	right: -40px;
-	border: 30px solid #e53935;
+	border: 30px solid #D32F2F;
 	border-right-color: transparent;
 
 	-webkit-transform-origin: 0 0;
@@ -203,6 +203,17 @@ a.button-collapse {
 /* events.html styling */
 
 .events-cover {
+	max-height: 100vh;
+	overflow: hidden !important;
+}
+
+#map {
+	height: 100vh;
+}
+
+/* highlights.html styling */
+
+.highlights-cover {
 	max-height: 100vh;
 	overflow: hidden !important;
 }
