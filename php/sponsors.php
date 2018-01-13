@@ -61,7 +61,7 @@
 			<i></i>
 		</div>
 	</div>
-
+<div id = "scrollable-wrapper">
 	<main>
 		<div id="social-icons" class="right">
 			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
@@ -71,6 +71,7 @@
 			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
 		</div>
 
+<div id = "scrollable">
 	<div id="sponsors-heading">
 		<div class="row valign-wrapper">
 			<div class="col l6 m6 s12 center-align sponsors-para-col">
@@ -115,7 +116,15 @@
 			</div>
 		</div>
 	</div>
+	</div>
 	</main>
+	</div>
+	<div id = "register">
+	
+	<button onclick="popup('incident-233014');" class="waves-effect waves-light btn" >Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script> <br> <br> 
+	
+	<a href = "ica.php"><button onclick="" class="waves-effect waves-light btn">Campus Ambassador</button></a>
+</div>
 
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
