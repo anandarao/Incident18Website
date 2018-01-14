@@ -11,19 +11,26 @@ a.button-collapse {
 	display: block !important;
 	color: #000000;
 }
-#register {
+
+#register, #ambassador-link {
 	position: fixed;
 	text-align: center;
-	bottom : 0px;
-	right: 0px;
-	z-index: 10;
+	bottom : 5%;
+	left: 5%;
+	z-index: 999;
 }
+
+#ambassador-link {
+	left: initial;
+	right: 5%;
+}
+
 /* Ribbon */
 
 .ribbon-wrapper {
 	position: fixed;
 	left: 5vw;
-	z-index: 100;
+	z-index: 10;
 }
 
 .ribbon-wrapper > img {
@@ -520,4 +527,35 @@ a.button-collapse {
 #social-icons .fa-linkedin:hover,
 #social-icons .fa-instagram:hover {
 	opacity: 0.8;
+}
+
+/* Events and highlights modals */
+
+#modal-container {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+	top: 50vh;
+	left: 50vw;
+	min-height: 100vh;
+	min-height: 0;
+	width: 0;
+	transition: min-height 0.35s ease-in-out, width 0.35s ease-in-out, top 0.35s ease-in-out, left 0.35s ease-in-out;
+}
+
+#modal-container > .container {
+	margin-top: 5vh;
+	background-color: white;
+	min-height: 90vh;
+}
+
+.close-button-wrapper {
+	position: absolute;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#close-button {
+	color: white;
+	font-size: 3rem;
 }

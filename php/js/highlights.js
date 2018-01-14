@@ -3,6 +3,24 @@ $(function() {
 	$(".ribbon-wrapper > img, .ribbon-wrapper > a").animate({opacity:1}, 1000);
 });
 
+function modal_open_up() {
+	close_button = '<div class="close-button-wrapper"><i id="close-button" class="material-icons">&#xE5CD;</i></div>';
+	content = close_button + '<div class="container"><h1>Event 1</h1></div>';
+	modal_container = '<div id="modal-container">' + content + '</div>';
+	$('body').append(modal_container);
+	setTimeout(function() {
+		$("#modal-container").css({
+			'top': '0',
+			'left': '0',
+			'min-height': '100vh',
+			'width': '100vw',
+		});
+	}, 50);
+	$('#close-button').click(function() {
+		$('#modal-container').remove();
+	});
+}
+
 function initMap() {
 	var originalMapCenter = new google.maps.LatLng(13, 0);
 	var map = new google.maps.Map(document.getElementById('map'), {
@@ -157,14 +175,7 @@ function initMap() {
 		});
 
 		marker.addListener('click', function() {
-
-			// replace this with modal
-
-			var infowindow = new google.maps.InfoWindow({
-          		content: event.name
-        	});
-
-        	infowindow.open(map, marker);
+			modal_open_up();
 		});
 
 		event_markers.push(marker);
