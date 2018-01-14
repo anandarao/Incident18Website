@@ -25,6 +25,14 @@ a.button-collapse {
 	right: 5%;
 }
 
+#register > button {
+	background-color: #00c853;
+}
+
+#ambassador-link > a > button {
+	background-color: #0277bd;
+}
+
 /* Ribbon */
 
 .ribbon-wrapper {
