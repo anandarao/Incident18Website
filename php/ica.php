@@ -59,9 +59,9 @@
 	</main>
 
 	<div class="ribbon-wrapper">
-		<img class="back" src="images/inci-loader-back.jpg" height="260">
-		<img class="logo" src="images/inci-loader.png" height="100">
-		<a href="highlights.php">Highights</a>
+		<img class="logo" src="images/inci-logo-final.png" height="260">
+		<span></span>
+		<a href="highlights.php">Highlights</a>
 		<a href="events.php">Events</a>
 		<a href="sponsors.php">Sponsors</a>
 		<a href="team.php">Team</a>
@@ -140,17 +140,8 @@
   </div>
 
   <div>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGtg3OtyTEPc8sfuJi28H6Rz5k8HtzdjZg9LvM9PYvBn93-w/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGtg3OtyTEPc8sfuJi28H6Rz5k8HtzdjZg9LvM9PYvBn93-w/viewform?embedded=true" width="100%" height="1150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
   </div>
-
-  
-
-<div id = "register">
-	
-	<button onclick="popup('incident-233014');" class="waves-effect waves-light btn" >Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script> <br> <br> 
-	
-	<a href = "ica.php"><button onclick="" class="waves-effect waves-light btn">Campus Ambassador</button></a>
-</div>
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
 		$(document).ready(function(){

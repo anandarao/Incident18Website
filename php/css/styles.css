@@ -49,13 +49,10 @@ a.button-collapse {
 	cursor: pointer;
 }
 
-.ribbon-wrapper > .back {
-	top: -6%;
-}
-
 .ribbon-wrapper > .logo {
-	top: 47%;
-	left: 48.75%
+	position: absolute;
+	top: -10%;
+	text-align: center;
 }
 
 .ribbon-wrapper > a {
@@ -245,30 +242,14 @@ a.button-collapse {
 
 /* sponsors.html styling */
 
-#sponsors-heading, #sponsors-heading > .row {
-	height: 100vh;
+#sponsors-heading {
+	padding-top: 27vh;
+	padding-left: 25vw;
+	padding-right: 25vw;
 }
 
 .sponsors-h {
 	font-family: 'Maven Pro', sans-serif;
-}
-
-.sponsors-cover {
-	max-height: 100vh;
-	overflow: hidden !important;
-}
-
-.sponsors-cover > img {
-	width: 100vw;
-}
-
-.sponsors-cover-header {
-	position: absolute;
-	top: 40vh;
-	width: 100%;
-	text-align: center;
-	font-size: 6rem;
-	color: #00FF00;
 }
 
 .sponsor-p {
@@ -304,17 +285,6 @@ a.button-collapse {
 #sponsors-container > div {
 	padding-bottom: 20px;
 	padding-top: 30px;
-}
-
-.sponsors-para-col {
-	padding: 100px !important;
-	padding-top: 50px !important;
-}
-
-.sponsors-para-col > p {
-	text-align: justify;
-	font-size: 1.4rem;
-	font-family: 'Poiret One', cursive;
 }
 
 /* team.html styling */

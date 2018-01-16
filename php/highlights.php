@@ -59,9 +59,9 @@
 	</main>
 
 	<div class="ribbon-wrapper">
-		<img class="back" src="images/inci-loader-back.jpg" height="260">
-		<img class="logo" src="images/inci-loader.png" height="100">
-		<a href="highlights.php">Highights</a>
+		<img class="logo" src="images/inci-logo-final.png" height="260">
+		<span></span>
+		<a href="highlights.php">Highlights</a>
 		<a href="events.php">Events</a>
 		<a href="sponsors.php">Sponsors</a>
 		<a href="team.php">Team</a>
