@@ -38,23 +38,13 @@
 		}
 
 	</script>
+	<script type="text/javascript" src="js/timeline.json"></script>
 	<script type="text/javascript" src="js/home.js"></script>
 </head>
 
-<body>
+<body class="indexpage">
 
 	<header></header>
-
-	<main>
-		<div id="social-icons" class="right">
-			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-		</div>
-		
-	</main>
 
 	<div class="ribbon-wrapper">
 		<span></span>
@@ -78,14 +68,47 @@
 		</div>
 	</div>
 
+	<main>
+		<div id="social-icons">
+			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
+			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
+			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
+			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
+			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+		</div>
+		<div class="scrollable-wrap">
+			<div class="first-viewport">
+				<div class="row">
+					<div class="col s12 m12 l6 center first-viewport-left"><iframe width="560" height="315" src="https://www.youtube.com/embed/RiXNTenVx4E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+					<div class="col s12 m12 l6 center first-viewport-right">
+						<h2 class="heading-h2-inci">About Incident</h2>
+						<p>In leo lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum. Phasellus malesuada tellus sed cursus tempus. Nulla facilisi. Etiam finibus felis et rutrum pellentesque. Nullam aliquam, mauris eu bibendum sollicitudin, quam turpis aliquam mauris, id sollicitudin nunc ligula id nulla. In leo lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum. Phasellus malesuada tellus sed cursus tempus.</p>
+					</div>
+				</div>
+			</div>
+			<div class="second-viewport valign-wrapper">
+				<div class="row">
+					<div class="col s12 m12 l10">
+						<div class="row" id="insert-row">
+						</div>
+					</div>
+					<div class="col s12 m12 l2 timeline">
+						<div class="row">
+							<div class="col s12 m12 l12"><div class="active">2018</div>
+							<div class="col s12 m12 l12"><div>2017</div></div>
+							<div class="col s12 m12 l12"><div>2016</div></div>
+							<div class="col s12 m12 l12"><div>2015</div></div>
+							<div class="col s12 m12 l12"><div>2014</div></div>
+							<div class="col s12 m12 l12"><div>2013</div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
 	<script src="js/preloader.js"></script>
 
-	<div id="register">
-		<button onclick="popup('incident-233014');" class="waves-effect waves-light btn" >Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
-	</div>
-	<div id="ambassador-link">
-		<a href = "ica.php"><button onclick="" class="waves-effect waves-light btn">Campus Ambassador</button></a>
-	</div>
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
 	</script>
