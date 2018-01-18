@@ -1,0 +1,39 @@
+var team = {
+	"Core" : {
+		"rahul" : {
+			"name" : "Rahul Bhargav",
+			"email" : "chinthapatlarahul@gmail.com",
+			"phone" : "8885581812",
+			"designation" : "Events Coordinator",
+			"facebook" : "https://www.facebook.com/RahulBhargavRB",
+			"linkedin" : "https://www.linkedin.com/in/rahul-bhargav-4a4b6210b/",
+		},
+	},
+	"Marketing" : {
+		"anand" : {
+			"name" : "Ananda Rao H",
+			"email" : "anandarao.h8@gmail.com",
+			"phone" : "9535125744",
+			"designation" : "Coordinator",
+			"facebook" : "https://www.facebook.com/anandarao.h16",
+			"linkedin"	: "https://www.linkedin.com/in/anandaraoh/",
+		},
+		"sheetal" : {
+			"name" : "Sheetal Shalini",
+			"email" : "sheetalsh456@gmail.com",
+			"phone" : "8970832326",
+			"designation" : "Coordinator",
+			"facebook" : "https://www.facebook.com/sheetalsh456",
+			"linkedin" : "https://www.linkedin.com/in/sheetalsh456",
+		},
+		"devraj" : {
+			"name" : "Devraj Hodal",
+			"email" : "devraj.hodal@gmail.com",
+			"phone" : "8792303382",
+			"designation" : "Coordinator",
+			"facebook" : "https://www.facebook.com/devraj.hodal",
+			"linkedin" : "https://www.linkedin.com/in/devraj-hodal-077597126",
+		}
+	},
+
+}

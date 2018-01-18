@@ -394,6 +394,15 @@ a.button-collapse {
 	font-family: 'Julius Sans One', sans-serif;
 }
 
+.team-desig {
+    font-style: italic;
+    color: #607d8b;
+}
+
+.team-image {
+	height: 200px;
+}
+
 .team-details-para {
 	margin-bottom: 10px;
 }
