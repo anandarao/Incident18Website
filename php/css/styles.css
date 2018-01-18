@@ -412,8 +412,8 @@ a.button-collapse {
 	align-items: center;
 	overflow-y: hidden;
 	overflow-x: auto;
-	border: 2px solid grey;
 	border-radius: 5px;
+	background-color: white;
 	padding-bottom: 10px;
 }
 
