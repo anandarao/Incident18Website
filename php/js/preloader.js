@@ -11,6 +11,7 @@
 	var canvas = document.getElementById( "canvas" );
 	var ctx = canvas.getContext( "2d" );
 	var cw,ch;
+	var times = 0;
 
 	// load the logo and the logo outline
 	// then start the animation
@@ -19,6 +20,44 @@
 	var logo_background = fetch_loader_background();
 	var alpha = 0;
 	var firsttime = true;
+	var bus_1 = new Image();
+	bus_1.src = "images/logo/Bus1.png";
+	var eiffel = new Image();
+	eiffel.src = "images/logo/EiffelTower.png";
+	var pyramids = new Image();
+	pyramids.src = "images/logo/PyramidsPNG.png";
+	var opera = new Image();
+	opera.src = "images/logo/OperaHouse.png";
+	var pisa = new Image();
+	pisa.src = "images/logo/Pisa.png";
+	var bottom_pillar = new Image();
+	bottom_pillar.src = "images/logo/BottomPillar.png";
+	var gateway = new Image();
+	gateway.src = "images/logo/GatewayPNG.png";
+	var triangle = new Image();
+	triangle.src = "images/logo/TrianglePNG.png";
+	var bigben = new Image();
+	bigben.src = "images/logo/BigBenPNG.png";
+	var christ = new Image();
+	christ.src = "images/logo/ChristPNG.png";
+	var left_pillar = new Image();
+	left_pillar.src = "images/logo/LeftPillar.png";
+	var liberty = new Image();
+	liberty.src = "images/logo/LibertyPNG.png";
+	var taj = new Image();
+	taj.src = "images/logo/TajMahalPNG.png";
+	var nitk = new Image();
+	nitk.src = "images/logo/NITK.png";
+	var pink_flight = new Image();
+	pink_flight.src = "images/logo/PinkFlight.png";
+	var green_flight = new Image();
+	green_flight.src = "images/logo/GreenFlight.png";
+	var aqua_flight = new Image();
+	aqua_flight.src = "images/logo/AquaFlight.png";
+	var sun = new Image();
+	sun.src = "images/logo/Sun.png";
+	var balloon = new Image();
+	balloon.src = "images/logo/Baloon.png";
 
 	function init() {
 		var onEndInitialAnimation = function() {
@@ -108,6 +147,27 @@
 		ctx.clearRect( 0, 0, 600, 600 );
 
 		ctx.globalAlpha = alpha;
+		times += 1;
+
+		if (times > 19) ctx.drawImage(bus_1, 0, 0);
+		if (times > 29) ctx.drawImage(eiffel, 0, 0);
+		if (times > 39) ctx.drawImage(pyramids, 0, 0);
+		if (times > 49) ctx.drawImage(opera, 0, 0);
+		if (times > 59) ctx.drawImage(pisa, 0, 0);
+		if (times > 79) ctx.drawImage(bottom_pillar, 0, 0);
+		if (times > 89) ctx.drawImage(gateway, 0, 0);
+		if (times > 99) ctx.drawImage(triangle, 0, 0);
+		if (times > 109) ctx.drawImage(bigben, 0, 0);
+		if (times > 119) ctx.drawImage(christ, 0, 0);
+		if (times > 129) ctx.drawImage(left_pillar, 0, 0);
+		if (times > 139) ctx.drawImage(liberty, 0, 0);
+		if (times > 149) ctx.drawImage(taj, 0, 0);
+		if (times > 159) ctx.drawImage(nitk, 0, 0);
+		ctx.drawImage(pink_flight, 0, 0);
+		ctx.drawImage(green_flight, 0, 0);
+		ctx.drawImage(aqua_flight, 0, 0);
+		ctx.drawImage(sun, 0, 0);
+		ctx.drawImage(balloon, 0, 0);
 
 		ctx.drawImage(logo_background, 0, 0);
 
@@ -115,8 +175,8 @@
 		// increasingly reveal the logo from the bottom
 		ctx.drawImage(
 			logo, 0, y, logo.width, logo.height - y,
-			265 + 4, 200 + y + 4, logo.width, logo.height - y
-			);
+			270, 190 + y, logo.width, logo.height - y
+		);
 
 		// reduce .displayY which increases the reveal
 		logo.displayY--;

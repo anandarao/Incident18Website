@@ -33,7 +33,7 @@
 
 		function fetch_loader_background() {
 			var logo_background = new Image();
-			logo_background.src = "images/inci-loader-back.jpg";
+			logo_background.src = "images/inci-loader-back.png";
 			return logo_background;
 		}
 
