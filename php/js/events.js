@@ -3,9 +3,30 @@ $(function() {
 	$(".ribbon-wrapper > img, .ribbon-wrapper > a").animate({opacity:1}, 1000);
 });
 
-function modal_open_up() {
-	close_button = '<div class="close-button-wrapper"><i id="close-button" class="material-icons">&#xE5CD;</i></div>';
-	content = close_button + '<div class="container"><h1>Event 1</h1></div>';
+function modal_open_up(event) {
+	close_button = `<div class="close-button-wrapper"><i id="close-button" class="material-icons">&#xE5CD;</i></div>`;
+	content = close_button + `
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12 l12">
+					<img src="${event.icon}" width="100%" height="50%">
+				</div>
+				<div class="divider"></div>
+				<div class="col s12 m6 l6 center-align">
+					<div class="section">
+						<h3> Description </h3>
+						<p> ${event.description} </p>
+					</div>
+				</div>
+				<div class="col s12 m6 l6 center-align">
+					<div class="section">
+						<h3> Rules </h3>
+						<p> ${event.rules} </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		`;
 	modal_container = '<div id="modal-container">' + content + '</div>';
 	$('body').append(modal_container);
 	setTimeout(function() {
@@ -156,7 +177,8 @@ function initMap() {
 		{
 			name: 'Tandav',
 			position: new google.maps.LatLng(35, -100),
-			icon: 'images/events/dance/tandav.png',
+			marker: 'images/events/dance/tandav.png',
+			icon: 'images/events/dance/BandishSample.png',
 			category: 'dance',
 			description: 'bla-bla',
 			rules: 'bla-bla',
@@ -171,12 +193,12 @@ function initMap() {
 		var marker = new google.maps.Marker({
 			position: event.position,
 			map: null,
-			icon: event.icon,
+			icon: event.marker,
 			title: event.name
 		});
 
 		marker.addListener('click', function() {
-			modal_open_up();
+			modal_open_up(event);
 		});
 
 		event_markers.push(marker);
