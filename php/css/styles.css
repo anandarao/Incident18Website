@@ -326,7 +326,6 @@ a.button-collapse {
 }
 
 .sponsor-desig {
-	font-style: italic;
 	color: #607d8b;
 }
 
@@ -335,7 +334,7 @@ a.button-collapse {
 }
 
 .sponsor-design-single {
-	font-size: 1.2rem;
+	font-size: 2rem;
 }
 
 .sponsor-double {

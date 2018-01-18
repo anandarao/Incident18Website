@@ -1,0 +1,21 @@
+var sponsors = {
+	"l1" : {
+		"ril" : {
+			"name" : "Reliance Industries Limited",
+			"designation" : "Co-Sponsors",
+		}
+	},
+	"l2" : {
+
+	},
+	"l3" : {
+		"sephora" : {
+			"name" : "Sephora",
+			"designation" : "Beauty Partners",
+		},
+		"townscript" : {
+			"name" : "Townscript",
+			"designation" : "Online Payment Partners"
+		}
+	},
+}

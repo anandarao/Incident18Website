@@ -1,5 +1,45 @@
 var team = {
 	"Core" : {
+		"dasari" : {
+			"name" : "Dasari Srikanth",
+			"email" : "srikanth.dasari1998@gmail.com",
+			"phone" : "9071923689",
+			"designation" : "Joint Convener",
+			"facebook" : "https://www.facebook.com/profile.php?id=100012484546570",
+			"linkedin" : "https://www.linkedin.com/in/srikanth-dasari-ab2b67146",
+		},
+		"revanth" : {
+			"name" : "Revanth Reddy",
+			"email" : "mannem.revanth@gmail.com",
+			"phone" : "9611344258",
+			"designation" : "Treasurer",
+			"facebook" : "https://www.facebook.com/revanth.reddy.7505",
+			"linkedin" : "https://www.linkedin.com/in/revanth-reddy-a80301154",
+		},
+		"ramesh" : {
+			"name" : "Sai Ramesh V",
+			"email" : "v.sairamesh1@gmail.com",
+			"phone" : "9964301763",
+			"designation" : "Chief Coordinator",
+			"facebook" : "https://www.facebook.com/sai.ramesh.3998",
+			"linkedin" : "https://www.linkedin.com/in/sai-ramesh-vanka-b860b0123",
+		},
+		"ronit" : {
+			"name" : "Sai Ronit",
+			"email" : "ronit.munna@gmail.com",
+			"phone" : "7022089839",
+			"designation" : "Chief Coordinator",
+			"facebook" : "https://www.facebook.com/ronit.munna",
+			"linkedin" : "https://www.linkedin.com/in/sai-ronit-411692109/",
+		},
+		"akash" : {
+			"name" : "Akash Borale",
+			"email" : "akashborale240@gmail.com",
+			"phone" : "8105232552",
+			"designation" : "Chief Coordinator",
+			"facebook" : "https://m.facebook.com/akash.borale.39",
+			"linkedin" : "https://www.linkedin.com/in/akash-borale-038420133/",
+		},
 		"rahul" : {
 			"name" : "Rahul Bhargav",
 			"email" : "chinthapatlarahul@gmail.com",
@@ -8,6 +48,14 @@ var team = {
 			"facebook" : "https://www.facebook.com/RahulBhargavRB",
 			"linkedin" : "https://www.linkedin.com/in/rahul-bhargav-4a4b6210b/",
 		},
+		"bhanu" : {
+			"name" : "Bhanuprakash Ajmeera",
+			"email" : "neevasram95@gmail.com",
+			"phone" : "9700053526",
+			"designation" : "Events Coordinator",
+			"facebook" : "https://www.facebook.com/ajmeera.rajjadav",
+			"linkedin" : "https://www.linkedin.com/in/ajmeera-bhanuprakash-19718310a/",
+		}
 	},
 	"Marketing" : {
 		"anand" : {
@@ -16,7 +64,7 @@ var team = {
 			"phone" : "9535125744",
 			"designation" : "Coordinator",
 			"facebook" : "https://www.facebook.com/anandarao.h16",
-			"linkedin"	: "https://www.linkedin.com/in/anandaraoh/",
+			"linkedin" : "https://www.linkedin.com/in/anandaraoh/",
 		},
 		"sheetal" : {
 			"name" : "Sheetal Shalini",
@@ -35,5 +83,24 @@ var team = {
 			"linkedin" : "https://www.linkedin.com/in/devraj-hodal-077597126",
 		}
 	},
-
+	"Publicity" : {
+		"samyak" : {
+			"name" : "Samyak Jain",
+			"email" : "samyak24jain@gmail.com",
+			"phone" : "9611638180",
+			"designation" : "Coordinator",
+			"facebook" : "https://www.facebook.com/samyak24jain",
+			"linkedin" : "https://www.linkedin.com/in/samyak24jain/",
+		},
+	},
+	"Student_Hospitality" : {
+		"azmeera" : {
+			"name" : "Azmeera Thirupathi",
+			"email" : "thiruazmeera10@gmail.com",
+			"phone" : "8123949135",
+			"designation" : "Convener",
+			"facebook" : "https://www.facebook.com/profile.php?id=100006763608759",
+			"linkedin" : "https://www.linkedin.com/in/azmeera-thirupathi-566103105/"
+		},
+	},
 }

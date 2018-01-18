@@ -30,10 +30,16 @@ $(function() {
 			`;
 		});
 
+		var team_name = "";
+		index.split('_').forEach(function(str) {
+			team_name += str;
+			team_name += " ";
+		});
+
 		var team_content = `
 			<div class="row valign-wrapper teams-container-row">
 				<div class="col s12 m3 l3">
-					<h1 class="team-heading-name center">${index}</h1>
+					<h1 class="team-heading-name center">${team_name}</h1>
 				</div>
 				<div class="col s12 m9 l9 members-container"> 
 					${team_members}

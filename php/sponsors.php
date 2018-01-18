@@ -39,6 +39,7 @@
 
 	</script>
 
+	<script type="text/javascript" src="js/sponsors.json"></script>
 	<script type="text/javascript" src="js/sponsors.js"></script>
 
 </head>
@@ -95,47 +96,6 @@
 					</div>
 				</div>
 				<div id="sponsors-container" class="container">
-					<!-- Level One Sponsors -->
-					<div class="row">
-						<div class="col l12 m12 s12 center-align">
-							<img src="http://via.placeholder.com/600x600" />
-							<p class="sponsor-p sponsor-single sponsor-title">Sponsor 1</p>
-							<p class="sponsor-p sponsor-desig-single sponsor-desig">Designation 1</p>
-						</div>
-					</div>
-
-					<!-- Level Two Sponsors -->
-					<div class="row">
-						<div class="col l6 m6 s12 center-align">
-							<img src="http://via.placeholder.com/400x400" />
-							<p class="sponsor-p sponsor-double sponsor-title">Sponsor 2</p>
-							<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 2</p>
-						</div>
-						<div class="col l6 m6 s12 center-align">
-							<img src="http://via.placeholder.com/400x400" />
-							<p class="sponsor-p sponsor-double sponsor-title">Sponsor 2</p>
-							<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 2</p>
-						</div>
-					</div>
-
-					<!-- Level Three Sponsors -->
-					<div class="row">
-						<div class="col l4 m4 s12 center-align">
-							<img src="http://via.placeholder.com/300x300" />
-							<p class="sponsor-p sponsor-double sponsor-title">Sponsor 3</p>
-							<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 3</p>
-						</div>
-						<div class="col l4 m4 s12 center-align">
-							<img src="http://via.placeholder.com/300x300" />
-							<p class="sponsor-p sponsor-double sponsor-title">Sponsor 3</p>
-							<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 3</p>
-						</div>
-						<div class="col l4 m4 s12 center-align">
-							<img src="http://via.placeholder.com/300x300" />
-							<p class="sponsor-p sponsor-double sponsor-title">Sponsor 3</p>
-							<p class="sponsor-p sponsor-desig-double sponsor-desig">Designation 3</p>
-						</div>
-					</div>
 				</div>
 			</div>
 		</main>
