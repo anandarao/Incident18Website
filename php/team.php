@@ -91,7 +91,7 @@
 				</div>
 				<div class="col l6 m6 s12 center add-icons">
 					<h3>Marketing Head</h3>
-					<img src="http://via.placeholder.com/250x250" class="circle" />
+					<img src="images/Sabari.png" class="circle" height="250" />
 					<h4 class="team-name">Sabari Ram</h4>
 					<p class="team-details-para"><a href="mailto:incidentmarketing@nitk.edu.in">incidentmarketing@nitk.edu.in</a><br/>+91 96112 13769</p>
 					<a target="_blank" href="#!">
