@@ -33,8 +33,36 @@ a.button-collapse {
 	background-color: #D32F2F;
 }
 
+.side-nav-register {
+	color: #D32F2F !important;
+}
+
 #ambassador-link > a > button {
 	background-color: #0277bd;
+}
+
+.side-nav-ica {
+	color: #0277bd !important;
+}
+
+nav {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	background-color: transparent;
+	position: absolute;
+}
+
+nav > div > a > i {
+	color: #04044F;
+	font-size: 2.1rem !important;
+}
+
+.side-nav {
+	width: 70%;
+}
+
+#m-logo {
+	text-align: center;
 }
 
 /* Ribbon */
@@ -350,6 +378,18 @@ a.button-collapse {
 	padding-top: 30px;
 }
 
+@media screen and (max-width: 992px) {
+	#sponsors-heading {
+		padding-left: 3vh;
+		padding-right: 3vh;
+		padding-top: 0vh;
+	}
+
+	#sponsors-container > .row > .col > img {
+		width: 100%;
+	}
+}
+
 /* team.html styling */
 
 .team-heading {
@@ -394,7 +434,6 @@ a.button-collapse {
 }
 
 .team-desig {
-    font-style: italic;
     color: #607d8b;
 }
 
@@ -407,33 +446,9 @@ a.button-collapse {
 }
 
 .members-container {
-	display: flex;
-	align-items: center;
-	overflow-y: hidden;
-	overflow-x: auto;
 	border-radius: 5px;
 	background-color: white;
 	padding-bottom: 10px;
-}
-
-.members-container::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 7px;
-	background-color: #F5F5F5;
-}
-
-.members-container::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
-}
-
-.members-container::-webkit-scrollbar-thumb
-{
-	border-radius: 7px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
 }
 
 .team-member {
@@ -446,11 +461,38 @@ a.button-collapse {
 }
 
 .team-heading-name {
-	font-weight: 200;
+	font-weight: 300;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .teams-container-row {
 	padding-right: 30px;
+}
+
+@media screen and (max-width: 992px) {
+	.team-landing-screen {
+		padding-top: 0vh;
+	}
+
+	.team-landing-screen > div > div > h3 {
+		font-size: 2.3rem;
+	}
+
+	.team-heading-name {
+		font-size: 2.7rem;
+	}
+
+	.team-name {
+		font-size: 1.8rem;
+	}
+
+	.teams-container-row {
+		padding: 10px;
+	}
+
+	.members-container {
+		padding: 10px !important;
+	}
 }
 
 /* preloader */

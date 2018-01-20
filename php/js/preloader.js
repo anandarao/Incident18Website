@@ -30,6 +30,8 @@
 	opera.src = "images/logo/OperaHouse.png";
 	var pisa = new Image();
 	pisa.src = "images/logo/Pisa.png";
+	var bus_2 = new Image();
+	bus_2.src = "images/logo/Bus2.png";
 	var bottom_pillar = new Image();
 	bottom_pillar.src = "images/logo/BottomPillar.png";
 	var gateway = new Image();
@@ -154,6 +156,7 @@
 		if (times > 39) ctx.drawImage(pyramids, 0, 0);
 		if (times > 49) ctx.drawImage(opera, 0, 0);
 		if (times > 59) ctx.drawImage(pisa, 0, 0);
+		if (times > 69) ctx.drawImage(bus_2, 0, 0);
 		if (times > 79) ctx.drawImage(bottom_pillar, 0, 0);
 		if (times > 89) ctx.drawImage(gateway, 0, 0);
 		if (times > 99) ctx.drawImage(triangle, 0, 0);
