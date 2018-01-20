@@ -1,20 +1,12 @@
 var team = {
 	"Core" : {
-		"dasari" : {
-			"name" : "Dasari Srikanth",
-			"email" : "srikanth.dasari1998@gmail.com",
-			"phone" : "9071923689",
-			"designation" : "Joint Convener",
-			"facebook" : "https://www.facebook.com/profile.php?id=100012484546570",
-			"linkedin" : "https://www.linkedin.com/in/srikanth-dasari-ab2b67146",
-		},
-		"revanth" : {
-			"name" : "Revanth Reddy",
-			"email" : "mannem.revanth@gmail.com",
-			"phone" : "9611344258",
-			"designation" : "Treasurer",
-			"facebook" : "https://www.facebook.com/revanth.reddy.7505",
-			"linkedin" : "https://www.linkedin.com/in/revanth-reddy-a80301154",
+		"anikethan" : {
+			"name" : "Anikethan H V U",
+			"phone": "9620865706",
+			"email": "anikethanhvu04@gmail.com",
+			"designation" : "Chief Coordinator",
+			"facebook" : "https://www.facebook.com/anikethan.hv",
+			"linkedin" : "https://www.linkedin.com/in/anikethanhvu/",
 		},
 		"ramesh" : {
 			"name" : "Sai Ramesh V",
@@ -55,7 +47,23 @@ var team = {
 			"designation" : "Events Coordinator",
 			"facebook" : "https://www.facebook.com/ajmeera.rajjadav",
 			"linkedin" : "https://www.linkedin.com/in/ajmeera-bhanuprakash-19718310a/",
-		}
+		},
+		"dasari" : {
+			"name" : "Dasari Srikanth",
+			"email" : "srikanth.dasari1998@gmail.com",
+			"phone" : "9071923689",
+			"designation" : "Joint Convener",
+			"facebook" : "https://www.facebook.com/profile.php?id=100012484546570",
+			"linkedin" : "https://www.linkedin.com/in/srikanth-dasari-ab2b67146",
+		},
+		"revanth" : {
+			"name" : "Revanth Reddy",
+			"email" : "mannem.revanth@gmail.com",
+			"phone" : "9611344258",
+			"designation" : "Treasurer",
+			"facebook" : "https://www.facebook.com/revanth.reddy.7505",
+			"linkedin" : "https://www.linkedin.com/in/revanth-reddy-a80301154",
+		},
 	},
 	"Marketing" : {
 		"anand" : {

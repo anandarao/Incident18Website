@@ -3,6 +3,7 @@ var sponsors = {
 		"ril" : {
 			"name" : "Reliance Industries Limited",
 			"designation" : "Co-Sponsors",
+			"link" : "http://www.ril.com/",
 		}
 	},
 	"l2" : {
@@ -12,10 +13,17 @@ var sponsors = {
 		"sephora" : {
 			"name" : "Sephora",
 			"designation" : "Beauty Partners",
+			"link" : "https://www.sephora.com/",
+		},
+		"resonance" : {
+			"name" : "Resonance Studios",
+			"designation" : "Studio Partners",
+			"link" : "http://resonancestudios.in/",
 		},
 		"townscript" : {
 			"name" : "Townscript",
-			"designation" : "Online Payment Partners"
+			"designation" : "Online Payment Partners",
+			"link" : "https://www.townscript.com/",
 		}
 	},
 }

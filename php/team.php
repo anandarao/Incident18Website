@@ -23,21 +23,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/materialize/0.98.2/js/materialize.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<script type="text/javascript">
-
-		function fetch_loader() {
-			var logo = new Image();
-			logo.src = "images/inci-loader.png";
-			return logo;
-		}
-
-		function fetch_loader_background() {
-			var logo_background = new Image();
-			logo_background.src = "images/inci-loader-back.jpg";
-			return logo_background;
-		}
-
-	</script>
 	<script type="text/javascript" src="js/team.json"></script>
 	<script type="text/javascript" src="js/team.js"></script>
 
@@ -76,7 +61,7 @@
 			<i></i>
 		</div>
 	</div>
-	<div id="m-logo" class="show-on-med-and-up"><img class="logo" src="images/inci-logo-final.png" height="200"></div>
+	<div id="m-logo" class="hide-on-med-and-up"><img class="logo" src="images/inci-logo-final.png" height="200"></div>
 	<main>
 		<div id="social-icons" class="hide-on-med-and-down">
 			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
@@ -140,6 +125,7 @@
 	</div>
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
+		$("#m-logo > img").click(function() {window.location.href = "index.php";});
 	</script>
 
 </body>

@@ -8,7 +8,10 @@ $(function() {
 	$.each(sponsors["l1"], function(index, sponsor) {
 		l1 += `
 			<div class="col l12 m12 s12 center-align">
-				<img src="images/sponsors/${index}.png" width ="600"/>
+				<a target="_blank" href="${sponsor.link}">
+					<img class="hide-on-med-and-up" src="images/sponsors/${index}.png" style="max-width:90vw;">
+					<img class="hide-on-med-and-down"src="images/sponsors/${index}.png" style="max-width:60vw;">
+				</a>
 				<p class="sponsor-p sponsor-single sponsor-title">${sponsor.name}</p>
 				<p class="sponsor-p sponsor-design-single sponsor-desig">${sponsor.designation}</p>
 			</div>
@@ -25,7 +28,10 @@ $(function() {
 	$.each(sponsors["l2"], function(index, sponsor) {
 		l2 += `
 			<div class="col l6 m6 s12 center-align">
-				<img src="images/sponsors/${index}.png" width ="400"/>
+				<a target="_blank" href="${sponsor.link}">
+					<img class="hide-on-med-and-up" src="images/sponsors/${index}.png" style="max-width:90vw;">
+					<img class="hide-on-med-and-down"src="images/sponsors/${index}.png" style="max-width:35vw;">
+				</a>
 				<p class="sponsor-p sponsor-double sponsor-title">${sponsor.name}</p>
 				<p class="sponsor-p sponsor-design-double sponsor-desig">${sponsor.designation}</p>
 			</div>
@@ -42,7 +48,10 @@ $(function() {
 	$.each(sponsors["l3"], function(index, sponsor) {
 		l3 += `
 			<div class="col l4 m4 s12 center-align">
-				<img src="images/sponsors/${index}.png" width ="350"/>
+				<a target="_blank" href="${sponsor.link}">
+					<img class="hide-on-med-and-up" src="images/sponsors/${index}.png" style="max-width:90vw;">
+					<img class="hide-on-med-and-down"src="images/sponsors/${index}.png" style="max-width:20vw;">
+				</a>
 				<p class="sponsor-p sponsor-double sponsor-title">${sponsor.name}</p>
 				<p class="sponsor-p sponsor-design-double sponsor-desig">${sponsor.designation}</p>
 			</div>
