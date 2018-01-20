@@ -45,9 +45,24 @@
 
 <body>
 
-	<header></header>
+	<header>
+		<nav class="hide-on-med-and-up">
+			<div class="nav-wrapper">
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="highlights.php">Highlights</a></li>
+				<li><a href="events.php">Events</a></li>
+				<li><a href="sponsors.php">Sponsors</a></li>
+				<li><a href="team.php">Team</a></li>
+			</ul>
+			</div>
+		</nav>
+	</header>
 
-	<div class="ribbon-wrapper">
+	<div class="ribbon-wrapper hide-on-med-and-down">
 		<img class="logo" src="images/inci-logo-final.png" height="260">
 		<span></span>
 		<a href="highlights.php">Highlights</a>
@@ -61,9 +76,9 @@
 			<i></i>
 		</div>
 	</div>
-
+	<div id="m-logo" class="show-on-med-and-up"><img class="logo" src="images/inci-logo-final.png" height="200"></div>
 	<main>
-		<div id="social-icons">
+		<div id="social-icons" class="hide-on-med-and-down">
 			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
 			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
 			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
@@ -117,10 +132,10 @@
 		</div>
 	</main>
 
-	<div id="register">
+	<div id="register" class="hide-on-med-and-down">
 		<button onclick="popup('incident-233014');" class="waves-effect waves-light btn-large" >Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
 	</div>
-	<div id="ambassador-link">
+	<div id="ambassador-link" class="hide-on-med-and-down">
 		<a href = "ica.php"><button onclick="" class="waves-effect waves-light btn-large">Campus Ambassador</button></a>
 	</div>
 	<script type="text/javascript">
