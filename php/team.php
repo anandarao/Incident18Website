@@ -75,7 +75,7 @@
 			<div class="row">
 				<div class="col l6 m6 s12 center add-icons">
 					<h3>Incident Convener</h3>
-					<img src="http://via.placeholder.com/250x250" class="circle" />
+					<img src="images/team/adarsh.jpg" class="circle" height="250" />
 					<h4 class="team-name">Adarsh Pai</h4>
 					<p class="team-details-para">
 						<a href="mailto:adarsh@incident.co.in">adarsh@incident.co.in</a><br/>
@@ -94,7 +94,7 @@
 				</div>
 				<div class="col l6 m6 s12 center add-icons">
 					<h3>Marketing Head</h3>
-					<img src="images/team/sabari.png" class="circle" height="250" />
+					<img src="images/team/sabari.jpg" class="circle" height="250" />
 					<h4 class="team-name">Sabari Ram</h4>
 					<p class="team-details-para">
 						<a href="mailto:sabariram@incident.co.in">sabariram@incident.co.in</a><br/>
