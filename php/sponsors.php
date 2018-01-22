@@ -31,9 +31,9 @@
 <body>
 
 	<header>
-		<nav class="hide-on-med-and-up">
+		<nav>
 			<div class="nav-wrapper">
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
 				<li><a href="#!" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
@@ -47,21 +47,7 @@
 		</nav>
 	</header>
 
-	<div class="ribbon-wrapper hide-on-med-and-down">
-		<img class="logo" src="images/inci-logo-final.png" height="260">
-		<span></span>
-		<a href="highlights.php">Highlights</a>
-		<a href="events.php">Events</a>
-		<a href="sponsors.php">Sponsors</a>
-		<a href="team.php">Team</a>
-		<div id="ribbon" class="ribbon">
-			<i></i>
-			<i></i>
-			<i></i>
-			<i></i>
-		</div>
-	</div>
-	<div id="m-logo" class="hide-on-med-and-up"><img class="logo" src="images/inci-logo-final.png" height="200"></div>
+	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 	<div id = "scrollable-wrapper">
 		<main>
 			<div id="social-icons" class="hide-on-med-and-down">
@@ -101,12 +87,6 @@
 		</main>
 	</div>
 	
-	<div id="register" class="hide-on-med-and-down">
-		<button onclick="popup('incident-233014');" class="waves-effect waves-light btn-large" >Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
-	</div>
-	<div id="ambassador-link" class="hide-on-med-and-down">
-		<a href = "ica.php"><button onclick="" class="waves-effect waves-light btn-large">Campus Ambassador</button></a>
-	</div>
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
 		$("#m-logo > img").click(function() {window.location.href = "index.php";});

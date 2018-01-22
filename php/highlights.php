@@ -45,8 +45,24 @@
 
 <body>
 
-	<header></header>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="highlights.php">Highlights</a></li>
+				<li><a href="events.php">Events</a></li>
+				<li><a href="sponsors.php">Sponsors</a></li>
+				<li><a href="team.php">Team</a></li>
+			</ul>
+			</div>
+		</nav>
+	</header>
 
+	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 	<main>
 		<div id="social-icons">
 			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
@@ -58,35 +74,6 @@
 		
 	</main>
 
-	<div class="ribbon-wrapper">
-		<img class="logo" src="images/inci-logo-final.png" height="260">
-		<span></span>
-		<a href="highlights.php">Highlights</a>
-		<a href="events.php">Events</a>
-		<a href="sponsors.php">Sponsors</a>
-		<a href="team.php">Team</a>
-		<div id="ribbon" class="ribbon">
-			<i></i>
-			<i></i>
-			<i></i>
-			<i></i>
-		</div>
-	</div>
-
-	<div class="highlights-cover">
-		<div id="map"></div>
-	</div>
-
-	<script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBteW6a1uMjnJ7XHAPMvR49B3Y4UKzOqaQ&callback=initMap">
-	</script>
-
-	<div id="register">
-		<button onclick="popup('incident-233014');" class="waves-effect waves-light btn-large" >Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
-	</div>
-	<div id="ambassador-link">
-		<a href = "ica.php"><button onclick="" class="waves-effect waves-light btn-large">Campus Ambassador</button></a>
-	</div>
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
 	</script>
