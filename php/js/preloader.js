@@ -94,14 +94,12 @@
 			var interval = setInterval( function() {
 					// reached the end
 					if( y <= 1) {
-						var buttons = '<div id="register"><button onclick="popup(\'incident-233014\');" class="waves-effect waves-light btn-large" >Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script></div><div id="ambassador-link"><a href = "ica.php"><button onclick="" class="waves-effect waves-light btn-large">Campus Ambassador</button></a></div>';
 						setInterval( function() {
 							$("#ribbon").addClass("ribbon");
 							$(".ribbon-wrapper > a").show('slow').animate({opacity:1});
 							$("#ip-container").removeClass('loading');
 							$("#ip-container").addClass('loaded');
 							if (firsttime) {
-								$('body').append(buttons);
 								firsttime = false;
 								$('#ip-container').css({
 									'background-color': 'transparent',

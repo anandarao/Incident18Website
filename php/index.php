@@ -42,24 +42,24 @@
 	<script type="text/javascript" src="js/home.js"></script>
 </head>
 
-<body class="indexpage">
+<body>
 
-	<header></header>
-
-	<div class="ribbon-wrapper">
-		<span></span>
-		<span></span>
-		<a href="highlights.php">Highights</a>
-		<a href="events.php">Events</a>
-		<a href="sponsors.php">Sponsors</a>
-		<a href="team.php">Team</a>
-		<div id="ribbon">
-			<i></i>
-			<i></i>
-			<i></i>
-			<i></i>
-		</div>
-	</div>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="highlights.php">Highlights</a></li>
+				<li><a href="events.php">Events</a></li>
+				<li><a href="sponsors.php">Sponsors</a></li>
+				<li><a href="team.php">Team</a></li>
+			</ul>
+			</div>
+		</nav>
+	</header>
 
 	<!-- preloader -->
 	<div id="ip-container" class="ip-container">
