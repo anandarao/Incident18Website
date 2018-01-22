@@ -8,7 +8,7 @@ $(function() {
 		var team_members = "";
 		$.each(object, function(index, object) {
 			team_members += `
-			<div id="${index}" class="col s12 l3 m3 ${index}">
+			<div class="col s12 l3 m3 ${index}">
 				<div class="team-member center">
 					<img src="images/team/${index}.jpg" class="circle team-image"/>
 					<h4 class="team-name">${this.name}</h4>
