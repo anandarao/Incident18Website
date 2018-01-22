@@ -6,10 +6,6 @@
 
 /* base.html styling */
 
-body {
-	background: linear-gradient(to left top, rgb(240,131,131)  0%, rgb(248,184,184) 50% , rgb(255,237,237) 100%) !important;
-}
-
 a.button-collapse {
 	position: fixed;
 	display: block !important;
@@ -30,11 +26,11 @@ a.button-collapse {
 }
 
 #register > button {
-	background-color: #D32F2F;
+	background-color: #D62F2F;
 }
 
 .side-nav-register {
-	color: #D32F2F !important;
+	color: #D62F2F !important;
 }
 
 #ambassador-link > a > button {
@@ -58,11 +54,25 @@ nav > div > a > i {
 }
 
 .side-nav {
-	width: 70%;
+	width: 20%;
 }
 
 #m-logo {
 	text-align: center;
+}
+
+#m-logo > img {
+	height: 350px;
+}
+
+@media screen and (max-width: 992px) {
+	#m-logo > img {
+		height: 200px;
+	}
+
+	.side-nav {
+		width: 70%;
+	}
 }
 
 /* Ribbon */
@@ -255,7 +265,6 @@ nav > div > a > i {
 }
 
 .scrollable-wrap {
-	background: linear-gradient(to left top, rgb(240,131,131)  0%, rgb(248,184,184) 50% , rgb(255,237,237) 100%) !important;
 	position: absolute;
 	height: 100vh !important;
 	width: 100%;
@@ -335,7 +344,6 @@ nav > div > a > i {
 /* sponsors.html styling */
 
 #sponsors-heading {
-	padding-top: 27vh;
 	padding-left: 25vw;
 	padding-right: 25vw;
 }
@@ -382,7 +390,6 @@ nav > div > a > i {
 	#sponsors-heading {
 		padding-left: 3vh;
 		padding-right: 3vh;
-		padding-top: 0vh;
 	}
 
 	#sponsors-container > .row > .col > img {
@@ -417,7 +424,6 @@ nav > div > a > i {
 
 .team-landing-screen {
 	height: 100vh !important;
-	padding-top: 30vh;
 }
 
 .team-landing-screen > div > div > h3 {
@@ -548,11 +554,11 @@ nav > div > a > i {
 }
 
 @-webkit-keyframes animLoadedLoader {
-	to { -webkit-transform: translate3d(0,-42%,0) scale3d(0.42,0.42,1); }
+	to { -webkit-transform: translate3d(0,-32%,0) scale3d(0.62,0.62,1); }
 }
 
 @keyframes animLoadedLoader {
-	to { -webkit-transform: translate3d(0,-42%,0) scale3d(0.42,0.42,1); transform: translate3d(0,-42%,0) scale3d(0.42,0.42,1); }
+	to { -webkit-transform: translate3d(0,-32%,0) scale3d(0.62,0.62,1); transform: translate3d(0,-42%,0) scale3d(0.62,0.62,1); }
 }
 
 /* Social Media Links styling */
