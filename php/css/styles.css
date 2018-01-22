@@ -4,6 +4,10 @@
 	background: rgba(0, 0, 0, 1) !important;
 }
 
+.events-body {
+	background-image: url("../images/worl;d_events/map_back.png");
+}
+
 /* base.html styling */
 
 a.button-collapse {
@@ -59,6 +63,9 @@ nav > div > a > i {
 
 #m-logo {
 	text-align: center;
+	position: absolute;
+	width: 100vw;
+	right: 0 !important;
 }
 
 #m-logo > img {
@@ -330,6 +337,54 @@ nav > div > a > i {
 	height: 100vh;
 }
 
+.maps-container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+img.asia {
+	width: 750px;
+	right: 0;
+}
+
+img.aus {
+	width: 400px;
+	right: 10vw;
+	bottom: -15vh;
+}
+
+img.africa {
+	width: 450px;
+	left: 40vw;
+	bottom: 0;
+}
+
+img.samer {
+	width: 325px;
+	left: 13vw;
+	bottom: 0px;
+}
+
+img.namer {
+	width: 500px;
+}
+
+img.europe {
+	width: 450px;
+	left: 43vw;
+}
+
+img.map-contienents {
+	position: absolute;
+}
+
+img.map-contienents:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
 /* highlights.html styling */
 
 .highlights-cover {
@@ -341,9 +396,16 @@ nav > div > a > i {
 	height: 100vh;
 }
 
+.events-logo {
+	height: 250px !important;
+	position: absolute;
+	left: 45vw;
+}
+
 /* sponsors.html styling */
 
 #sponsors-heading {
+	padding-top: 35vh;
 	padding-left: 25vw;
 	padding-right: 25vw;
 }
@@ -424,6 +486,7 @@ nav > div > a > i {
 
 .team-landing-screen {
 	height: 100vh !important;
+	padding-top: 35vh;
 }
 
 .team-landing-screen > div > div > h3 {

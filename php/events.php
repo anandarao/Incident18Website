@@ -42,7 +42,7 @@
 	<script type="text/javascript" src="js/events.js"></script>
 </head>
 
-<body>
+<body class="events-body">
 
 	<header>
 		<nav>
@@ -61,7 +61,6 @@
 		</nav>
 	</header>
 
-	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 	<main>
 		<div id="social-icons">
 			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
@@ -70,9 +69,17 @@
 			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
 			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
 		</div>
-		
+		<div class="maps-container">
+			<img class="map-contienents asia" src="images/world_events/asia.png"/>
+			<img class="map-contienents aus" src="images/world_events/aus.png"/>
+			<img class="map-contienents africa" src="images/world_events/africa.png">
+			<img class="map-contienents samer" src="images/world_events/samer.png"/>
+			<img class="map-contienents namer" src="images/world_events/namer.png"/>
+			<img class="map-contienents europe" src="images/world_events/europe.png"/>
+			<img class="events-logo" src="images/inci-logo-final.png">
+		</div>
 	</main>
-	
+
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
 	</script>
