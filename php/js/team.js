@@ -8,6 +8,7 @@ $(function() {
 		var team_members = "";
 		$.each(object, function(index, object) {
 			team_members += `
+			<div id="${index}" class="col s12 l3 m3 ${index}">
 				<div class="team-member center">
 					<img src="images/team/${index}.jpg" class="circle team-image"/>
 					<h4 class="team-name">${this.name}</h4>
@@ -27,6 +28,7 @@ $(function() {
 						</svg>
 					</a>
 				</div>
+			</div>
 			`;
 		});
 
@@ -37,13 +39,11 @@ $(function() {
 		});
 
 		var team_content = `
-			<div class="row valign-wrapper teams-container-row">
-				<div class="col s12 m3 l3">
+			<div class="row teams-container-row">
+				<div class="col s12 m12 l12">
 					<h1 class="team-heading-name center">${team_name}</h1>
 				</div>
-				<div class="col s12 m9 l9 members-container"> 
-					${team_members}
-				</div>
+				${team_members}
 			</div>
 		`;
 
@@ -51,6 +51,17 @@ $(function() {
 	});
 
 	$('#teams-container').html(content);
+
+	$('.anand').attr('class', 'col s12 m4 l4');
+	$('.sheetal').attr('class', 'col s12 m4 l4');
+	$('.devraj').attr('class', 'col s12 m4 l4');
+
+	$('.samyak').attr('class', 'col s12 m4 l4');
+	$('.thomas').attr('class', 'col s12 m4 l4');
+	$('.tirumala').attr('class', 'col s12 m4 l4');
+
+	$('.utkarsh').attr('class', 'col s12 m4 l4');
+	$('.azmeera').attr('class', 'col s12 m12 l12');
 
 	$(".team-image").on("error", function(){
         $(this).attr('src', 'http://via.placeholder.com/200x200');
