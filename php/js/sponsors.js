@@ -10,7 +10,7 @@ $(function() {
 			<div class="col l12 m12 s12 center-align">
 				<a target="_blank" href="${sponsor.link}">
 					<img class="hide-on-med-and-up" src="images/sponsors/${index}.png" style="max-width:90vw;">
-					<img class="hide-on-med-and-down"src="images/sponsors/${index}.png" style="max-width:60vw;">
+					<img class="hide-on-med-and-down"src="images/sponsors/${index}.png" style="max-width:45vw;">
 				</a>
 				<p class="sponsor-p sponsor-single sponsor-title">${sponsor.name}</p>
 				<p class="sponsor-p sponsor-design-single sponsor-desig">${sponsor.designation}</p>

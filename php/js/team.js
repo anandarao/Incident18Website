@@ -63,6 +63,15 @@ $(function() {
 	$('.utkarsh').attr('class', 'col s12 m4 l4');
 	$('.azmeera').attr('class', 'col s12 m12 l12');
 
+	$('.humaid').attr('class', 'col s12 m4 l4');
+	$('.adil').attr('class', 'col s12 m4 l4');
+	$('.rahul1').attr('class', 'col s12 m4 l4');
+
+	$('.emmanuel').attr('class', 'col s12 m4 l4');
+	$('.amarnath').attr('class', 'col s12 m4 l4');
+	$('.kartik').attr('class', 'col s12 m4 l4');
+
+
 	$(".team-image").on("error", function(){
         $(this).attr('src', 'http://via.placeholder.com/200x200');
     });

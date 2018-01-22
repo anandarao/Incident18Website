@@ -88,14 +88,6 @@ var team = {
 			"facebook" : "https://www.facebook.com/rahul.theknightrider",
 			"linkedin" : "https://www.linkedin.com/in/rahul-agrawal-886119b0/",
 		},
-		"emmanuel" : {
-			"name" : "Emmanuel Biju",
-			"email" : "emmyebj@gmail.com",
-			"phone" : "7411067325",
-			"designation" : "Creative Head",
-			"facebook" : "https://m.facebook.com/EmmyEBJ",
-			"linkedin" : "https://www.linkedin.com/in/emmanuel-biju-1b6044113",
-		},
 	},
 	"Marketing" : {
 		"anand" : {
@@ -183,6 +175,32 @@ var team = {
 			"designation" : "Coordinator",
 			"facebook" : "https://www.facebook.com/samyak24jain",
 			"linkedin" : "https://www.linkedin.com/in/samyak24jain/",
+		},
+	},
+	"Creative" : {
+		"emmanuel" : {
+			"name" : "Emmanuel Biju",
+			"email" : "emmyebj@gmail.com",
+			"phone" : "7411067325",
+			"designation" : "Head",
+			"facebook" : "https://m.facebook.com/EmmyEBJ",
+			"linkedin" : "https://www.linkedin.com/in/emmanuel-biju-1b6044113",
+		},
+		"amarnath" : {
+			"name" : "Amarnath Krishna",
+			"email" : "amarnathkrishna@gmail.com",
+			"phone" : "9845811821",
+			"designation" : "Coordinator",
+			"facebook" : "https://www.facebook.com/amarnathkrishna",
+			"linkedin" : "https://www.linkedin.com/in/amarnath-krishna-9ba180158",
+		},
+		"kartik" : {
+			"name" : "Kartik Pillai",
+			"email" : "kartikppillai@gmail.com",
+			"phone" : "9008791391",
+			"designation" : "Coordinator",
+			"facebook" : "https://www.facebook.com/kartik.pillai.75",
+			"linkedin" : "https://www.linkedin.com/in/kartik-pillai-500186158/",
 		},
 	},
 }
