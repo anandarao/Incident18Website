@@ -38,7 +38,7 @@
 		}
 
 	</script>
-
+	<script type="text/javascript" src="js/events.json"></script>
 	<script type="text/javascript" src="js/events.js"></script>
 </head>
 
@@ -61,23 +61,36 @@
 		</nav>
 	</header>
 
+	<div id="m-logo" class="hide-on-large-only"><img class="logo" src="images/inci-logo-final.png"></div>
 	<main>
-		<div id="social-icons">
+		<div id="social-icons" class="hide-on-med-and-down">
 			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
 			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
 			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
 			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
 			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
 		</div>
-		<div class="maps-container">
-			<img id="haute_couture" class="map-contienents asia" src="images/world_events/asia.png"/>
-			<img id="fine_arts" class="map-contienents aus" src="images/world_events/aus.png"/>
-			<img id="dance" class="map-contienents africa" src="images/world_events/africa.png">
-			<img id="gaming" class="map-contienents samer" src="images/world_events/samer.png"/>
-			<img id="music" class="map-contienents namer" src="images/world_events/namer.png"/>
-			<img id="sports" class="map-contienents europe" src="images/world_events/europe.png"/>
-			<img id="lit" class="map-contienents antarctica" src="images/world_events/antarctica.png"/>
+		<div class="maps-container hide-on-med-and-down">
+			<img id="haute_couture" class="map-contienents asia" src="images/events/world_map/asia.png"/>
+			<img id="fine_arts" class="map-contienents aus" src="images/events/world_map/aus.png"/>
+			<img id="dance" class="map-contienents africa" src="images/events/world_map/africa.png">
+			<img id="gaming" class="map-contienents samer" src="images/events/world_map/samer.png"/>
+			<img id="music" class="map-contienents namer" src="images/events/world_map/namer.png"/>
+			<img id="sports" class="map-contienents europe" src="images/events/world_map/europe.png"/>
+			<img id="lit" class="map-contienents antarctica" src="images/events/world_map/antarctica.png"/>
 			<img class="events-logo" src="images/inci-logo-final.png"/>
+		</div>
+		<div class="m-maps-container hide-on-large-only">
+			<div class="row valign-wrapper">
+				<div class="col s2 m2"><i class="left-arrow material-icons white-text">keyboard_arrow_left</i></div>
+				<div class="col s8 m8">
+					<div class="row">
+						<div class="col s12 m12"><img class="category-stamp" src="images/events/dance/stamps/dance.png" /></div>
+						<div class="col s12 m12 view-button-events" id="dance">View</div>
+					</div>
+				</div>
+				<div class="col s2 m2"><i class="right-arrow material-icons white-text">keyboard_arrow_right</i></div>
+			</div>
 		</div>
 	</main>
 
