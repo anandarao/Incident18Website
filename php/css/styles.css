@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Slabo+27px|Nunito|Maven+Pro|Poiret+One|Macondo|Quicksand|Julius+Sans+One|Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Slabo+27px|Nunito|Maven+Pro|Poiret+One|Alegreya+Sans|Macondo|Quicksand|Julius+Sans+One|Alegreya+Sans');
 
 #popupbackground {
 	background: rgba(0, 0, 0, 1) !important;
@@ -327,11 +327,22 @@ nav > div > a > i {
 
 .timeline > div > div > div.active {
 	font-size: 2.9rem;
-	color: #283593;
+	color: #424242;
 }
 
 .timeline > div > div > div:hover {
 	font-size: 2.9rem;
+}
+
+.timeline-heading {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.timeline-tagline {
+	font-weight: 'Maven Pro', sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: justify;
 }
 
 /* events.html styling */
@@ -623,6 +634,10 @@ img.map-contienents:hover {
 	.link-buttons {
 		font-size: 2rem;
 	}
+
+	.team-main {
+		padding-top: 25vh;
+	}
 }
 
 /* highlights.html styling */
@@ -857,11 +872,11 @@ img.map-contienents:hover {
 }
 
 @-webkit-keyframes animLoadedLoader {
-	to { -webkit-transform: translate3d(0,-32%,0) scale3d(0.62,0.62,1); }
+	to { -webkit-transform: translate3d(0,-42%,0) scale3d(0.55,0.55,1); }
 }
 
 @keyframes animLoadedLoader {
-	to { -webkit-transform: translate3d(0,-32%,0) scale3d(0.62,0.62,1); transform: translate3d(0,-42%,0) scale3d(0.62,0.62,1); }
+	to { -webkit-transform: translate3d(0,-42%,0) scale3d(0.55,0.55,1); transform: translate3d(0,-42%,0) scale3d(0.55,0.55,1); }
 }
 
 /* Social Media Links styling */
