@@ -48,7 +48,7 @@
 	</header>
 
 	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png" height="200"></div>
-	<main>
+	<main class="team-main">
 		<div id="social-icons" class="hide-on-med-and-down">
 			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
 			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>

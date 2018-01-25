@@ -2,31 +2,31 @@ var inci_timeline = {
 	"2018" : {
 		"img" : "http://via.placeholder.com/350x350",
 		"header" : "2018 Incident",
-		"description" : "In 2018 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum.",
+		"description" : "In 2018 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem.",
 	},
 	"2017" : {
 		"img" : "http://via.placeholder.com/350x350/ffffff/000000",
 		"header" : "2017 Incident",
-		"description" : "In 2017 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum.",
+		"description" : "In 2017 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem.",
 	},
 	"2016" : {
 		"img" : "http://via.placeholder.com/350x350/a1426b/fbc8cf",
 		"header" : "2016 Incident",
-		"description" : "In 2016 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum.",
+		"description" : "In 2016 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem.",
 	},
 	"2015" : {
 		"img" : "http://via.placeholder.com/350x350/b59dc3/e571de",
 		"header" : "2015 Incident",
-		"description" : "In 2015 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum.",
+		"description" : "In 2015 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem.",
 	},
 	"2014" : {
 		"img" : "http://via.placeholder.com/350x350/ff0000/00ff00",
 		"header" : "2014 Incident",
-		"description" : "In 2014 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum.",
+		"description" : "In 2014 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem.",
 	},
 	"2013" : {
 		"img" : "http://via.placeholder.com/350x350/00ff00/0000ff",
 		"header" : "2013 Incident",
-		"description" : "In 2013 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum.",
+		"description" : "In 2013 lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem.",
 	},
 }
