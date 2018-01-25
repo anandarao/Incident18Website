@@ -52,24 +52,24 @@ $(function() {
 
 	$('#teams-container').html(content);
 
-	$('.anand').attr('class', 'col s12 m4 l4');
-	$('.sheetal').attr('class', 'col s12 m4 l4');
-	$('.devraj').attr('class', 'col s12 m4 l4');
+	$('.anand').attr('class', 'col s12 m4 l4 anand');
+	$('.sheetal').attr('class', 'col s12 m4 l4 sheetal');
+	$('.devraj').attr('class', 'col s12 m4 l4 devraj');
 
-	$('.samyak').attr('class', 'col s12 m4 l4');
-	$('.thomas').attr('class', 'col s12 m4 l4');
-	$('.tirumala').attr('class', 'col s12 m4 l4');
+	$('.samyak').attr('class', 'col s12 m4 l4 samyak');
+	$('.thomas').attr('class', 'col s12 m4 l4 thomas');
+	$('.tirumala').attr('class', 'col s12 m4 l4 tirumala');
 
-	$('.utkarsh').attr('class', 'col s12 m4 l4');
-	$('.azmeera').attr('class', 'col s12 m12 l12');
+	$('.utkarsh').attr('class', 'col s12 m4 l4 utkarsh');
+	$('.azmeera').attr('class', 'col s12 m12 l12 azmeera');
 
-	$('.humaid').attr('class', 'col s12 m4 l4');
-	$('.adil').attr('class', 'col s12 m4 l4');
-	$('.rahul1').attr('class', 'col s12 m4 l4');
+	$('.humaid').attr('class', 'col s12 m4 l4 humaid');
+	$('.adil').attr('class', 'col s12 m4 l4 adil');
+	$('.rahul1').attr('class', 'col s12 m4 l4 rahul1');
 
-	$('.emmanuel').attr('class', 'col s12 m4 l4');
-	$('.amarnath').attr('class', 'col s12 m4 l4');
-	$('.kartik').attr('class', 'col s12 m4 l4');
+	$('.emmanuel').attr('class', 'col s12 m4 l4 emmanuel');
+	$('.amarnath').attr('class', 'col s12 m4 l4 amarnath');
+	$('.kartik').attr('class', 'col s12 m4 l4 kartik');
 
 
 	$(".team-image").on("error", function(){
