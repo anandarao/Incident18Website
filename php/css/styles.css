@@ -571,6 +571,7 @@ img.map-contienents:hover {
 
 .m-maps-container > div {
 	height: 100%;
+	margin-bottom: 0px;
 }
 
 .category-stamp {
@@ -588,8 +589,39 @@ img.map-contienents:hover {
 }
 
 @media screen and (max-width: 992px) {
-	.event-view-img-container > img {
-		width: 50vw !important;
+	.events-list-img-container > img, .event-view-img-container > img {
+		width: 50vw;
+	}
+
+	.letter {
+		width: 90vw;
+		height: 75vh;
+	}
+
+	.list-scroller {
+		height: 58vh !important;
+	}
+
+	.list-scroller-element {
+		font-size: 3rem;
+	}
+
+	.event-description {
+		height: 65vh;
+	}
+
+	.event-description > p {
+		font-size: 1.2rem;
+		margin-top: 3px;
+		font-weight: bold;
+	}
+
+	.register-button {
+		margin-bottom: 5px;
+	}
+
+	.link-buttons {
+		font-size: 2rem;
 	}
 }
 
