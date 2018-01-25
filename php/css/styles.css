@@ -555,6 +555,44 @@ img.map-contienents:hover {
 	width: 100%;
 }
 
+.left-arrow {
+	font-size: 3.5rem;
+}
+
+.right-arrow {
+	font-size: 3.5rem;
+}
+
+.m-maps-container {
+	position: absolute;
+	height: 85vh;
+	margin-top: 15vh;
+}
+
+.m-maps-container > div {
+	height: 100%;
+}
+
+.category-stamp {
+	width: 100%;
+}
+
+.view-button-events {
+	border: solid 3px white;
+	border-radius: 5px;
+	background-color: white;
+	color: #1565C0;
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+@media screen and (max-width: 992px) {
+	.event-view-img-container > img {
+		width: 50vw !important;
+	}
+}
+
 /* highlights.html styling */
 
 .highlights-cover {
