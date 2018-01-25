@@ -1,7 +1,9 @@
 function fetch_data(year) {
 	var data = inci_timeline[year];
-	var image = '<div class="col s5 m5 l5 center"><img src="' + data["img"] + '"/></div>';
-	var content = '<div class="col s7 m7 l7"><h1>' + data["header"] + '</h1><p>' + data["description"] + '</p></div>';
+	var image = '<div class="col s12 m12 l12 center"><img src="' + data["img"] + '"/></div>';
+	var content = '<div class="col s12 m12 l12"><h1 class="center timeline-heading">' + data["header"] + '</h1></div>';
+	content += '<div class="col s12 m12 l6 offset-l3 timeline-tagline">' + data["description"] + '</div>';
+	console.log(content);
 	$('#insert-row').html(image + content);
 }
 
