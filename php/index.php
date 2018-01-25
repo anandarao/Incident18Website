@@ -83,7 +83,20 @@
 					<div class="col s12 m12 l7 center first-viewport-left"><iframe width="600" height="315" src="https://www.youtube.com/embed/RiXNTenVx4E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 					<div class="col s12 m12 l5 center first-viewport-right">
 						<h2 class="heading-h2-inci">About Incident</h2>
-						<p>In leo lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum. Phasellus malesuada tellus sed cursus tempus. Nulla facilisi. Etiam finibus felis et rutrum pellentesque. Nullam aliquam, mauris eu bibendum sollicitudin, quam turpis aliquam mauris, id sollicitudin nunc ligula id nulla. In leo lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum. Phasellus malesuada tellus sed cursus tempus.</p>
+						<p>From the days of its inception in 1980, NITK’s annual cultural festival has only grown
+						larger and better with every passing year. This year, Incident brings with it a fresh
+						shot of enthusiasm, energy, and intensity. This colourful bonanza presents itself with
+						the unique theme of “A Global Odyssey”. 
+						Incident has been widely appreciated and admired for being one of the largest
+						cultural events all over the country. It is known to keep its 50,000+ crowd enthralled
+						in a variety of mind-blowing and invigorating string of events over a period of five
+						days. The Incident weekend embodies mesmerizing memories and exuberant
+						experiences. The entire event is studded with performances by renowned musicians
+						and artists who keep the crowd raving all night long.  
+						There are a lot of things worth looking forward to during Incident. Some of the major
+						crowd pullers are the Beach events, Pronites, Haute Couture and Slam Dunk; just to
+						name a few. Every Incident brings with it a new wave of exquisite events and
+						scintillating performances which are worth the annual wait!</p>
 					</div>
 				</div>
 			</div>
