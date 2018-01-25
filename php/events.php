@@ -47,7 +47,7 @@
 	<header>
 		<nav>
 			<div class="nav-wrapper">
-			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="hamburger material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
 				<li><a href="#!" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
@@ -70,13 +70,14 @@
 			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
 		</div>
 		<div class="maps-container">
-			<img class="map-contienents asia" src="images/world_events/asia.png"/>
-			<img class="map-contienents aus" src="images/world_events/aus.png"/>
-			<img class="map-contienents africa" src="images/world_events/africa.png">
-			<img class="map-contienents samer" src="images/world_events/samer.png"/>
-			<img class="map-contienents namer" src="images/world_events/namer.png"/>
-			<img class="map-contienents europe" src="images/world_events/europe.png"/>
-			<img class="events-logo" src="images/inci-logo-final.png">
+			<img id="haute_couture" class="map-contienents asia" src="images/world_events/asia.png"/>
+			<img id="fine_arts" class="map-contienents aus" src="images/world_events/aus.png"/>
+			<img id="dance" class="map-contienents africa" src="images/world_events/africa.png">
+			<img id="gaming" class="map-contienents samer" src="images/world_events/samer.png"/>
+			<img id="music" class="map-contienents namer" src="images/world_events/namer.png"/>
+			<img id="sports" class="map-contienents europe" src="images/world_events/europe.png"/>
+			<img id="lit" class="map-contienents antarctica" src="images/world_events/antarctica.png"/>
+			<img class="events-logo" src="images/inci-logo-final.png"/>
 		</div>
 	</main>
 

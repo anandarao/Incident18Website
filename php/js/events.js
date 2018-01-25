@@ -1,229 +1,105 @@
+var categories_data = [
+	{
+		category_name: 'dance',
+		cat_stamp: 'images/stamps/dance_events.png',
+		back_color: '#FEC19B',
+		events_details: [
+			{
+				name: 'Tandav',
+				event_stamp: 'images/stamps/tandav.png',
+				back_img: '../images/events_img/local_train.jpg',
+				description: 'In purus ligula, elementum vel tincidunt ut, mollis non orci. Integer blandit sodales urna, ut rhoncus dolor rhoncus a. Nullam interdum tristique odio iaculis auctor. Vestibulum magna tellus, bibendum pharetra tristique eu, venenatis id erat. Donec nec sagittis enim. Ut feugiat metus quis nibh iaculis, et posuere felis consequat. Quisque vel ultricies lectus, et interdum libero. Etiam cursus est vel turpis commodo, sed malesuada dolor lobortis.',
+				rules_link: '',
+			},
+			{
+				name: 'Tandav',
+				event_stamp: 'images/stamps/tandav.png',
+				back_img: '../images/events_img/local_train.jpg',
+				description: 'In purus ligula, elementum vel tincidunt ut, mollis non orci. Integer blandit sodales urna, ut rhoncus dolor rhoncus a. Nullam interdum tristique odio iaculis auctor. Vestibulum magna tellus, bibendum pharetra tristique eu, venenatis id erat. Donec nec sagittis enim. Ut feugiat metus quis nibh iaculis, et posuere felis consequat. Quisque vel ultricies lectus, et interdum libero. Etiam cursus est vel turpis commodo, sed malesuada dolor lobortis.',
+				rules_link: '',
+			},
+		],
+	}
+];
+
 $(function() {
 	$(".button-collapse").sideNav();
 	$(".ribbon-wrapper > img, .ribbon-wrapper > a").animate({opacity:1}, 1000);
+	$('img.map-contienents').click(function() {
+		open_events_view($(this).attr('id'));
+	});
 });
 
-function modal_open_up(event) {
-	close_button = `<div class="close-button-wrapper"><i id="close-button" class="material-icons">&#xE5CD;</i></div>`;
-	content = close_button + `
-		<div class="container">
-			<div class="row">
-				<div class="col s12 m12 l12">
-					<img src="${event.icon}" width="100%" height="50%">
-				</div>
-				<div class="divider"></div>
-				<div class="col s12 m6 l6 center-align">
-					<div class="section">
-						<h3> Description </h3>
-						<p> ${event.description} </p>
-					</div>
-				</div>
-				<div class="col s12 m6 l6 center-align">
-					<div class="section">
-						<h3> Rules </h3>
-						<p> ${event.rules} </p>
-					</div>
-				</div>
-			</div>
+function open_events_view(event_category) {
+	var data, event_list_divs = '';
+	for (var i = 0; i < categories_data.length; i++) {
+		if (categories_data[i]['category_name'] === event_category)
+			data = categories_data[i];
+	}
+	for (var i = 0; i < data['events_details'].length; i++) {
+		event_list_divs += '<div class="center list-scroller-element">' + data.events_details[i]['name'] + '</div>';
+	}
+	content = `<div class="events-list">
+		<i class="events-close material-icons">close</i>
+		<div class="events-list-img-container center"><img src="` + data['cat_stamp'] + `" /></div>
+		<div class="letter">
+			<div class="list-scroller">` + event_list_divs + `</div>
 		</div>
-		`;
-	modal_container = '<div id="modal-container">' + content + '</div>';
-	$('body').append(modal_container);
+	</div>`;
+	$('body').append(content);
+	$('.events-list').css({
+		'background-color': data['back_color'],
+	});
 	setTimeout(function() {
-		$("#modal-container").css({
-			'top': '0',
-			'left': '0',
-			'min-height': '100vh',
-			'width': '100vw',
+		$('.events-list').css({
+			'opacity': '1',
 		});
 	}, 50);
-	$('#close-button').click(function() {
-		$('#modal-container').remove();
+	$('.events-close').click(function() {
+		$('.events-list').css({
+			'opacity': '0',
+		});
+		setTimeout(function() {
+			$('.events-list').remove();
+		}, 100);
+	});
+	$('.list-scroller-element').click(function() {
+		for (var a = 0; a < data['events_details'].length; a++) {
+			if ($(this).text() === data['events_details'][a]['name']) {
+				open_event(data['events_details'][a]);
+				break;
+			}
+		}
 	});
 }
 
-function initMap() {
-	var originalMapCenter = new google.maps.LatLng(13, 0);
-	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 3,
-		center: originalMapCenter,
-		maxZoom : 8,
-		minZoom : 3,
-		styles:[
-		  {
-		    "elementType": "labels",
-		    "stylers": [
-		      {
-		        "visibility": "off"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "administrative",
-		    "elementType": "geometry",
-		    "stylers": [
-		      {
-		        "visibility": "off"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "administrative.land_parcel",
-		    "stylers": [
-		      {
-		        "visibility": "off"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "administrative.neighborhood",
-		    "stylers": [
-		      {
-		        "visibility": "off"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "landscape",
-		    "stylers": [
-		      {
-		        "color": "#bababa"
-		      },
-		      {
-		        "visibility": "on"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "poi",
-		    "stylers": [
-		      {
-		        "visibility": "off"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "road",
-		    "stylers": [
-		      {
-		        "visibility": "off"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "road",
-		    "elementType": "labels.icon",
-		    "stylers": [
-		      {
-		        "visibility": "off"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "transit",
-		    "stylers": [
-		      {
-		        "visibility": "off"
-		      }
-		    ]
-		  },
-		  {
-		    "featureType": "water",
-		    "stylers": [
-		      {
-		        "color": "#ffffff"
-		      },
-		      {
-		        "visibility": "on"
-		      }
-		    ]
-		  }
-		],
-		disableDefaultUI: true
-
+function open_event(event_data) {
+	event_content = `<div class="event-view">
+		<i class="event-view-left material-icons">keyboard_arrow_left</i>
+		<div class="event-view-img-container center"><img src="` + event_data['event_stamp'] +`" /></div>
+		<div class="event-description">
+			<p>` + event_data['description'] + `</p>
+			<div class="buttons-container row">
+				<div class="col l2 offset-l3 link-buttons center register-button"><a>Register</a></div>
+				<div class="col l2 offset-l2 link-buttons center rules-button"><a>Rules</a></div>
+			</div>
+		</div>
+	</div>`;
+	$('body').append(event_content);
+	$('.event-view').css({
+		'background-image': 'url(' + event_data['back_img'] + ')',
 	});
-
-	// Categories of Events
-
-	var categories = [
-		{
-			position: new google.maps.LatLng(30, -105),
-			icon: 'images/events/dance/dance.png',
-			type: 'dance'
-		}
-	];
-
-	var category_markers = []
-
-	categories.forEach(function(category) {
-		var marker = new google.maps.Marker({
-			position: category.position,
-			map: map,
-			icon: category.icon,
-			title: "Click to zoom"
+	setTimeout(function() {
+		$('.event-view').css({
+			'opacity': '1',
 		});
-
-		marker.addListener('click', function() {
-			map.setZoom(4);
-			map.setCenter(marker.getPosition());
+	}, 50);
+	$('.event-view-left').click(function() {
+		$('.event-view').css({
+			'opacity': '0',
 		});
-
-		category_markers.push(marker);
-	});
-
-	// Events
-
-	var events = [
-		{
-			name: 'Tandav',
-			position: new google.maps.LatLng(35, -100),
-			marker: 'images/events/dance/tandav.png',
-			icon: 'images/events/dance/BandishSample.png',
-			category: 'dance',
-			description: 'bla-bla',
-			rules: 'bla-bla',
-			prizes: 'bla-bla',
-			contact: 'bla-bla'
-		}
-	];
-
-	var event_markers = []
-
-	events.forEach(function(event) {
-		var marker = new google.maps.Marker({
-			position: event.position,
-			map: null,
-			icon: event.marker,
-			title: event.name
-		});
-
-		marker.addListener('click', function() {
-			modal_open_up(event);
-		});
-
-		event_markers.push(marker);
-	});
-
-	map.addListener('zoom_changed', function() {
-		if (map.getZoom() >= 4)
-		{
-			category_markers.forEach(function(marker) {
-				marker.setMap(null);
-			});
-
-			event_markers.forEach(function(marker) {
-				marker.setMap(map);
-			});
-		}
-		else
-		{
-			category_markers.forEach(function(marker) {
-				marker.setMap(map);
-			});
-
-			event_markers.forEach(function(marker) {
-				marker.setMap(null);
-			});
-		}
+		setTimeout(function() {
+			$('.event-view').remove();
+		}, 100);
 	});
 }
