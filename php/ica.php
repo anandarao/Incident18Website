@@ -35,7 +35,7 @@
 	<header>
 		<nav class="hide-on-med-and-up">
 			<div class="nav-wrapper">
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="hamburger material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
 				<li><a href="#!" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>

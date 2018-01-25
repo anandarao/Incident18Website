@@ -42,12 +42,12 @@
 	<script type="text/javascript" src="js/home.js"></script>
 </head>
 
-<body>
+<body class="indexbody">
 
 	<header>
 		<nav>
 			<div class="nav-wrapper">
-			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="hamburger material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
 				<li><a href="#!" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
@@ -77,10 +77,11 @@
 			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
 		</div>
 		<div class="scrollable-wrap">
+			<div class="zeroth-viewport"></div>
 			<div class="first-viewport">
 				<div class="row">
-					<div class="col s12 m12 l6 center first-viewport-left"><iframe width="560" height="315" src="https://www.youtube.com/embed/RiXNTenVx4E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-					<div class="col s12 m12 l6 center first-viewport-right">
+					<div class="col s12 m12 l7 center first-viewport-left"><iframe width="600" height="315" src="https://www.youtube.com/embed/RiXNTenVx4E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+					<div class="col s12 m12 l5 center first-viewport-right">
 						<h2 class="heading-h2-inci">About Incident</h2>
 						<p>In leo lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio.Suspendisse eros ipsum, rutrum id interdum ut, vehicula quis sem. Morbi tristique sed nisi at facilisis. Morbi tincidunt lectus vitae scelerisque hendrerit. Sed pulvinar tortor nunc. Donec pellentesque justo vitae gravida convallis. Vestibulum dignissim ligula felis, vel sollicitudin odio tincidunt quis. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum. Phasellus malesuada tellus sed cursus tempus. Nulla facilisi. Etiam finibus felis et rutrum pellentesque. Nullam aliquam, mauris eu bibendum sollicitudin, quam turpis aliquam mauris, id sollicitudin nunc ligula id nulla. In leo lacus, sodales accumsan nisl nec, vehicula consequat ligula. Donec enim metus, maximus id tincidunt sit amet, faucibus et odio. In accumsan turpis et tincidunt tincidunt. Proin nec dapibus diam, ac mattis massa. Proin dignissim dapibus arcu feugiat fermentum. Phasellus malesuada tellus sed cursus tempus.</p>
 					</div>

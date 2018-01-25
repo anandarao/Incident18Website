@@ -13,4 +13,7 @@ $(function() {
 		$(this).addClass('active');
 		fetch_data($(this).text());
 	});
+	$(".scrollable-wrap").scroll(function(){
+		$("#ip-container").css("opacity", 1 - $(".scrollable-wrap").scrollTop() / 500);
+	});
 });
