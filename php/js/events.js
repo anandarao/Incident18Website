@@ -47,6 +47,90 @@ var categories_data = [
 			},
 		],
 	},
+	{
+		category_name: 'music',
+		back_color: '#FEC19B',
+		events_details: [
+			{
+				name: 'Bandish',
+				code: 'bandish',
+				tagline: 'The Eastern Rock Band Competition',
+				description: `Thaikkudam Bridge, Agam, Indian Ocean, Avial are some of the
+great rock bands produced in our country. Incident 2018 presents Bandish,
+the Eastern Rock Band Competition. Witness the birth of the next great Indian
+band as teams from various parts of the country battle it out for fame and
+glory.`
+			},
+			{
+				name: 'Pulse',
+				code: 'pulse',
+				tagline : 'The Western Rock Band Competition',
+				description: `Rock is a form of music that keeps anyone on the edge with the
+overpowering sound of the electric guitar and clash of the drums pumping
+one’s adrenaline to the limit. The sound of the palm sliding on the electric
+guitar, fingers slapping on the bass, solos being shredded at supersonic
+speed and drums being bashed away, nothing sends shivers down the spine
+quite like good old rock and roll. Incident 2018 brings to you under the
+umbrella of its’s music events a treat for the ears of any listener, an ultimate
+face-off between some of the most hard-core and ardent bands from colleges
+across India. Be part of an unrestricted show of skill and live through the
+experience of undoubtedly one of the best Rock Showdowns among college
+fests. Be on the edge and let your pulse race as you join us at the Western
+Rock Band Competition- Pulse.`
+			},
+			{
+				name: 'Unplugged',
+				code: 'unplugged',
+				tagline : 'The Western Accoustic Band Competition + Acapella',
+				description: `Welcome to the World of Acapella where different teams battle it
+out for glory and to get their pitches perfect. Incident 2018 presents Uplugged,
+the western acoustic and acapella competition. Participants shall battle each
+other only with the power of their vocal cords or with an accompanying
+acoustic instrument. See you there, Aca-fans!`
+			},
+			{
+				name: 'Dhwanik',
+				code: 'dhwanik',
+				tagline : 'The Eastern Accoustic Band Competition',
+				description: `Is all the rock getting you tired? Well, sit back and witness different
+teams take the floor to refresh you with the ‘sounds of the nation’. Incident
+2018 presents Dhwanik, the Eastern Acoustic Band Competition. At the end, it
+will leave you saying,”Aisa dekha nahi khoobsurat koi.”`
+			},
+			{
+				name: 'Raagalaya',
+				code: 'raagalaya',
+				tagline : 'The Solo Eastern Vocal Competition',
+				description: `The knack of singing classical eastern is a skill that few have
+ever truly been able to master after years and years of hard work. Yet the
+effort put in is worth everything because there is nothing quite like the notes in
+our very own Indian classical music that seem to strike a special cord within
+us; with every undulation in a performer’s voice setting off a few goose bumps
+all over us. Incident brings to you the Eastern Solo Singing Competition-
+Raaghalaya, a chance to frolic in the infinite expanse of ragas and lose
+yourself to the taal. Expose yourself to the magic and richness of Indian
+culture through its music at the musical events this Incident 2018.`,
+			},
+			{
+				name: 'War of DJs',
+				code: 'djwars',
+				tagline : 'The Beach DJ Competition',
+				description: `The wind is howling, the waves are thrashing and the stage has been set. The battle
+lines have been drawn. The beats have been dropped, the audience is on their feet
+and their heart rates are rising with every passing moment. This is not just any
+turntable battle. This is the Incident DJ Wars, where the fight for supremacy stands
+tall. DJ Wars is one of the most highly anticipated shows during Incident. An event of
+colossal magnitude, DJ Wars invites professional DJs from all over India to come
+together and compete in a battle where the last man standing wins. In this contest,
+DJs go head to head as they prove their mettle in order to win the DJ Was and the
+glory that comes with it. Their duels are quite legendary and have made their way
+into NITK folklore due to their intense routines which have set the stage on fire.
+Adjudicated by reputed experts from the mainstream recording industry, this event
+promises to propel the best in the business into the limelight, on a night which the
+Malabar Coast will never forget.`,
+			},
+		],
+	},
 ];
 
 $(function() {
