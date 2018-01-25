@@ -2,7 +2,7 @@ var current_index = 0
 var categories_data = [
 	{
 		category_name: 'dance',
-		back_color: '#FEC19B',
+		back_color: '#9c3273',
 		events_details: [
 			{
 				name: 'Tandav',
@@ -85,7 +85,6 @@ function open_events_view(event_category) {
 		if (categories_data[i]['category_name'] === event_category)
 			data = categories_data[i];
 	}
-	console.log(event_category);
 	for (var i = 0; i < data['events_details'].length; i++) {
 		event_list_divs += '<div class="center list-scroller-element">' + data['events_details'][i]['name'] + '</div>';
 	}
