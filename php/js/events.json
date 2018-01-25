@@ -1,0 +1,112 @@
+"Music" : {
+		"bandish" : {
+			"name" : "Bandish",
+			"tagline" : "The Eastern Rock Band Competition"
+		},
+		"pulse" : {
+			"name" : "Pulse",
+			"tagline" : "The Western Rock Band Competition"
+		},
+		"unplugged" : {
+			"name" : "Unplugged",
+			"tagline" : "The Western Accoustic Band Competition + Acapella"
+		},
+		"dhvanik" : {
+			"name" : "Dhvanik",
+			"tagline" : "The Eastern Accoustic Band Competition"
+		},
+		"raagalaya" : {
+			"name" : "Raagalaya",
+			"tagline" : "The Solo Eastern Vocal Competition"
+		},
+		"djwars" : {
+			"name" : "War of DJs",
+			"tagline" : "The Beach DJ Competition"
+		}
+	},
+	"dance" : {
+		"name" : "Dance Events",
+		"description" : "",
+		"events" : {
+			"tandav" : {
+				"name" : "Tandav",
+				"tagline" : "Semi professional eastern and contemporary group dance"
+			},
+			"promenade" : {
+				"name" : "Promenade",
+				"tagline" : "Semi professional western group dance"
+			},
+			"stepupsolo" : {
+				"name" : "Step Up Solo",
+				"tagline" : "Solo Dance competition (all styles)"
+			},
+			"stepupduet" : {
+				"name" : "Step Up Duet",
+				"tagline" : "Duet Dance Competition (all styles)"
+			}
+		},
+	},
+	"Gaming" : {
+		"csgo" : {
+			"name" : "CS GO",
+			"tagline" : "Counter Strike Global Offensive Tournament"
+		},
+		"dota" : {
+			"name" : "DOTA 2",
+			"tagline" : "DoTA 2 Tournament"
+		},
+		"aoe3" : {
+			"name" : "AoE3",
+			"tagline" : "Age of Empires III Tournament"
+		},
+		"fifa" : {
+			"name" : "FIFA 18",
+			"tagline" : "FIFA 18 Tournament"
+		},
+		"nfs" : {
+			"name" : "NFS MW",
+			"tagline" : "Need For Speed MW Tournament"
+		},
+		"mm" : {
+			"name" : "Mini Militia",
+			"tagline" : "Mini Militia Tournament"
+		}
+	},
+	"Fine_Arts" : {
+		"bodyart" : {
+
+		},
+		"npcostume" : {
+
+		}
+	},
+	"Sports" : {
+		"slamdunk" : {
+			"name" : "Slam Dunk",
+			"tagline" : "Inter College Basket Ball Tournament",
+			"description" : "Fond of the NBA? Ever felt that you were unlucky because you could not watch your favourite NBA team play in action? Think you are ready to show off your skill sets on the basketball court? Well, worry no more! Team Incident brings you the next best thing! From 360 lay ups to dunk contests, Slam Dunk, Incident’s Basketball contest is everything you would expect to get, live in action. With teams coming from all over India, this platform is the perfect chance for your team to get the recognition you deserve. Strap on your Steph Curry shoes for the 3-point contests and the long-range shooting skill contests. Get the chance to witness the live exquisite DUNK contest, all 3 of which are open to all participants. Don’t miss it!"
+		},
+		"spinshock" : {
+			"name" : "Spinshock",
+			"tagline" : "Inter College Throw Ball Tournament"
+		}
+	},
+	"Haute_Couture" : {
+		"hautecouture" : {
+			"description" : "An evening of panache, colour, and finery; prepare your eyes for the spectacle that is the Incident Fashion Show, Haute Couture. With teams coming in from colleges all over the nation to compete, the ramp is nothing short of prestigious, and is easily one of the most anticipated events of Incident. A crowd favourite, the show is the product of months of hard work, with teams displaying their creativity through never-before explored themes, and an array of dazzling clothes and props. Do make sure to watch this extravaganza and witness, for yourself, why it is that when one thinks of fashion, one thinks of Incident Haute Couture."
+		}
+	},
+	"Lit" : {
+		"generalquiz" : {
+
+		},
+		"travelquiz" : {
+
+		},
+		"indiaquiz" : {
+
+		},
+		"lonewolfquiz" : {
+
+		}
+	}

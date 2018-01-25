@@ -38,7 +38,6 @@
 		}
 
 	</script>
-	<script type="text/javascript" src="js/events.json"></script>
 	<script type="text/javascript" src="js/events.js"></script>
 </head>
 

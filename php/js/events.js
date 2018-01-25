@@ -2,46 +2,51 @@ var current_index = 0
 var categories_data = [
 	{
 		category_name: 'dance',
-		cat_stamp: 'images/events/dance/dance_events.png',
 		back_color: '#FEC19B',
 		events_details: [
 			{
 				name: 'Tandav',
-				event_stamp: 'images/events/dance/tandav.png',
-				back_img: '../images/events_img/local_train.jpg',
-				description: 'In purus ligula, elementum vel tincidunt ut, mollis non orci. Integer blandit sodales urna, ut rhoncus dolor rhoncus a. Nullam interdum tristique odio iaculis auctor. Vestibulum magna tellus, bibendum pharetra tristique eu, venenatis id erat. Donec nec sagittis enim. Ut feugiat metus quis nibh iaculis, et posuere felis consequat. Quisque vel ultricies lectus, et interdum libero. Etiam cursus est vel turpis commodo, sed malesuada dolor lobortis.',
-				rules_link: '',
+				code: 'tandav',
+				tagline: 'Semi professional eastern and contemporary group dance',
+				description: `Namaskara folks. India, the land of great cultural heritage, with its
+						vast variety of cultures and people has been a veritable treasure house of
+						dance forms for untold centuries. It has given birth to various dance forms.
+						Ladies and gentlemen brace yourselves for an evening celebrating dance,
+						culture and history. All the classical dancers out
+						there, practice your mudras, perfect the Aramandala and get the Shastriya
+						Nritya going!`
 			},
 			{
-				name: 'gibberish',
-				event_stamp: 'images/events/dance/tandav.png',
-				back_img: '../images/events_img/local_train.jpg',
-				description: 'In purus ligula, elementum vel tincidunt ut, mollis non orci. Integer blandit sodales urna, ut rhoncus dolor rhoncus a. Nullam interdum tristique odio iaculis auctor. Vestibulum magna tellus, bibendum pharetra tristique eu, venenatis id erat. Donec nec sagittis enim. Ut feugiat metus quis nibh iaculis, et posuere felis consequat. Quisque vel ultricies lectus, et interdum libero. Etiam cursus est vel turpis commodo, sed malesuada dolor lobortis.',
-				rules_link: '',
+				name: 'Promenade',
+				code: 'promenade',
+				tagline : 'Semi professional western group dance',
+				description: `“A small body of determined spirits fired by an unquenchable faith in
+				 		their mission can alter the course of history.” Dance like it’s the only thing 
+				 		that matters; your only mission. Set the world ablaze with your passion, 
+				 		showcase your talent, your skills and enthrall all those who watch with your elegance and grace.
+						`
+			},
+			{
+				name: 'Step Up Solo',
+				code: 'stepupsolo',
+				tagline : 'Solo Dance competition (all styles)',
+				description: `“Be who you are, and say what you feel”
+							Great things happen when you have the courage to be yourself. But it takes a
+							lot more grit to dance the way you want to. Every dancer is unique and all
+							dance forms are beautiful, so here’s your chance to show the world what you
+							can do with a little bit of courage, talent and creativity; Incident’s Freestyle
+							Solo competition: Step Up!`},
+			{
+				name: 'Step Up Duet',
+				code: 'stepupduet',
+				tagline : 'Duet Dance Competition (all styles)',
+				description: `Two Dancers. One Mind. Groovy. In-Sync. Finesse and
+							chemistry is what speaks in a duet. Break boundaries and overturn
+							stereotypes; bring in the best of your skills and show the world what two souls
+							in complete understanding can do!`
 			},
 		],
 	},
-	{
-		category_name: 'sports',
-		cat_stamp: 'images/events/dance/tandav.png',
-		back_color: '#FEC19B',
-		events_details: [
-			{
-				name: 'Tandav',
-				event_stamp: 'images/events/dance/dance_events.png',
-				back_img: '../images/events_img/local_train.jpg',
-				description: 'In purus ligula, elementum vel tincidunt ut, mollis non orci. Integer blandit sodales urna, ut rhoncus dolor rhoncus a. Nullam interdum tristique odio iaculis auctor. Vestibulum magna tellus, bibendum pharetra tristique eu, venenatis id erat. Donec nec sagittis enim. Ut feugiat metus quis nibh iaculis, et posuere felis consequat. Quisque vel ultricies lectus, et interdum libero. Etiam cursus est vel turpis commodo, sed malesuada dolor lobortis.',
-				rules_link: '',
-			},
-			{
-				name: 'gib',
-				event_stamp: 'images/events/dance/tandav.png',
-				back_img: '../images/events_img/local_train.jpg',
-				description: 'In purus ligula, elementum vel tincidunt ut, mollis non orci. Integer blandit sodales urna, ut rhoncus dolor rhoncus a. Nullam interdum tristique odio iaculis auctor. Vestibulum magna tellus, bibendum pharetra tristique eu, venenatis id erat. Donec nec sagittis enim. Ut feugiat metus quis nibh iaculis, et posuere felis consequat. Quisque vel ultricies lectus, et interdum libero. Etiam cursus est vel turpis commodo, sed malesuada dolor lobortis.',
-				rules_link: '',
-			},
-		],
-	}
 ];
 
 $(function() {
@@ -55,14 +60,14 @@ $(function() {
 		if (current_index < 0)
 			current_index = categories_data.length - 1;
 		var data_btn_view = categories_data[current_index];
-		$('.category-stamp').attr('src', data_btn_view['cat_stamp']);
+		$('.category-stamp').attr('src', "images/events/" + data_btn_view['category_name'] + "/stamps/" + data_btn_view['category_name'] + ".png");
 		$('.view-button-events').attr('id', data_btn_view['category_name']);
 	});
 	$('.right-arrow').click(function() {
 		current_index += 1;
 		current_index %= categories_data.length;
 		var data_btn_view = categories_data[current_index];
-		$('.category-stamp').attr('src', data_btn_view['cat_stamp']);
+		$('.category-stamp').attr('src', "images/events/" + data_btn_view['category_name'] + "/stamps/" + data_btn_view['category_name'] + ".png");
 		$('.view-button-events').attr('id', data_btn_view['category_name']);
 	});
 	$('.view-button-events').click(function() {
@@ -80,12 +85,13 @@ function open_events_view(event_category) {
 		if (categories_data[i]['category_name'] === event_category)
 			data = categories_data[i];
 	}
+	console.log(event_category);
 	for (var i = 0; i < data['events_details'].length; i++) {
 		event_list_divs += '<div class="center list-scroller-element">' + data['events_details'][i]['name'] + '</div>';
 	}
 	content = `<div class="events-list">
 		<i class="events-close material-icons">close</i>
-		<div class="events-list-img-container center"><img src="` + data['cat_stamp'] + `" /></div>
+		<div class="events-list-img-container center"><img src="` + "images/events/" + data['category_name'] + "/stamps/" + data['category_name'] + ".png" + `" /></div>
 		<div class="letter">
 			<div class="list-scroller">` + event_list_divs + `</div>
 		</div>
@@ -110,7 +116,7 @@ function open_events_view(event_category) {
 	$('.list-scroller-element').click(function() {
 		for (var a = 0; a < data['events_details'].length; a++) {
 			if ($(this).text() === data['events_details'][a]['name']) {
-				open_event(data['events_details'][a]);
+				open_event(data['events_details'][a], data['category_name']);
 				console.log(data['events_details'][a]['name']);
 				break;
 			}
@@ -118,10 +124,10 @@ function open_events_view(event_category) {
 	});
 }
 
-function open_event(event_data) {
+function open_event(event_data, category) {
 	event_content = `<div class="event-view">
 		<i class="event-view-left material-icons">keyboard_arrow_left</i>
-		<div class="event-view-img-container center"><img src="` + event_data['event_stamp'] +`" /></div>
+		<div class="event-view-img-container center"><img src="` + "images/events/" + category + "/stamps/" + event_data['code'] + ".png" +`" /></div>
 		<div class="event-description">
 			<p>` + event_data['description'] + `</p>
 			<div class="buttons-container row">
@@ -132,7 +138,7 @@ function open_event(event_data) {
 	</div>`;
 	$('body').append(event_content);
 	$('.event-view').css({
-		'background-image': 'url(' + event_data['back_img'] + ')',
+		'background-image': 'url(' + "images/events/" + category + "/background/" + event_data['code'] + ".png" + ')',
 	});
 	setTimeout(function() {
 		$('.event-view').css({
