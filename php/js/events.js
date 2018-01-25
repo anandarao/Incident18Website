@@ -214,8 +214,8 @@ function open_event(event_data, category) {
 		<div class="event-description">
 			<p>` + event_data['description'] + `</p>
 			<div class="buttons-container row">
-				<div class="col l2 offset-l3 link-buttons center register-button"><a>Register</a></div>
-				<div class="col l2 offset-l2 link-buttons center rules-button"><a>Rules</a></div>
+				<div class="col m10 s10 l2 offset-l3 offset-m1 offset-s1 link-buttons center register-button"><a>Register</a></div>
+				<div class="col m10 s10 l2 offset-l2 offset-m1 offset-s1 link-buttons center rules-button"><a>Rules</a></div>
 			</div>
 		</div>
 	</div>`;
