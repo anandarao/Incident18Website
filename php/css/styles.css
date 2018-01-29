@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Slabo+27px|Nunito|Maven+Pro|Poiret+One|Alegreya+Sans|Macondo|Quicksand|Julius+Sans+One|Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Viga|Slabo+27px|Nunito|Maven+Pro|Poiret+One|Alegreya+Sans|Macondo|Quicksand|Julius+Sans+One|Alegreya+Sans');
 
 #popupbackground {
 	background: rgba(0, 0, 0, 1) !important;
@@ -8,6 +8,10 @@
 	font-size: 3.5rem !important;
 	color: #004d40 !important;
 	padding-top: 10px;
+}
+
+.grad-body {
+	background: linear-gradient(white, rgb(20%, 55%, 56%));
 }
 
 /* base.html styling */
@@ -47,6 +51,16 @@ a.button-collapse {
 	color: #0277bd !important;
 }
 
+.side-nav > li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.side-nav > li > a {
+	font-family: 'Viga', sans-serif;
+	font-size: 2rem;
+}
+
 nav {
 	box-shadow: none;
 	-webkit-box-shadow: none;
@@ -82,6 +96,24 @@ nav > div > a > i {
 	.side-nav {
 		width: 70%;
 	}
+
+	.side-nav > li {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.side-nav > li > a {
+		font-size: 1.2rem;
+	}
+}
+
+.social-media-icons-inline {
+	text-align: center;
+}
+
+.social-media-icons-inline > i {
+	color: black;
+	padding: 10px;
 }
 
 /* Ribbon */
@@ -286,7 +318,7 @@ nav > div > a > i {
 
 .zeroth-viewport {
 	background-image: url('../images/first_viewport.png');
-	background-size: contain;
+	background-repeat: no-repeat;
 	height: 100vh;
 }
 
@@ -408,12 +440,11 @@ img.map-contienents {
 }
 
 img.map-contienents:hover {
-	opacity: 0.65;
 	cursor: pointer;
 }
 
 .events-body {
-	background-color: #81d4fa;
+	background-color: white;
 }
 
 .events-list {
@@ -521,6 +552,7 @@ img.map-contienents:hover {
 	margin-left: 5vw;
 	margin-right: 5vw;
 	position: relative;
+	background: rgba(0, 0, 0, 0.5);
 }
 
 .event-description > p {
@@ -830,7 +862,7 @@ img.map-contienents:hover {
 	pointer-events: none;
 	z-index: 20;
 	background-color: #E7E7E7;
-	transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .ip-loader {

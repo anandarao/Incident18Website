@@ -50,6 +50,13 @@
 			<div class="nav-wrapper">
 			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="hamburger material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
+				<li class="social-media-icons-inline">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-youtube-play"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-linkedin"></i>
+				</li>
 				<li><a href="#!" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
@@ -64,14 +71,6 @@
 
 	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 	<main>
-		<div id="social-icons">
-			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-		</div>
-		
 	</main>
 
 	<script type="text/javascript">

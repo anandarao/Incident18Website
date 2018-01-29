@@ -301,6 +301,41 @@ $(function() {
 			}
 		}
 	});
+	$('#haute_couture').hover(function(){
+		$(this).attr('src', 'images/events/world_map/hover/asia.png');
+	}, function() {
+		$(this).attr('src', 'images/events/world_map/asia.png');
+	});
+	$('#dance').hover(function(){
+		$(this).attr('src', 'images/events/world_map/hover/africa.png');
+	}, function() {
+		$(this).attr('src', 'images/events/world_map/africa.png');
+	});
+	$('#lit').hover(function(){
+		$(this).attr('src', 'images/events/world_map/hover/antarctica.png');
+	}, function() {
+		$(this).attr('src', 'images/events/world_map/antarctica.png');
+	});
+	$('#fine_arts').hover(function(){
+		$(this).attr('src', 'images/events/world_map/hover/aus.png');
+	}, function() {
+		$(this).attr('src', 'images/events/world_map/aus.png');
+	});
+	$('#sports').hover(function(){
+		$(this).attr('src', 'images/events/world_map/hover/europe.png');
+	}, function() {
+		$(this).attr('src', 'images/events/world_map/europe.png');
+	});
+	$('#music').hover(function(){
+		$(this).attr('src', 'images/events/world_map/hover/namer.png');
+	}, function() {
+		$(this).attr('src', 'images/events/world_map/namer.png');
+	});
+	$('#gaming').hover(function(){
+		$(this).attr('src', 'images/events/world_map/hover/samer.png');
+	}, function() {
+		$(this).attr('src', 'images/events/world_map/samer.png');
+	});
 });
 
 function open_events_view(event_category) {

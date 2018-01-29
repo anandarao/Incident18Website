@@ -49,6 +49,13 @@
 			<div class="nav-wrapper">
 			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="hamburger material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
+				<li class="social-media-icons-inline">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-youtube-play"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-linkedin"></i>
+				</li>
 				<li><a href="#!" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
@@ -61,21 +68,35 @@
 		</nav>
 	</header>
 
+		<!--div class="row">
+			<div class="col s12 m12 l7 center first-viewport-left"><iframe width="600" height="315" src="https://www.youtube.com/embed/RiXNTenVx4E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<div class="col s12 m12 l5 center first-viewport-right">
+				<h2 class="heading-h2-inci">About Incident</h2>
+				<p>From the days of its inception in 1980, NITK’s annual cultural festival has only grown
+				larger and better with every passing year. This year, Incident brings with it a fresh
+				shot of enthusiasm, energy, and intensity. This colourful bonanza presents itself with
+				the unique theme of “A Global Odyssey”. 
+				Incident has been widely appreciated and admired for being one of the largest
+				cultural events all over the country. It is known to keep its 50,000+ crowd enthralled
+				in a variety of mind-blowing and invigorating string of events over a period of five
+				days. The Incident weekend embodies mesmerizing memories and exuberant
+				experiences. The entire event is studded with performances by renowned musicians
+				and artists who keep the crowd raving all night long.  
+				There are a lot of things worth looking forward to during Incident. Some of the major
+				crowd pullers are the Beach events, Pronites, Haute Couture and Slam Dunk; just to
+				name a few. Every Incident brings with it a new wave of exquisite events and
+				scintillating performances which are worth the annual wait!</p>
+			</div>
+		</div-->
+
 	<!-- preloader -->
-	<div id="ip-container" class="ip-container">
+	<div id="ip-container" class="ip-container hide-on-med-and-down">
 		<div class="ip-loader center">
 			<canvas id="canvas"></canvas>
 		</div>
 	</div>
 
-	<main>
-		<div id="social-icons">
-			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-		</div>
+	<main class="hide-on-med-and-down">
 		<div class="scrollable-wrap">
 			<div class="zeroth-viewport"></div>
 			<div class="first-viewport">
@@ -100,28 +121,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="second-viewport valign-wrapper">
-				<div class="row">
-					<div class="col s12 m12 l10">
-						<div class="row" id="insert-row">
-						</div>
-					</div>
-					<div class="col s12 m12 l2 timeline">
-						<div class="row">
-							<div class="col s12 m12 l12"><div class="active">2018</div>
-							<div class="col s12 m12 l12"><div>2017</div></div>
-							<div class="col s12 m12 l12"><div>2016</div></div>
-							<div class="col s12 m12 l12"><div>2015</div></div>
-							<div class="col s12 m12 l12"><div>2014</div></div>
-							<div class="col s12 m12 l12"><div>2013</div></div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</main>
 
-	<script src="js/preloader.js"></script>
+	<script class="hide-on-med-and-down" src="js/preloader.js"></script>
 
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
