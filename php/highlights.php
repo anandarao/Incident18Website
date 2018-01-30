@@ -43,7 +43,7 @@
 
 </head>
 
-<body>
+<body class="highlights-body">
 
 	<header>
 		<nav>
@@ -57,7 +57,7 @@
 					<i class="fa fa-instagram"></i>
 					<i class="fa fa-linkedin"></i>
 				</li>
-				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li><a target="_blank" href="https://www.townscript.com/widget/incident-233014" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="highlights.php">Highlights</a></li>
@@ -69,7 +69,6 @@
 		</nav>
 	</header>
 
-	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 	<main>
 	</main>
 

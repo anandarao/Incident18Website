@@ -55,7 +55,7 @@
 					<i class="fa fa-instagram"></i>
 					<i class="fa fa-linkedin"></i>
 				</li>
-				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li><a target="_blank" href="https://www.townscript.com/widget/incident-233014" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="highlights.php">Highlights</a></li>
@@ -81,14 +81,14 @@
 		</div>
 		<div class="m-maps-container hide-on-large-only">
 			<div class="row valign-wrapper">
-				<div class="col s2 m2"><i class="left-arrow material-icons white-text">keyboard_arrow_left</i></div>
+				<div class="col s2 m2"><i class="left-arrow material-icons">keyboard_arrow_left</i></div>
 				<div class="col s8 m8">
 					<div class="row">
 						<div class="col s12 m12"><img class="category-stamp" src="images/events/dance/stamps/dance.png" /></div>
 						<div class="col s12 m12 view-button-events" id="dance">View</div>
 					</div>
 				</div>
-				<div class="col s2 m2"><i class="right-arrow material-icons white-text">keyboard_arrow_right</i></div>
+				<div class="col s2 m2"><i class="right-arrow material-icons">keyboard_arrow_right</i></div>
 			</div>
 		</div>
 	</main>

@@ -276,6 +276,24 @@ var categories_data = [
 $(function() {
 	$(".button-collapse").sideNav();
 	$(".ribbon-wrapper > img, .ribbon-wrapper > a").animate({opacity:1}, 1000);
+	$('.fa-facebook').click(function(){
+		window.open('https://www.facebook.com/incidenttheofficialpage');
+	});
+	$('.fa-twitter').click(function(){
+		window.open('https://twitter.com/incident_nitk');
+	});
+	$('.fa-youtube-play').click(function(){
+		window.open('https://www.youtube.com/user/nitkincident');
+	});
+	$('.fa-instagram').click(function(){
+		window.open('https://www.instagram.com/incident_nitk/');
+	});
+	$('.fa-linkedin').click(function(){
+		window.open('https://www.linkedin.com/company-beta/13373310');
+	});
+	$('.events-logo').click(function(){
+		window.open('index.php', '_self');
+	});
 	$('img.map-contienents').click(function() {
 		open_events_view($(this).attr('id'));
 	});

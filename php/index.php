@@ -56,7 +56,7 @@
 					<i class="fa fa-instagram"></i>
 					<i class="fa fa-linkedin"></i>
 				</li>
-				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li><a target="_blank" href="https://www.townscript.com/widget/incident-233014" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="highlights.php">Highlights</a></li>
@@ -98,37 +98,25 @@
 
 	<main class="hide-on-med-and-down">
 		<div class="scrollable-wrap">
-			<div class="zeroth-viewport"></div>
-			<div class="first-viewport">
-				<div class="row">
-					<div class="col s12 m12 l7 center first-viewport-left"><iframe width="600" height="315" src="https://www.youtube.com/embed/RiXNTenVx4E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-					<div class="col s12 m12 l5 center first-viewport-right">
-						<h2 class="heading-h2-inci">About Incident</h2>
-						<p>From the days of its inception in 1980, NITK’s annual cultural festival has only grown
-						larger and better with every passing year. This year, Incident brings with it a fresh
-						shot of enthusiasm, energy, and intensity. This colourful bonanza presents itself with
-						the unique theme of “A Global Odyssey”. 
-						Incident has been widely appreciated and admired for being one of the largest
-						cultural events all over the country. It is known to keep its 50,000+ crowd enthralled
-						in a variety of mind-blowing and invigorating string of events over a period of five
-						days. The Incident weekend embodies mesmerizing memories and exuberant
-						experiences. The entire event is studded with performances by renowned musicians
-						and artists who keep the crowd raving all night long.  
-						There are a lot of things worth looking forward to during Incident. Some of the major
-						crowd pullers are the Beach events, Pronites, Haute Couture and Slam Dunk; just to
-						name a few. Every Incident brings with it a new wave of exquisite events and
-						scintillating performances which are worth the annual wait!</p>
-					</div>
-				</div>
+			<div class="zeroth-viewport">
+				<img src="images/gifs/webcover.gif"/>
+				<div class="header-inci"><img src="images/webinciheader.png"/></div>
+				<div class="plane-one"><img src="images/gifs/flight.gif"/></div>
+				<div class="plane-two"><img src="images/gifs/flight.gif"/><a href="https://www.townscript.com/widget/incident-233014" target="_blank" class="waves-effect waves-light btn-large">register</a></div>
 			</div>
 		</div>
 	</main>
+
+	<div class="mob-cover hide-on-large-only">
+		<img src="images/gifs/mobcover.gif"/>
+		<div class="mob-header-inci"><img src="images/mobinciheader.png"/><a href="https://www.townscript.com/widget/incident-233014" target="_blank" class="waves-effect waves-light btn">register</a></div>
+	</div>
 
 	<script class="hide-on-med-and-down" src="js/preloader.js"></script>
 
 	<script type="text/javascript">
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
 	</script>
-
+	<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
 </body>
 </html>
