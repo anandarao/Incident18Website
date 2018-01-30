@@ -33,11 +33,19 @@
 <body style="background: white !important;">
 
 	<header>
-		<nav class="hide-on-med-and-up">
+		<nav>
 			<div class="nav-wrapper">
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="hamburger material-icons">menu</i></a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="hamburger material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
-				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li class="social-media-icons-inline">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-youtube-play"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-linkedin"></i>
+				</li>
+				<li class="about-side-nav-link"><a href="about.php" class="waves-effect waves-light btn">About Us</a></li>
+				<li><a target="_blank" href="https://www.townscript.com/widget/incident-233014" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="highlights.php">Highlights</a></li>
@@ -49,32 +57,9 @@
 		</nav>
 	</header>
 
-	<div class="ribbon-wrapper hide-on-med-and-down">
-		<img class="logo" src="images/inci-logo-final.png" height="260">
-		<span></span>
-		<a href="highlights.php">Highlights</a>
-		<a href="events.php">Events</a>
-		<a href="sponsors.php">Sponsors</a>
-		<a href="team.php">Team</a>
-		<div id="ribbon" class="ribbon">
-			<i></i>
-			<i></i>
-			<i></i>
-			<i></i>
-		</div>
-	</div>
-
-	<div id="m-logo" class="hide-on-med-and-up"><img class="logo" src="images/inci-logo-final.png" height="200"></div>
+	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png" height="200"></div>
 
 	<main>
-		<div id="social-icons" class="hide-on-med-and-down">
-			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-		</div>
-		
 	</main>
 
   	<div class="container" style="width: 100% !important; padding-top: 27vh;
@@ -175,6 +160,21 @@
 		
 		$(document).ready(function(){
       		$('.parallax').parallax();
+      		$('.fa-facebook').click(function(){
+				window.open('https://www.facebook.com/incidenttheofficialpage');
+			});
+			$('.fa-twitter').click(function(){
+				window.open('https://twitter.com/incident_nitk');
+			});
+			$('.fa-youtube-play').click(function(){
+				window.open('https://www.youtube.com/user/nitkincident');
+			});
+			$('.fa-instagram').click(function(){
+				window.open('https://www.instagram.com/incident_nitk/');
+			});
+			$('.fa-linkedin').click(function(){
+				window.open('https://www.linkedin.com/company-beta/13373310');
+			});
     	});
 
     	$("#ca-submit-button").click(function() {

@@ -15,8 +15,57 @@
 }
 
 .grad-body {
-	background: linear-gradient(white, rgb(254, 230, 211));
+	background: linear-gradient(rgb(254, 230, 211), white);
 }
+
+.about-side-nav-link > a {
+	background-color: #D62F2F;
+}
+
+/* about styling */
+
+.about-para {
+	padding-right: 10vw !important;
+}
+
+.about-para > p {
+	font-size: 1.4rem;
+	margin: 0;
+	text-align: justify;
+	color: white;
+}
+
+.about-body {
+	background: linear-gradient(rgb(254, 230, 211), white);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.content-container {
+	padding-top: 40vh;
+}
+
+.content-container > div > div > div > iframe {
+	width: 600px;
+	height: 350px;
+}
+
+.content-container > div > div > div > a {
+	background-color: #D62F2F;
+}
+
+@media screen and (max-width: 992px) {
+	.content-container > div > div > div > iframe {
+		width: 315px;
+		height: 200px;
+	}
+
+	.about-para {
+		padding: 5vw !important;
+	}
+}
+
+/* end about styling */
 
 /* base.html styling */
 
@@ -639,8 +688,7 @@ img.map-contienents:hover {
 	color: white;
 	padding: 20px;
 	padding-top: 0px;
-	padding-bottom: 7vh;
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-family: 'Maven Pro', sans-serif;
 	text-align: justify;
 }
@@ -712,7 +760,19 @@ img.map-contienents:hover {
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
+.prize-money-div {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 600;
+	font-family: 'Maven Pro', sans-serif;
+	color: white;
+}
+
 @media screen and (max-width: 992px) {
+	.prize-money-div {
+		font-size: 1.5rem;
+	}
+
 	.events-list-img-container > img, .event-view-img-container > img {
 		width: 50vw;
 	}
@@ -735,7 +795,7 @@ img.map-contienents:hover {
 	}
 
 	.event-description > p {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-top: 3px;
 		font-weight: bold;
 	}
@@ -773,6 +833,17 @@ img.map-contienents:hover {
 
 .highlights-body {
 	background-image: url('../images/gifs/comingsoon.gif');
+}
+
+.comingsoon {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+
+.comingsoon > h1 {
+	width: 100vw !important;
+	font-family: 'Maven Pro', sans-serif;
 }
 
 /*.placeholder {
@@ -840,6 +911,10 @@ img.map-contienents:hover {
 
 	#sponsors-container > .row > .col > img {
 		width: 100%;
+	}
+
+	.highlights-body {
+		background-image: url('../images/gifs/mobcomingsoon.gif');
 	}
 }
 

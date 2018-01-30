@@ -6,7 +6,7 @@
 	<meta name="description" content="Website for Incident 2018">
 	<meta name="author" content="Incident 2018 Website Team">
 
-	<title>Incident 2018</title>
+	<title>About Us - Incident 2018</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="images/inci-logo.png">
@@ -33,16 +33,14 @@
 
 		function fetch_loader_background() {
 			var logo_background = new Image();
-			logo_background.src = "images/inci-loader-back.png";
+			logo_background.src = "images/inci-loader-back.jpg";
 			return logo_background;
 		}
 
 	</script>
-	<script type="text/javascript" src="js/timeline.json"></script>
-	<script type="text/javascript" src="js/home.js"></script>
+	<script type="text/javascript" src="js/events.js"></script>
 </head>
-
-<body class="indexbody">
+<body class="about-body">
 
 	<header>
 		<nav>
@@ -69,34 +67,27 @@
 		</nav>
 	</header>
 
-	<!-- preloader -->
-	<div id="ip-container" class="ip-container hide-on-med-and-down">
-		<div class="ip-loader center">
-			<canvas id="canvas"></canvas>
-		</div>
-	</div>
+	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 
-	<main class="hide-on-med-and-down">
-		<div class="scrollable-wrap">
-			<div class="zeroth-viewport">
-				<img src="images/gifs/webcover.gif"/>
-				<div class="header-inci"><img src="images/webinciheader.png"/></div>
-				<div class="plane-one"><img src="images/gifs/flight.gif"/></div>
-				<div class="plane-two"><img src="images/gifs/flight.gif"/><a href="https://www.townscript.com/widget/incident-233014" target="_blank" class="waves-effect waves-light btn-large">register</a></div>
+	<main>
+		<div class="row content-container">
+			<div class="col s12 m12 l6 center">
+				<div class="row">
+					<div class="col s12 m12 l12"><iframe src="https://www.youtube.com/embed/RiXNTenVx4E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+					<div class="col s12 m12 l12"><a target="_blank" href="https://drive.google.com/open?id=1pDozVFWFA8XU8S7GlMIiYYRmSvuTS3Qd" class="waves-effect waves-light btn-large">Brochure</a></div>
+				</div>
+			</div>
+			<div class="col s12 m12 l6 about-para">
+				<p>From the days of its inception in 1980, NITK’s annual cultural festival has only grown larger and better with every passing year. This year, ‘Inci’ brings with it a fresh shot of enthusiasm, energy, and intensity. This colourful bonanza presents itself with the unique theme of “A Global Odyssey”.<br/>Incident has been widely appreciated and admired for being one of the largest cultural events all over the country. It is known to keep its 30,000+ crowd enthralled in a variety of mind-blowing and invigorating string of events over a period of five days. The 4 days Incident embodies mesmerizing memories and exuberant experiences. The entire event is studded with performances by renowned musicians and artists who keep the crowd raving all night long.<br/>There are a lot of things worth looking forward to during Incident. Some of the major crowd pullers are the Beach events, Pronites, Haute Couture and Slam Dunk; just to name a few. Every Incident brings with it a new wave of exquisite events and scintillating performances which are worth the annual wait!</p>
 			</div>
 		</div>
-	</main>
-
-	<div class="mob-cover hide-on-large-only">
-		<img src="images/gifs/mobcover.gif"/>
-		<div class="mob-header-inci"><img src="images/mobinciheader.png"/><a href="https://www.townscript.com/widget/incident-233014" target="_blank" class="waves-effect waves-light btn">register</a></div>
-	</div>
-
-	<script class="hide-on-med-and-down" src="js/preloader.js"></script>
-
+	</main>	
 	<script type="text/javascript">
-		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
+		$(function() {
+			$('#m-logo > img').click(function(){
+				window.open('index.php', '_self');
+			});
+		});
 	</script>
-	<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
 </body>
 </html>
