@@ -36,9 +36,7 @@
 }
 
 .about-body {
-	background: linear-gradient(rgb(254, 230, 211), white);
-	background-size: contain;
-	background-repeat: no-repeat;
+	background-image: url('../images/aboutuscover.png');
 }
 
 .content-container {
@@ -62,6 +60,11 @@
 
 	.about-para {
 		padding: 5vw !important;
+	}
+
+	.about-body {
+		background-image: none;
+		background-color: black;
 	}
 }
 
@@ -111,7 +114,7 @@ a.button-collapse {
 
 .side-nav > li > a {
 	font-family: 'Viga', sans-serif;
-	font-size: 2rem;
+	font-size: 1.3rem;
 }
 
 nav {
@@ -389,6 +392,10 @@ nav > div > a > i {
 	position: absolute;
 }
 
+.header-inci > img {
+	width: 30vw !important;
+}
+
 .plane-one {
 	width: 100vw;
 	height: 100vh;
@@ -525,41 +532,41 @@ nav > div > a > i {
 }
 
 img.asia {
-	width: 600px;
+	width: 30vw;
 	right: 0;
 }
 
 img.aus {
-	width: 300px;
+	width: 15vw;
 	right: 5vw;
-	bottom: 3vw;
+	bottom: 0vw;
 }
 
 img.africa {
-	width: 375px;
-	left: 53vw;
-	bottom: 15vh;
+	width: 20vw;
+	left: 55vw;
+	bottom: 10vh;
 }
 
 img.samer {
-	width: 300px;
+	width: 15vw;
 	left: 18vw;
 	bottom: 0px;
 }
 
 img.namer {
-	width: 550px;
+	width: 26vw;
 	left: 5vw;
 }
 
 img.europe {
-	width: 300px;
-	left: 57vw;
-	top: 6vh;
+	width: 16vw;
+	left: 58vw;
+	top: 4vh;
 }
 
 img.antarctica {
-	width: 800px;
+	width: 32vw;
 	left: 35vw;
 	bottom: -1vh;
 }
@@ -680,17 +687,21 @@ img.map-contienents:hover {
 	border-radius: 15px;
 	margin-left: 5vw;
 	margin-right: 5vw;
+	padding-top: 20px;
 	position: relative;
 	background: rgba(0, 0, 0, 0.5);
 }
 
-.event-description > p {
+.event-description > div > div > p {
 	color: white;
 	padding: 20px;
 	padding-top: 0px;
 	font-size: 2rem;
 	font-family: 'Maven Pro', sans-serif;
 	text-align: justify;
+	overflow-x: auto;
+	margin: 0;
+	max-height: 36vh;
 }
 
 .link-buttons {
@@ -762,7 +773,7 @@ img.map-contienents:hover {
 
 .prize-money-div {
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 2.8rem;
 	font-weight: 600;
 	font-family: 'Maven Pro', sans-serif;
 	color: white;
@@ -810,6 +821,10 @@ img.map-contienents:hover {
 
 	.team-main {
 		padding-top: 25vh;
+	}
+
+	.event-description > div > div > p {
+		max-height: 25vh;
 	}
 }
 
@@ -945,7 +960,7 @@ img.map-contienents:hover {
 
 .team-landing-screen {
 	height: 100vh !important;
-	padding-top: 35vh;
+	padding-top: 40vh;
 }
 
 .team-landing-screen > div > div > h3 {
@@ -996,6 +1011,12 @@ img.map-contienents:hover {
 .teams-container-row {
 	text-align: center;
 	padding-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+	.team-landing-screen {
+		padding-top: 45vh;
+	}
 }
 
 @media screen and (max-width: 992px) {

@@ -6,10 +6,10 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'Tandav',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1ZZ9xUkuEfHTzNbrSsRzzsgsXBdLxxlvX',
 				prize: '45k',
-				contact: '+91 70220 89859',
-				date: '4th Mar 2018',
+				contact: '+91&nbsp;70220&nbsp;89859',
+				date: '4th March 2018',
 				code: 'tandav',
 				tagline: 'Semi professional eastern and contemporary group dance',
 				description: `Namaskara folks. India, the land of great cultural heritage, with its
@@ -17,15 +17,15 @@ var categories_data = [
 						dance forms for untold centuries. It has given birth to various dance forms.
 						Ladies and gentlemen brace yourselves for an evening celebrating dance,
 						culture and history. All the classical dancers out
-						there, practice your mudras, perfect the Aramandala and get the Shastriya
+						there, practice your mudras, perfect the Aramandala and get the Shastriya
 						Nritya going!`
 			},
 			{
 				name: 'Promenade',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1PdLRVtC3DQbCc7J_jc3sqoMHFMRga3fI',
 				prize: '40k',
-				contact: '+91 87621 26955',
-				date: '3rd Mar 2018',
+				contact: '+91&nbsp;87621&nbsp;26955',
+				date: '3rd March 2018',
 				code: 'promenade',
 				tagline : 'Semi professional western group dance',
 				description: `“A small body of determined spirits fired by an unquenchable faith in
@@ -36,10 +36,10 @@ var categories_data = [
 			},
 			{
 				name: 'Step Up Solo',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1ZtXAWOqEo2TaONZ2geb5QVGAfsh4wsIj',
 				prize: '6k',
-				contact: '+91 99163 45635',
-				date: '3rd Mar 2018',
+				contact: '+91&nbsp;99163&nbsp;45635',
+				date: '3rd March 2018',
 				code: 'stepupsolo',
 				tagline : 'Solo Dance competition (all styles)',
 				description: `“Be who you are, and say what you feel”
@@ -50,10 +50,10 @@ var categories_data = [
 							Solo competition: Step Up!`},
 			{
 				name: 'Step Up Duet',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1gLcWfFbsNmts3sxXXAiWXpYTdDoZYCoe',
 				prize: '10k',
-				contact: '+91 98676 70424',
-				date: '3rd Mar 2018',
+				contact: '+91&nbsp;98676&nbsp;70424',
+				date: '3rd March 2018',
 				code: 'stepupduet',
 				tagline : 'Duet Dance Competition (all styles)',
 				description: `Two Dancers. One Mind. Groovy. In-Sync. Finesse and
@@ -69,10 +69,10 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'Bandish',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=16iiP2yi-N1wCitBHMJ5bMGnLDz67-c0w',
 				prize: '24k',
-				contact: '+91 91919 19191',
-				date: '3rd Mar 2018',
+				contact: '+91&nbsp;95397&nbsp;52854',
+				date: '3rd March 2018',
 				code: 'bandish',
 				tagline: 'The Eastern Rock Band Competition',
 				description: `Thaikkudam Bridge, Agam, Indian Ocean, Avial are some of the
@@ -83,10 +83,10 @@ var categories_data = [
 			},
 			{
 				name: 'Pulse',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1tECFoNkjkGS6noICqVi5OLeOv3uNZtzN',
 				prize: '24k',
-				contact: '+91 91919 19191',
-				date: '2nd Mar 2018',
+				contact: '+91&nbsp;96113&nbsp;50626',
+				date: '2nd March 2018',
 				code: 'pulse',
 				tagline : 'The Western Rock Band Competition',
 				description: `Rock is a form of music that keeps anyone on the edge with the
@@ -104,10 +104,10 @@ var categories_data = [
 			},
 			{
 				name: 'Unplugged',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=14mhgSwvEWlBPIlaziWJ9GEjT1p-lwEyC',
 				prize: '20k',
-				contact: '+91 91919 19191',
-				date: '1st Mar 2018',
+				contact: '+91&nbsp;70220&nbsp;90096',
+				date: '1st March 2018',
 				code: 'unplugged',
 				tagline : 'The Western Accoustic Band Competition + Acapella',
 				description: `Welcome to the World of Acapella where different teams battle it
@@ -118,10 +118,10 @@ var categories_data = [
 			},
 			{
 				name: 'Dhwanik',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1aMCtjy73cbuwPqYjtplx491NSmPA8Gy5',
 				prize: '20k',
-				contact: '+91 91919 19191',
-				date: '1st Mar 2018',
+				contact: '+91&nbsp;70220&nbsp;89854',
+				date: '1st March 2018',
 				code: 'dhwanik',
 				tagline : 'The Eastern Accoustic Band Competition',
 				description: `Is all the rock getting you tired? Well, sit back and witness different
@@ -131,10 +131,10 @@ var categories_data = [
 			},
 			{
 				name: 'Raagalaya',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=13yxulxrMaU7C8SojclFq_KShSvUoQn_U',
 				prize: '6k',
-				contact: '+91 91919 19191',
-				date: '4th Mar 2018',
+				contact: '+91&nbsp;94967&nbsp;95026',
+				date: '4th March 2018',
 				code: 'raagalaya',
 				tagline : 'The Solo Eastern Vocal Competition',
 				description: `The knack of singing classical eastern is a skill that few have
@@ -150,9 +150,9 @@ var categories_data = [
 			{
 				name: 'War of DJs',
 				ruleslink: 'https://google.com',
-				prize: '100',
-				contact: '+91 91919 19191',
-				date: '20th Feb 2018',
+				prize: '-',
+				contact: '+91&nbsp;91919&nbsp;19191',
+				date: '4th March 2018',
 				code: 'djwars',
 				tagline : 'The Beach DJ Competition',
 				description: `The wind is howling, the waves are thrashing and the stage has been set. The battle
@@ -177,10 +177,10 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'Slam Dunk',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1MN8ETcl0PY7GiYKHwMeVdm-QgEtCtM4l',
 				prize: '70k',
-				contact: '+91 91919 19191',
-				date: '28th Feb 2018',
+				contact: '+91&nbsp;84959&nbsp;73969',
+				date: '28th February 2018',
 				code: 'slamdunk',
 				tagline: 'Inter College Basket Ball tournament',
 				description: `Fond of the NBA? Ever felt that you were unlucky because you could not watch your
@@ -196,10 +196,10 @@ var categories_data = [
 			},
 			{
 				name: 'Spinshock',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1zDPIPgvmektAV19mz60GT6Lsjq4Ip7TI ',
 				prize: '10k',
-				contact: '+91 91919 19191',
-				date: '3rd Mar 2018',
+				contact: '+91&nbsp;81978&nbsp;49803',
+				date: '3rd March 2018',
 				code: 'spinshock',
 				tagline : 'Inter College Throw Ball tournament',
 				description: ``
@@ -212,10 +212,10 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'Haute Couture',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=18MZpswNMAGxr7CxJTM4lKuqxYcabmrVf',
 				prize: '60k',
-				contact: '+91 91919 19191',
-				date: '2nd Mar 2018',
+				contact: '+91&nbsp;89717&nbsp;71206',
+				date: '2nd March 2018',
 				code: 'haute_couture',
 				tagline: 'Inter College Basket Ball tournament',
 				description: `An evening of panache, colour, and finery; prepare your eyes for the spectacle that
@@ -235,10 +235,10 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'Body Art',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1_4SG1pL_OcSb-3Q-NqfOBqCKBRxiafbm',
 				prize: '3k',
-				contact: '+91 91919 19191',
-				date: '1st Mar 2018',
+				contact: '+91&nbsp;94839&nbsp;46161',
+				date: '1st March 2018',
 				code: 'bodyart',
 				tagline: 'Body Painting Competition',
 				description: `Ever thought of having your own body of work? We&#39;ve
@@ -247,10 +247,10 @@ var categories_data = [
 			},
 			{
 				name: 'News Paper Costume',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1zm34cYq9DAY0DGWArWaRx0AuPd9e66RE',
 				prize: '3k',
-				contact: '+91 91919 19191',
-				date: '2nd Mar 2018',
+				contact: '+91&nbsp;94839&nbsp;46161',
+				date: '2nd March 2018',
 				code: 'npcostume',
 				tagline: 'News Paper Costume Design Competition',
 				description: `I got news for you. You gotta have news
@@ -265,60 +265,60 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'CS GO',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1VF0sSKRD7npY7BAs2_BABbdqgQPSXk8_',
 				prize: '20k',
-				contact: '+91 91919 19191',
-				date: '20th Feb 2018',
+				contact: '+91&nbsp;98801&nbsp;88038',
+				date: '1st March 2018',
 				code: 'csgo',
 				tagline: 'Counter Strike Global Offensive Tournament',
 				description: `Prepare to enter the warzone and prove yourselves to be true top fraggers in this team based competitive first person shooter. Teams must consist of 5 members.`
 			},
 			{
 				name: 'DOTA 2',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1VF0sSKRD7npY7BAs2_BABbdqgQPSXk8_',
 				prize: '20k',
-				contact: '+91 91919 19191',
-				date: '20th Feb 2018',
+				contact: '+91&nbsp;98801&nbsp;88038',
+				date: '1st March 2018',
 				code: 'dota',
 				tagline: 'DoTA 2 Tournament',
 				description: `Show your Sleight of Fist in the War of Ancients as you Eclipse your foes in this Action RTS game. Teams must consist of 5 members.`
 			},
 			{
 				name: 'AoE 3',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1VF0sSKRD7npY7BAs2_BABbdqgQPSXk8_',
 				prize: '2k',
-				contact: '+91 91919 19191',
-				date: '20th Feb 2018',
+				contact: '+91&nbsp;98801&nbsp;88038',
+				date: '1st March 2018',
 				code: 'aoe',
 				tagline: 'Age of Empires III Tournament',
 				description: `Conquer the map with a partner in this intense real time strategy games. You may register as a solo or as teams of 2.`
 			},
 			{
 				name: 'FIFA 18',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1VF0sSKRD7npY7BAs2_BABbdqgQPSXk8_',
 				prize: '2k',
-				contact: '+91 91919 19191',
-				date: '20th Feb 2018',
+				contact: '+91&nbsp;98801&nbsp;88038',
+				date: '1st March 2018',
 				code: 'fifa',
 				tagline: 'FIFA 18 Tournament',
 				description: `The next step in the quest to lift the trophy starts now, with the FIFA 16 Ultimate Team Championship Series - the biggest EA SPORTS tournament of all time. In the Ultimate Team Championship Series, the top players compete for your pride. Individual registrations.`
 			},
 			{
 				name: 'NFS MW',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1VF0sSKRD7npY7BAs2_BABbdqgQPSXk8_',
 				prize: '2k',
-				contact: '+91 91919 19191',
-				date: '20th Feb 2018',
+				contact: '+91&nbsp;98801&nbsp;88038',
+				date: '1st March 2018',
 				code: 'nfs',
 				tagline: 'Need For Speed MW Tournament',
 				description: `Shift to top gear as you race past your opponents at top speed. Individual registrations.`
 			},
 			{
 				name: 'Mini Militia',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://drive.google.com/open?id=1VF0sSKRD7npY7BAs2_BABbdqgQPSXk8_',
 				prize: '1k',
-				contact: '+91 91919 19191',
-				date: '20th Feb 2018',
+				contact: '+91&nbsp;98801&nbsp;88038',
+				date: '1st March 2018',
 				code: 'mm',
 				tagline: 'Mini Militia Tournament',
 				description: `Think you've got what it takes to dominate the mobile warzone? Fight your way to the top in grueling rounds and establish yourself as the champion. Individual registrations.`
@@ -331,40 +331,40 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'General Quiz',
-				ruleslink: 'https://google.com',
-				prize: '100',
-				contact: '+91 91919 19191',
-				date: '3rd Mar 2018',
+				ruleslink: 'https://drive.google.com/open?id=1USpxzrAGh6Ek8-j5Fq-LoBq8kjAob_UB',
+				prize: '7.2k',
+				contact: '+91&nbsp;98801&nbsp;80954',
+				date: '3rd March 2018',
 				code: 'genquiz',
 				tagline: '',
 				description: `The enthusiastic applause from a roaring crowd, the buzzing of the electrified air of suspense and the almost audible focus of the quizzers rapt on their feet. Questions fired and answers spat back with equal zeal.This is the battlefield where only knowledge reigns supreme. Charge those neurons and see if your team has got what it takes to win the general quiz. Conducted by Major Chandrakanth Nair, this is a quiz you definitely cannot afford to miss.`
 			},
 			{
 				name: 'Travel Quiz',
-				ruleslink: 'https://google.com',
-				prize: '100',
-				contact: '+91 91919 19191',
-				date: '3rd Mar 2018',
+				ruleslink: 'https://drive.google.com/open?id=1iYtH-wrH8TfDvSbkPGAwK28ai89CxcBn',
+				prize: '4.8k',
+				contact: '+91&nbsp;73377&nbsp;80954',
+				date: '3rd March 2018',
 				code: 'travelquiz',
 				tagline: '',
 				description: `Have you travelled far and wide, and are just waiting for a chance to share all that you've learnt? Have you spent hours exploring exotic destinations from the comfort of your room, with the internet as are you guide? Do you know Foreign cities as well as your hometown, from watching too many TV shows? If you love travel, adventure and all things geography, let your knowledge take centre stage and join us on an exciting journey through the world! Conducted by Major Chandrakant Nair, the travel quiz promises to be a fantastic adventure.`
 			},
 			{
 				name: 'India Quiz',
-				ruleslink: 'https://google.com',
-				prize: '100',
-				contact: '+91 91919 19191',
-				date: '2nv Mar 2018',
+				ruleslink: 'https://drive.google.com/open?id=1_9L0zTKiggK2vUMFQB6WcGwpGk3GSc6d',
+				prize: '4.8k',
+				contact: '+91&nbsp;73377&nbsp;80954',
+				date: '2nd March 2018',
 				code: 'indiaquiz',
 				tagline: '',
 				description: `If you are confident with your trivia about India, this is your chance. If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session.Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb, in the India Quiz conducted by NITK alumnus Hem Maradia.`
 			},
 			{
 				name: 'Lone Wolf Quiz',
-				ruleslink: 'https://yahoo.com',
-				prize: '100',
-				contact: '+91 91919 19191',
-				date: '1st Mar 2018',
+				ruleslink: 'https://drive.google.com/open?id=1wNeIVkbhOHKaKkVej7x5_cxAWyA7qEaK',
+				prize: '3k',
+				contact: '+91&nbsp;73377&nbsp;80954',
+				date: '1st March 2018',
 				code: 'lonewolfquiz',
 				tagline: '',
 				description: `Do you know everything from fun facts about infinity war to the intricacies of global economics? Are you generally shunned among your peers for being a know it all? (Or does information unintentionally come out blurting whenever you open your mouth?) Well, here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth!`
@@ -512,11 +512,15 @@ function open_event(event_data, category) {
 		<i class="event-view-left material-icons">keyboard_arrow_left</i>
 		<div class="event-view-img-container center"><img src="` + "images/events/" + category + "/stamps/" + event_data['code'] + ".png" +`" /></div>
 		<div class="event-description">
-			<p>` + event_data['description'] + `</p>
 			<div class="row">
-				<div class="col s12 m12 l12 prize-money-div">Prizes Worth: &#x20b9; ` + event_data['prize'] + `</div>
-				<div class="col s12 m12 l6 center prize-money-div">Date: ` + event_data['date'] + `</div>
-				<div class="col s12 m12 l6 center prize-money-div">Contact: ` + event_data['contact'] + `</div>
+				<div class="col s12 m12 l6 push-l6">
+					<div class="row">
+						<div class="col s12 m12 l12 prize-money-div">Prizes Worth: &#x20b9; ` + event_data['prize'] + `</div>
+						<div class="col s12 m12 l12 center prize-money-div">Date: ` + event_data['date'] + `</div>
+						<div class="col s12 m12 l12 center prize-money-div">Contact: ` + event_data['contact'] + `</div>
+					</div>
+				</div>
+				<div class="col s12 m12 l6 pull-l6"><p>` + event_data['description'] + `</p></div>
 			</div>
 			<div class="buttons-container row">
 				<div class="col m10 s10 l2 offset-l3 offset-m1 offset-s1 link-buttons center register-button"><a target="_blank" href="https://www.townscript.com/widget/incident-233014">Register</a></div>
