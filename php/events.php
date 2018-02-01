@@ -85,8 +85,7 @@
 				<div class="col s2 m2"><i class="left-arrow material-icons">keyboard_arrow_left</i></div>
 				<div class="col s8 m8">
 					<div class="row">
-						<div class="col s12 m12"><img class="category-stamp" src="images/events/dance/stamps/dance.png" /></div>
-						<div class="col s12 m12 view-button-events" id="dance">View</div>
+						<div class="col s12 m12 cat-stamp-img"><img id="dance" class="category-stamp" src="images/events/dance/stamps/dance.png" /></div>
 					</div>
 				</div>
 				<div class="col s2 m2"><i class="right-arrow material-icons">keyboard_arrow_right</i></div>
