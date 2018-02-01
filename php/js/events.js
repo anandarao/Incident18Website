@@ -202,7 +202,9 @@ var categories_data = [
 				date: '3rd March 2018',
 				code: 'spinshock',
 				tagline : 'Inter College Throw Ball tournament',
-				description: ``
+				description: `Watch the ball whiz past your eyes with a unique blend of spin, precision and grace.
+							Witness your team competing against the best and leaving a legacy by winning this 
+							intercollegiate throwbal competition!`
 			}
 		],
 	},

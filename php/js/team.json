@@ -1,7 +1,7 @@
 var team = {
 	"Core" : {
 		"anikethan" : {
-			"name" : "Anikethan H V U",
+			"name" : "Anikethan",
 			"phone": "9620865706",
 			"email": "anikethanhvu04@gmail.com",
 			"designation" : "Chief Coordinator",

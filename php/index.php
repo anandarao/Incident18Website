@@ -38,7 +38,6 @@
 		}
 
 	</script>
-	<script type="text/javascript" src="js/timeline.json"></script>
 	<script type="text/javascript" src="js/home.js"></script>
 </head>
 
