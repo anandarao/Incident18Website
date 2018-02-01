@@ -23,21 +23,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/materialize/0.98.2/js/materialize.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<script type="text/javascript">
-
-		function fetch_loader() {
-			var logo = new Image();
-			logo.src = "images/inci-loader.png";
-			return logo;
-		}
-
-		function fetch_loader_background() {
-			var logo_background = new Image();
-			logo_background.src = "images/inci-loader-back.png";
-			return logo_background;
-		}
-
-	</script>
 	<script type="text/javascript" src="js/home.js"></script>
 </head>
 

@@ -303,7 +303,7 @@ var categories_data = [
 				date: '1st March 2018',
 				code: 'fifa',
 				tagline: 'FIFA 18 Tournament',
-				description: `The next step in the quest to lift the trophy starts now, with the FIFA 16 Ultimate Team Championship Series - the biggest EA SPORTS tournament of all time. In the Ultimate Team Championship Series, the top players compete for your pride. Individual registrations.`
+				description: `The next step in the quest to lift the trophy starts now, with the FIFA 18 the biggest EA SPORTS tournament of all time. In this tournament the top players compete for your pride. Individual registrations.`
 			},
 			{
 				name: 'NFS MW',
