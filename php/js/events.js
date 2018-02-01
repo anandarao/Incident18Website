@@ -502,7 +502,6 @@ function open_events_view(event_category) {
 		for (var a = 0; a < data['events_details'].length; a++) {
 			if ($(this).text() === data['events_details'][a]['name']) {
 				open_event(data['events_details'][a], data['category_name']);
-				console.log(data['events_details'][a]['name']);
 				break;
 			}
 		}
@@ -510,6 +509,17 @@ function open_events_view(event_category) {
 }
 
 function open_event(event_data, category) {
+
+	if(category == 'gaming') {
+		reg_link = "https://goo.gl/forms/QLjeEpKEX2tiZThz2";
+	} else if(category == 'lit') {
+		reg_link = "https://goo.gl/forms/kpCBWwrO6TIVB9rb2";
+	} else if(event_data['code'] == 'spinshock') {
+		reg_link = "https://goo.gl/forms/Tp0qBX92btvdkHxA2";
+	} else {
+		reg_link = "https://www.townscript.com/widget/incident-233014";
+	}
+
 	event_content = `<div class="event-view">
 		<i class="event-view-left material-icons">keyboard_arrow_left</i>
 		<div class="event-view-img-container center"><img src="` + "images/events/" + category + "/stamps/" + event_data['code'] + ".png" +`" /></div>
@@ -525,16 +535,15 @@ function open_event(event_data, category) {
 				<div class="col s12 m12 l6 pull-l6"><p>` + event_data['description'] + `</p></div>
 			</div>
 			<div class="buttons-container row">
-				<div class="col m10 s10 l2 offset-l3 offset-m1 offset-s1 link-buttons center register-button"><a target="_blank" href="https://www.townscript.com/widget/incident-233014">Register</a></div>
-				<div class="col m10 s10 l2 offset-l2 offset-m1 offset-s1 link-buttons center rules-button"><a target="_blank">Rules</a></div>
+				<div class="col m10 s10 l2 offset-l3 offset-m1 offset-s1 link-buttons center register-button"><a target="_blank" href="` + reg_link + `">Register</a></div>
+				<div class="col m10 s10 l2 offset-l2 offset-m1 offset-s1 link-buttons center rules-button"><a target="_blank" href="` + event_data['ruleslink'] + `">Rules</a></div>
 			</div>
 		</div>
 	</div>`;
 	$('body').append(event_content);
 	$('.event-view').css({
-		'background-image': 'url(' + "images/events/" + category + "/background/" + event_data['code'] + ".png" + ')',
+		'background-image': 'url(' + "images/events/" + category + "/background/" + event_data['code'] + ".jpg" + ')',
 	});
-	$('.rules-button > a').attr('href', event_data['ruleslink']);
 	setTimeout(function() {
 		$('.event-view').css({
 			'opacity': '1',
