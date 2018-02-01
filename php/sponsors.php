@@ -6,7 +6,7 @@
 	<meta name="description" content="Website for Incident 2018">
 	<meta name="author" content="Incident 2018 Website Team">
 
-	<title>Incident 2018</title>
+	<title>Sponsors - Incident 2018</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="images/inci-logo.png">
@@ -28,14 +28,21 @@
 
 </head>
 
-<body>
+<body class="grad-body">
 
 	<header>
 		<nav>
 			<div class="nav-wrapper">
 			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="hamburger material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
-				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li class="social-media-icons-inline">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-youtube-play"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-linkedin"></i>
+				</li>
+				<li><a target="_blank" href="https://www.townscript.com/widget/incident-233014" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="highlights.php">Highlights</a></li>
@@ -50,13 +57,6 @@
 	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 	<div id = "scrollable-wrapper">
 		<main>
-			<div id="social-icons" class="hide-on-med-and-down">
-				<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
-				<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
-				<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
-				<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
-				<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-			</div>
 
 			<div id = "scrollable">
 				<div id="sponsors-heading">

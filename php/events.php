@@ -6,7 +6,7 @@
 	<meta name="description" content="Website for Incident 2018">
 	<meta name="author" content="Incident 2018 Website Team">
 
-	<title>Incident 2018</title>
+	<title>Events - Incident 2018</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="images/inci-logo.png">
@@ -48,7 +48,15 @@
 			<div class="nav-wrapper">
 			<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="hamburger material-icons">menu</i></a>
 			<ul class="side-nav" id="mobile-demo">
-				<li><a href="#!" class="side-nav-register">Register</a></li>
+				<li class="social-media-icons-inline">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-youtube-play"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-linkedin"></i>
+				</li>
+				<li class="about-side-nav-link"><a href="about.php" class="waves-effect waves-light btn">About Us</a></li>
+				<li><a target="_blank" href="https://www.townscript.com/widget/incident-233014" class="side-nav-register">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="highlights.php">Highlights</a></li>
@@ -62,13 +70,6 @@
 
 	<div id="m-logo" class="hide-on-large-only"><img class="logo" src="images/inci-logo-final.png"></div>
 	<main>
-		<div id="social-icons" class="hide-on-med-and-down">
-			<a target="_blank" rel="nofollow" href="https://www.facebook.com/incidenttheofficialpage" title="Facebook"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" rel="nofollow" href="https://twitter.com/incident_nitk" title="Twitter"><i class="fa fa-twitter"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/nitkincident" title="Youtube"><i class="fa fa-youtube-play"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.instagram.com/incident_nitk/" title="Instagram"><i class="fa fa-instagram"></i></a>
-			<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company-beta/13373310" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-		</div>
 		<div class="maps-container hide-on-med-and-down">
 			<img id="haute_couture" class="map-contienents asia" src="images/events/world_map/asia.png"/>
 			<img id="fine_arts" class="map-contienents aus" src="images/events/world_map/aus.png"/>
@@ -81,14 +82,14 @@
 		</div>
 		<div class="m-maps-container hide-on-large-only">
 			<div class="row valign-wrapper">
-				<div class="col s2 m2"><i class="left-arrow material-icons white-text">keyboard_arrow_left</i></div>
+				<div class="col s2 m2"><i class="left-arrow material-icons">keyboard_arrow_left</i></div>
 				<div class="col s8 m8">
 					<div class="row">
 						<div class="col s12 m12"><img class="category-stamp" src="images/events/dance/stamps/dance.png" /></div>
 						<div class="col s12 m12 view-button-events" id="dance">View</div>
 					</div>
 				</div>
-				<div class="col s2 m2"><i class="right-arrow material-icons white-text">keyboard_arrow_right</i></div>
+				<div class="col s2 m2"><i class="right-arrow material-icons">keyboard_arrow_right</i></div>
 			</div>
 		</div>
 	</main>
