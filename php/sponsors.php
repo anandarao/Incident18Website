@@ -65,20 +65,25 @@
 						<div class="col l12 m12 s12 center-align">
 							<h3 class="center-align sponsors-h">For Sponsorship related queries contact</h1>
 						</div>
-						<div class="col l4 m4 s12 center-align">
+						<div class="col l3 m3 s12 center-align">
 							<h5 class="sponsor-h">Sabari Ram</h5>
 							<a href="mailto:sabariram@incident.co.in">sabariram@incident.co.in</a><br>
 							<a href="tel:+917022209252">+91 7022209252</a>
 						</div>
-						<div class="col l4 m4 s12 center-align">
+						<div class="col l3 m3 s12 center-align">
 							<h5 class="sponsor-h">Ananda Rao H</h5>
 							<a href="mailto:anandarao@incident.co.in">anandarao@incident.co.in</a><br>
 							<a href="tel:+919535125744">+91 9535125744</a>
 						</div>
-						<div class="col l4 m4 s12 center-align">
+						<div class="col l3 m3 s12 center-align">
 							<h5 class="sponsor-h">Sheetal Shalini</h5>
 							<a href="mailto:sheetal@incident.co.in">sheetal@incident.co.in</a><br>
 							<a href="tel:+918970832326">+91 8970832326</a>
+						</div>
+						<div class="col l3 m3 s12 center-align">
+							<h5 class="sponsor-h">Devraj Hodal</h5>
+							<a href="mailto:devraj@incident.co.in">devraj@incident.co.in</a><br>
+							<a href="tel:+918792303382">+91 8792303382</a>
 						</div>
 					</div>
 				</div>
