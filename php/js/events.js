@@ -189,10 +189,8 @@ var categories_data = [
 							thing! From 360 lay ups to dunk contests, Slam Dunk, Incident’s Basketball contest
 							is everything you would expect to get, live in action. With teams coming from all over
 							India, this platform is the perfect chance for your team to get the recognition you
-							deserve. Strap on your Steph Curry shoes for the 3-point contests and the long-
-							range shooting skill contests. Get the chance to witness the live exquisite DUNK
-							contest, all
-							3 of which are open to all participants. Don’t miss it!`
+							deserve. Get your Steph Curry game on for the 3-point contests which are open to everyone.
+							Don’t miss it!`
 			},
 			{
 				name: 'Spinshock',
@@ -202,7 +200,9 @@ var categories_data = [
 				date: '3rd March 2018',
 				code: 'spinshock',
 				tagline : 'Inter College Throw Ball tournament',
-				description: `Watch the ball whiz past your eyes with a unique blend of spin, precision and grace. Witness your team competing against the best and leaving a legacy by winning the inter-collegiate throwball competition for women at Incident '18.`
+				description: `Watch the ball whiz past your eyes with a unique blend of spin, precision and grace. 
+							  Witness your team competing against the best and leaving a legacy by winning the inter-collegiate 
+							  throwball competition for women at Incident '18.`
 			}
 		],
 	},
@@ -532,7 +532,7 @@ function open_event(event_data, category) {
 	</div>`;
 	$('body').append(event_content);
 	$('.event-view').css({
-		'background-image': 'url(' + "images/events/" + category + "/background/" + event_data['code'] + ".png" + ')',
+		'background-image': 'url(' + "images/events/" + category + "/background/" + event_data['code'] + ".jpg" + ')',
 	});
 	$('.rules-button > a').attr('href', event_data['ruleslink']);
 	setTimeout(function() {
