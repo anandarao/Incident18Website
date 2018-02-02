@@ -30,7 +30,7 @@
 
 </head>
 
-<body style="background: white !important;">
+<body class="grad-body">
 
 	<header>
 		<nav>
@@ -57,17 +57,17 @@
 		</nav>
 	</header>
 
-	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png" height="200"></div>
+	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 
 	<main>
 	</main>
 
-  	<div class="container" style="width: 100% !important; padding-top: 27vh;
+  	<div class="container" style="width: 100% !important; padding-top: 38vh;
 		padding-left: 25vw; padding-right: 25vw; padding-bottom: 10vh;">
-        <h2 class="header center black-text" style="font-family: Roboto, sans-serif;">Incident 2018</h2>
-        <h4 class="center black-text">Campus Ambassador Program</h4>
-        <div class="row center">
-        	<a id="ca-submit-button" class="waves-effect waves-light btn">Register</a>
+        <h2 class="header center teal-text" style="font-family: Mayton, Times, sans-serif; padding: 3vh; font-size: 3.5em;">Incident '18</h2>
+        <h4 class="center black-text" style="font-family: 'Julius Sans One', sans-serif;padding: 3vh;">Campus Ambassador Program</h4>
+        <div class="row center" style="padding: 3vh;">
+        	<a id="ca-submit-button" class="waves-effect waves-light btn red">Register</a>
         </div>
 	</div>
 
@@ -78,7 +78,7 @@
     <div class="container">
 	    <div class="section">
 			<div class="row black-text">
-		      	<h4 class="center">What is Campus Ambassador?</h4>
+		      	<h4 class="center" style="padding: 5px;">What is Campus Ambassador?</h4>
 		        <div class="col s12 m6 l6">
 		          	<div class="icon-block">
 			            <h2 class="center black-text"><i class="fa fa-users" aria-hidden="true"></i></h2>
@@ -107,7 +107,7 @@
 		<div class="section">
 			<!--   Icon Section   -->
 			<div class="row black-text">
-				<h4 class="center">Incentives</h4>
+				<h4 class="center"  style="padding: 5px;">Incentives</h4>
 				<div class="col s12 m4 l4">
 					<div class="icon-block">
 						<h2 class="center black-text"><i class="fa fa-handshake-o" aria-hidden="true"></i></h2>

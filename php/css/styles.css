@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Viga|Slabo+27px|Nunito|Maven+Pro|Poiret+One|Alegreya+Sans|Macondo|Quicksand|Julius+Sans+One|Alegreya+Sans');
 
+
+@font-face
+{
+font-family: Mayton;
+src: url('../fonts/Mayton.ttf'),
+url('../fonts/Mayton.eot'),
+url('../fonts/Mayton.otf'),
+url('../fonts/Mayton.woff');
+}
+
 .social-media-icons-inline > i {
 	cursor: pointer;
 }
