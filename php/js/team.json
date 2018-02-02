@@ -41,7 +41,7 @@ var team = {
 			"linkedin" : "https://www.linkedin.com/in/rahul-bhargav-4a4b6210b/",
 		},
 		"bhanu" : {
-			"name" : "Bhanuprakash Ajmeera",
+			"name" : "Bhanuprakash",
 			"email" : "neevasram95@gmail.com",
 			"phone" : "9700053526",
 			"designation" : "Events Coordinator",
