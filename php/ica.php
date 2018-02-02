@@ -99,7 +99,7 @@
 	</div>
 
     <div class="parallax-container valign-wrapper">
-      <div class="parallax"><img src="images/crowd1-cropped.jpg" alt="Crowd"></div>
+      <div class="parallax"><img src="images/crowd1.jpg" alt="Crowd"></div>
     </div>
 
 
