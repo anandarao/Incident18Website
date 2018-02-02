@@ -111,7 +111,7 @@ var categories_data = [
 				code: 'unplugged',
 				tagline : 'The Western Accoustic Band Competition + Acapella',
 				description: `Welcome to the World of Acapella where different teams battle it
-							out for glory and to get their pitches perfect. Incident 2018 presents Uplugged,
+							out for glory and to get their pitches perfect. Incident 2018 presents Unplugged,
 							the western acoustic and acapella competition. Participants shall battle each
 							other only with the power of their vocal cords or with an accompanying
 							acoustic instrument. See you there, Aca-fans!`
@@ -143,13 +143,13 @@ var categories_data = [
 							our very own Indian classical music that seem to strike a special cord within
 							us; with every undulation in a performer’s voice setting off a few goose bumps
 							all over us. Incident brings to you the Eastern Solo Singing Competition-
-							Raaghalaya, a chance to frolic in the infinite expanse of ragas and lose
+							Raagalaya, a chance to frolic in the infinite expanse of ragas and lose
 							yourself to the taal. Expose yourself to the magic and richness of Indian
 							culture through its music at the musical events this Incident 2018.`,
 			},
-			{
+			/*{
 				name: 'War of DJs',
-				ruleslink: 'https://google.com',
+				ruleslink: 'https://incident.co.in',
 				prize: '-',
 				contact: '+91&nbsp;91919&nbsp;19191',
 				date: '4th March 2018',
@@ -168,7 +168,7 @@ var categories_data = [
 							Adjudicated by reputed experts from the mainstream recording industry, this event
 							promises to propel the best in the business into the limelight, on a night which the
 							Malabar Coast will never forget.`,
-			},
+			},*/
 		],
 	},
 	{
@@ -189,10 +189,8 @@ var categories_data = [
 							thing! From 360 lay ups to dunk contests, Slam Dunk, Incident’s Basketball contest
 							is everything you would expect to get, live in action. With teams coming from all over
 							India, this platform is the perfect chance for your team to get the recognition you
-							deserve. Strap on your Steph Curry shoes for the 3-point contests and the long-
-							range shooting skill contests. Get the chance to witness the live exquisite DUNK
-							contest, all
-							3 of which are open to all participants. Don’t miss it!`
+							deserve. Get your Steph Curry game on for the 3-point contests which are open to everyone.
+							Don’t miss it!`
 			},
 			{
 				name: 'Spinshock',
@@ -202,9 +200,9 @@ var categories_data = [
 				date: '3rd March 2018',
 				code: 'spinshock',
 				tagline : 'Inter College Throw Ball tournament',
-				description: `Watch the ball whiz past your eyes with a unique blend of spin, precision and grace.
-							Witness your team competing against the best and leaving a legacy by winning this 
-							intercollegiate throwbal competition!`
+				description: `Watch the ball whiz past your eyes with a unique blend of spin, precision and grace. 
+							  Witness your team competing against the best and leaving a legacy by winning the inter-collegiate 
+							  throwball competition for women at Incident '18.`
 			}
 		],
 	},
@@ -215,7 +213,7 @@ var categories_data = [
 			{
 				name: 'Haute Couture',
 				ruleslink: 'https://drive.google.com/open?id=18MZpswNMAGxr7CxJTM4lKuqxYcabmrVf',
-				prize: '60k',
+				prize: '1.4L',
 				contact: '+91&nbsp;89717&nbsp;71206',
 				date: '2nd March 2018',
 				code: 'haute_couture',
@@ -283,7 +281,7 @@ var categories_data = [
 				date: '1st March 2018',
 				code: 'dota',
 				tagline: 'DoTA 2 Tournament',
-				description: `Show your Sleight of Fist in the War of Ancients as you Eclipse your foes in this Action RTS game. Teams must consist of 5 members.`
+				description: `Show your Sleight of Fist in the War of Ancients as you eclipse your foes in this Action RTS game. Teams must consist of 5 members.`
 			},
 			{
 				name: 'AoE 3',
@@ -293,7 +291,7 @@ var categories_data = [
 				date: '1st March 2018',
 				code: 'aoe',
 				tagline: 'Age of Empires III Tournament',
-				description: `Conquer the map with a partner in this intense real time strategy games. You may register as a solo or as teams of 2.`
+				description: `Conquer the map with a partner in this intense real time strategy game. You may register as a solo or as teams of 2.`
 			},
 			{
 				name: 'FIFA 18',
@@ -303,7 +301,7 @@ var categories_data = [
 				date: '1st March 2018',
 				code: 'fifa',
 				tagline: 'FIFA 18 Tournament',
-				description: `The next step in the quest to lift the trophy starts now, with the FIFA 18 the biggest EA SPORTS tournament of all time. In this tournament the top players compete for your pride. Individual registrations.`
+				description: `The next step in the quest to lift the trophy starts now, with the FIFA 18 Ultimate Team Championship Series - the biggest EA SPORTS tournament of all time. In the Ultimate Team Championship Series, the top players compete for your pride. Individual registrations.`
 			},
 			{
 				name: 'NFS MW',
@@ -349,7 +347,7 @@ var categories_data = [
 				date: '3rd March 2018',
 				code: 'travelquiz',
 				tagline: '',
-				description: `Have you travelled far and wide, and are just waiting for a chance to share all that you've learnt? Have you spent hours exploring exotic destinations from the comfort of your room, with the internet as are you guide? Do you know Foreign cities as well as your hometown, from watching too many TV shows? If you love travel, adventure and all things geography, let your knowledge take centre stage and join us on an exciting journey through the world! Conducted by Major Chandrakant Nair, the travel quiz promises to be a fantastic adventure.`
+				description: `Have you travelled far and wide, and are just waiting for a chance to share all that you've learnt? Have you spent hours exploring exotic destinations from the comfort of your room, with the internet as your guide? Do you know Foreign cities as well as your hometown, from watching too many TV shows? If you love travel, adventure and all things geography, let your knowledge take centre stage and join us on an exciting journey through the world! Conducted by Major Chandrakant Nair, the travel quiz promises to be a fantastic adventure.`
 			},
 			{
 				name: 'India Quiz',
@@ -404,24 +402,26 @@ $(function() {
 		if (current_index < 0)
 			current_index = categories_data.length - 1;
 		var data_btn_view = categories_data[current_index];
+		$('.events-body').css({'background-color': data_btn_view['back_color']});
 		$('.category-stamp').attr('src', "images/events/" + data_btn_view['category_name'] + "/stamps/" + data_btn_view['category_name'] + ".png");
-		$('.view-button-events').attr('id', data_btn_view['category_name']);
+		$('.cat-stamp-img > img').attr('id', data_btn_view['category_name']);
 	});
 	$('.right-arrow').click(function() {
 		current_index += 1;
 		current_index %= categories_data.length;
 		var data_btn_view = categories_data[current_index];
+		$('.events-body').css({'background-color': data_btn_view['back_color']});
 		$('.category-stamp').attr('src', "images/events/" + data_btn_view['category_name'] + "/stamps/" + data_btn_view['category_name'] + ".png");
-		$('.view-button-events').attr('id', data_btn_view['category_name']);
+		$('.cat-stamp-img > img').attr('id', data_btn_view['category_name']);
 	});
-	$('.view-button-events').click(function() {
+	$('.cat-stamp-img > img').click(function() {
 		for (var i = 0; i < categories_data.length; i++) {
 			if (categories_data[i]['category_name'] === $(this).attr('id')) {
 				open_events_view(categories_data[i]['category_name']);
 			}
 		}
 	});
-	$('#haute_couture').hover(function(){
+	/*$('#haute_couture').hover(function(){
 		$(this).attr('src', 'images/events/world_map/hover/asia.png');
 	}, function() {
 		$(this).attr('src', 'images/events/world_map/asia.png');
@@ -455,7 +455,7 @@ $(function() {
 		$(this).attr('src', 'images/events/world_map/hover/samer.png');
 	}, function() {
 		$(this).attr('src', 'images/events/world_map/samer.png');
-	});
+	});*/
 });
 
 function open_events_view(event_category) {
