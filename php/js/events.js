@@ -52,7 +52,7 @@ var categories_data = [
 				name: 'Step Up Duet',
 				ruleslink: 'https://drive.google.com/open?id=1gLcWfFbsNmts3sxXXAiWXpYTdDoZYCoe',
 				prize: '10k',
-				contact: '+91&nbsp;98676&nbsp;70424',
+				contact: '+91&nbsp;77606&nbsp;08354',
 				date: '3rd March 2018',
 				code: 'stepupduet',
 				tagline : 'Duet Dance Competition (all styles)',
