@@ -183,14 +183,7 @@ var categories_data = [
 				date: '28th February 2018',
 				code: 'slamdunk',
 				tagline: 'Inter College Basket Ball tournament',
-				description: `Fond of the NBA? Ever felt that you were unlucky because you could not watch your
-							favourite NBA team play in action? Think you are ready to show off your skill sets on
-							the basketball court? Well, worry no more! Team Incident brings you the next best
-							thing! From 360 lay ups to dunk contests, Slam Dunk, Incident’s Basketball contest
-							is everything you would expect to get, live in action. With teams coming from all over
-							India, this platform is the perfect chance for your team to get the recognition you
-							deserve. Get your Steph Curry game on for the 3-point contests which are open to everyone.
-							Don’t miss it!`
+				description: `Have you ever longed for a chance to prove yourself in this country, where sports is always given the back seat? Well strap on your sneakers and bring your best game, because 'Slam Dunk 2018' promises to showcase South India's best ballers in a league-cum knockout tournament for the ages. This year, Team Incident brings back the 'Dunk contest', an event that has been the highlight of past editions of 'Slam Dunk'. Get ready to witness electrifying and innovative dunks that keep audiences on the edge of their seats. The 3 point contest will be open to all shooters who think they've got the range and accuracy to produce an all star performance in 1 minute. With teams coming from all over India, this platform is the perfect chance for your team to get the recognition you deserve.`
 			},
 			{
 				name: 'Spinshock',
