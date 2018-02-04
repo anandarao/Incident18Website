@@ -205,7 +205,7 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'Haute Couture',
-				ruleslink: 'https://drive.google.com/open?id=18MZpswNMAGxr7CxJTM4lKuqxYcabmrVf',
+				ruleslink: 'https://drive.google.com/open?id=1k32fSO2FJ219uwHw-uBm4xmLtS7vzc8k',
 				prize: '1.4L',
 				contact: '+91&nbsp;89717&nbsp;71206',
 				date: '2nd March 2018',
