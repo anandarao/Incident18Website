@@ -326,7 +326,7 @@ var categories_data = [
 				name: 'General Quiz',
 				ruleslink: 'https://drive.google.com/open?id=1USpxzrAGh6Ek8-j5Fq-LoBq8kjAob_UB',
 				prize: '7.2k',
-				contact: '+91&nbsp;733771&nbsp;80954',
+				contact: '+91&nbsp;73377&nbsp;80954',
 				date: '3rd March 2018',
 				code: 'genquiz',
 				tagline: '',
