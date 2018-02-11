@@ -6,7 +6,7 @@ var categories_data = [
 		events_details: [
 			{
 				name: 'Tandav',
-				ruleslink: 'https://drive.google.com/open?id=1ZZ9xUkuEfHTzNbrSsRzzsgsXBdLxxlvX',
+				ruleslink: 'https://drive.google.com/open?id=1H1em66HsTGtiI0XIjYNal5BKmONDQQjX',
 				prize: '45k',
 				contact: '+91&nbsp;70220&nbsp;89859',
 				date: '4th March 2018',
@@ -22,7 +22,7 @@ var categories_data = [
 			},
 			{
 				name: 'Promenade',
-				ruleslink: 'https://drive.google.com/open?id=1PdLRVtC3DQbCc7J_jc3sqoMHFMRga3fI',
+				ruleslink: 'https://drive.google.com/open?id=17oFPlP0jNfw4UDrEn5sonEvFEPpKpf4t',
 				prize: '40k',
 				contact: '+91&nbsp;87621&nbsp;26955',
 				date: '3rd March 2018',
@@ -36,7 +36,7 @@ var categories_data = [
 			},
 			{
 				name: 'Step Up Solo',
-				ruleslink: 'https://drive.google.com/open?id=1ZtXAWOqEo2TaONZ2geb5QVGAfsh4wsIj',
+				ruleslink: 'https://drive.google.com/open?id=1cqyjsuGRv1mfAbxDSFR0O7ZrJ1aU5IIJ',
 				prize: '6k',
 				contact: '+91&nbsp;99163&nbsp;45635',
 				date: '3rd March 2018',
@@ -50,7 +50,7 @@ var categories_data = [
 							Solo competition: Step Up!`},
 			{
 				name: 'Step Up Duet',
-				ruleslink: 'https://drive.google.com/open?id=1gLcWfFbsNmts3sxXXAiWXpYTdDoZYCoe',
+				ruleslink: 'https://drive.google.com/open?id=10UGf9pCUkewioLUGMkqiwuMYawKBGawB',
 				prize: '10k',
 				contact: '+91&nbsp;77606&nbsp;08354',
 				date: '3rd March 2018',
@@ -110,7 +110,7 @@ var categories_data = [
 				date: '1st March 2018',
 				code: 'unplugged',
 				tagline : 'The Western Accoustic Band Competition + Acapella',
-				description: `Welcome to the World of Acapella where different teams battle it
+				description: `Welcome to the World of Unplugged and Acapella where different teams battle it
 							out for glory and to get their pitches perfect. Incident 2018 presents Unplugged,
 							the western acoustic and acapella competition. Participants shall battle each
 							other only with the power of their vocal cords or with an accompanying
@@ -187,7 +187,7 @@ var categories_data = [
 			},
 			{
 				name: 'Spinshock',
-				ruleslink: 'https://drive.google.com/open?id=1zDPIPgvmektAV19mz60GT6Lsjq4Ip7TI ',
+				ruleslink: 'https://drive.google.com/open?id=19n2GPFUQ3msvNcQRNyFc50lD_9t7xvn3',
 				prize: '10k',
 				contact: '+91&nbsp;81978&nbsp;49803',
 				date: '3rd March 2018',
