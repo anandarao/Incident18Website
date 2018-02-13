@@ -234,9 +234,7 @@ var categories_data = [
 				date: '1st March 2018',
 				code: 'bodyart',
 				tagline: 'Body Painting Competition',
-				description: `Ever thought of having your own body of work? We&#39;ve
-							taken it a step further. Take part in our Body Art competition and express on a
-							slightly different canvas.`
+				description: `The Human Body is the best picture of the soul, so here is your chance to paint your soul. Fine Arts Committee of Incident 2018 Presents, Body Art Competition. Express your creative zeal and transform the human body into spectacular and lifelike forms of art.`
 			},
 			{
 				name: 'News Paper Costume',
@@ -246,9 +244,7 @@ var categories_data = [
 				date: '2nd March 2018',
 				code: 'npcostume',
 				tagline: 'News Paper Costume Design Competition',
-				description: `I got news for you. You gotta have news
-							for us in this iteration of Newspaper Costume Design, where contestants have
-							to create a costume made entirely of newspapers.`
+				description: `Saving the Enviroment can be trendy. We want you to show us your fashion prowess by designing show stopping costumes all out of newspaper. Bring out the inner Fashion Designer in you and transform your model into a catwalking sensation in eco friendly attire.`
 			}
 		],
 	},
