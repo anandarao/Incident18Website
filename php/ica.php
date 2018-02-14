@@ -3,9 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Website for Incident 2018">
+	<meta name="description" content="Campus Ambassador - Incident 2018">
+	<meta name="keywords" content="Incident, NITK, 2018, Surathkal, Cultural fest, festival">
 	<meta name="author" content="Incident 2018 Website Team">
-
+	<meta name="revisit-after" content="1 day">
+    <meta name="googlebot" content="noodp">
+    <meta name="language" content="English">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name=”robots” content=”NOYDIR,NOODP”>
+	<meta http-equiv="Resource-Type" content="value">
+	<meta name="geo.position" content="13.010870;74.792544">
+	<meta name="geo.placename" content="NITK Surathkal">
+	<meta name="geo.region" content ="India">
 	<title>Incident 2018</title>
 
 	<!-- favicon -->

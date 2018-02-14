@@ -3,9 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Website for Incident 2018">
+	<meta name="description" content="Incident is NITK's annual cultural fest held usually in the month of March.">
+	<meta name="keywords" content="Incident, NITK, 2018, Surathkal, Cultural fest, festival">
 	<meta name="author" content="Incident 2018 Website Team">
-
+	<meta name="revisit-after" content="1 day">
+    <meta name="googlebot" content="noodp">
+    <meta name="language" content="English">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name=”robots” content=”NOYDIR,NOODP”>
+	<meta http-equiv="Resource-Type" content="value">
+	<meta name="geo.position" content="13.010870;74.792544">
+	<meta name="geo.placename" content="NITK Surathkal">
+	<meta name="geo.region" content ="India">
 	<title>Incident 2018</title>
 
 	<!-- favicon -->
@@ -41,6 +51,40 @@
  	</script>
 
 	<script type="text/javascript" src="js/home.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114156147-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-114156147-1');
+	</script>
+	<script type='application/ld+json'> 
+		{
+			"@context": "http://www.schema.org",
+			"@type": "VisualArtsEvent",
+			"name": "Incident 2018",
+			"url": "incident.co.in",
+			"description": "Incident is NITK's annual cultural fest held usually in the month of March.",
+			"startDate": "02/28/2018 ",
+			"endDate": "03/04/2018",
+			"location": {
+				"@type": "Place",
+				"name": "NITK Surathkal",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "NITK Surathkal",
+					"addressLocality": "Mangalore",
+					"addressRegion": "Karnataka",
+					"postalCode": "575025",
+					"addressCountry": "India"
+				}
+			}
+		}
+ </script>
+
 </head>
 
 <body class="indexbody">
