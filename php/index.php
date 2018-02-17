@@ -51,6 +51,7 @@
  	</script>
 
 	<script type="text/javascript" src="js/home.js"></script>
+	<script type="text/javascript" src="js/regmodal.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114156147-1"></script>
@@ -102,7 +103,7 @@
 					<i class="fa fa-linkedin"></i>
 				</li>
 				<li class="about-side-nav-link"><a href="about.php" class="waves-effect waves-light btn">About Us</a></li>
-				<li><a target="_blank" href="https://www.townscript.com/widget/incident-233014" class="side-nav-register">Register</a></li>
+				<li><a class="side-nav-register modal-trigger" href="#modal1">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="highlights.php">Highlights</a></li>
@@ -127,19 +128,23 @@
 				<img src="images/gifs/webcover.gif"/>
 				<div class="header-inci"><img src="images/webinciheader.png"/></div>
 				<div class="plane-one"><img src="images/gifs/flight.gif"/></div>
-				<div class="plane-two"><img src="images/gifs/flight.gif"/><a href="https://www.townscript.com/widget/incident-233014" target="_blank" class="waves-effect waves-light btn-large">register</a></div>
+				<div class="plane-two"><img src="images/gifs/flight.gif"/>
+				<a class="waves-effect waves-light btn-large modal-trigger" href="#modal1">Register</a></div>
 			</div>
 		</div>
 	</main>
 
 	<div class="mob-cover hide-on-large-only">
 		<img src="images/gifs/mobcover.gif"/>
-		<div class="mob-header-inci"><img src="images/mobinciheader.png"/><a href="https://www.townscript.com/widget/incident-233014" target="_blank" class="waves-effect waves-light btn">register</a></div>
+		<div class="mob-header-inci"><img src="images/mobinciheader.png"/><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Register</a></div>
 	</div>
 
 	<script class="hide-on-med-and-down" src="js/preloader.js"></script>
+	<div id="modal1" class="modal modal-fixed-footer">
+	  	</div>
 
 	<script type="text/javascript">
+		$('#modal1').modal();
 		$(".ribbon-wrapper > img").click(function() {window.location.href = "index.php";});
 	</script>
 	<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>

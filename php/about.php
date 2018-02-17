@@ -35,6 +35,7 @@
 	<script src="https://cdn.jsdelivr.net/materialize/0.98.2/js/materialize.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<script type="text/javascript" src="js/events.js"></script>
+	<script type="text/javascript" src="js/regmodal.js"></script>
 </head>
 <body class="about-body">
 
@@ -51,7 +52,7 @@
 					<i class="fa fa-linkedin"></i>
 				</li>
 				<li class="about-side-nav-link"><a href="about.php" class="waves-effect waves-light btn">About Us</a></li>
-				<li><a target="_blank" href="https://www.townscript.com/widget/incident-233014" class="side-nav-register">Register</a></li>
+				<li><a class="side-nav-register modal-trigger" href="#modal1">Register</a></li>
 				<li><a href="ica.php" class="side-nav-ica">Campus Ambassador</a></li>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="highlights.php">Highlights</a></li>
@@ -78,7 +79,11 @@
 			</div>
 		</div>
 	</main>	
+
+	<div id="modal1" class="modal modal-fixed-footer">
+	  	</div>
 	<script type="text/javascript">
+		$('#modal1').modal();
 		$(function() {
 			$('#m-logo > img').click(function(){
 				window.open('index.php', '_self');
