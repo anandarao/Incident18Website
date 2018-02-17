@@ -80,10 +80,6 @@ $(function() {
 	$('.utkarsh').attr('class', 'col s12 m4 l4 utkarsh');
 	$('.azmeera').attr('class', 'col s12 m12 l12 azmeera');
 
-	$('.humaid').attr('class', 'col s12 m4 l4 humaid');
-	$('.adil').attr('class', 'col s12 m4 l4 adil');
-	$('.rahul1').attr('class', 'col s12 m4 l4 rahul1');
-
 	$('.emmanuel').attr('class', 'col s12 m4 l4 emmanuel');
 	$('.amarnath').attr('class', 'col s12 m4 l4 amarnath');
 	$('.kartik').attr('class', 'col s12 m4 l4 kartik');

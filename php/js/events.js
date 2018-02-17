@@ -70,7 +70,7 @@ var categories_data = [
 			{
 				name: 'Bandish',
 				ruleslink: 'https://drive.google.com/open?id=16iiP2yi-N1wCitBHMJ5bMGnLDz67-c0w',
-				prize: '24k',
+				prize: '50k',
 				contact: '+91&nbsp;95397&nbsp;52854',
 				date: '3rd March 2018',
 				code: 'bandish',
@@ -84,7 +84,7 @@ var categories_data = [
 			{
 				name: 'Pulse',
 				ruleslink: 'https://drive.google.com/open?id=1tECFoNkjkGS6noICqVi5OLeOv3uNZtzN',
-				prize: '24k',
+				prize: '40k',
 				contact: '+91&nbsp;96113&nbsp;50626',
 				date: '2nd March 2018',
 				code: 'pulse',
@@ -132,7 +132,7 @@ var categories_data = [
 			{
 				name: 'Raagalaya',
 				ruleslink: 'https://drive.google.com/open?id=13yxulxrMaU7C8SojclFq_KShSvUoQn_U',
-				prize: '6k',
+				prize: '16k',
 				contact: '+91&nbsp;94967&nbsp;95026',
 				date: '4th March 2018',
 				code: 'raagalaya',

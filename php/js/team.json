@@ -88,6 +88,14 @@ var team = {
 			"facebook" : "https://www.facebook.com/rahul.theknightrider",
 			"linkedin" : "https://www.linkedin.com/in/rahul-agrawal-886119b0/",
 		},
+		"gagan" : {
+			"name" : "Gagan Mujumdar",
+			"email" : "gmujumdar3@gmail.com",
+			"phone" : "9480370681",
+			"designation" : "Inci-Specials Coordinator",
+			"facebook" : "https://www.facebook.com/gagan.mujumdar",
+			"linkedin" : "https://www.linkedin.com/in/gagan-mujumdar-734881124/",
+		},
 	},
 	"Marketing" : {
 		"anand" : {

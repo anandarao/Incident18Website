@@ -7,7 +7,26 @@ var sponsors = {
 		}
 	},
 	"l2" : {
-
+		"mrpl" : {
+			"name" : "MRPL",
+			"designation" : "Sustainibility Partners",
+			"link" : "https://mrpl.co.in/",
+		},
+		"coy" : {
+			"name" : "Colors of Youth",
+			"designation" : "Power Sponsors",
+			"link" : "http://www.colorsofyouth.com/",
+		},
+		/*"bc" : {
+			"name" : "British Council",
+			"designation" : "Cultural Partners",
+			"link" : "https://www.britishcouncil.in/",
+		},
+		"vh1" : {
+			"name" : "VH1 and Comedy Central",
+			"designation" : "Associate Partners",
+			"link" : "",
+		},*/
 	},
 	"l3" : {
 		"sephora" : {
@@ -15,15 +34,45 @@ var sponsors = {
 			"designation" : "Beauty Partners",
 			"link" : "https://www.sephora.com/",
 		},
+		"ideals" : {
+			"name" : "Ideal Ice Cream",
+			"designation" : "Ice Cream Partners",
+			"link" : "https://www.idealicecream.com/",
+		},
+		"thomsun" : {
+			"name" : "Thomsun Music House",
+			"designation" : "Recording Partners",
+			"link" : "http://www.thomsunmusiconline.com/",
+		},
 		"resonance" : {
 			"name" : "Resonance Studios",
 			"designation" : "Studio Partners",
 			"link" : "http://resonancestudios.in/",
 		},
+		"xoxoday" : {
+			"name" : "Xoxoday",
+			"designation" : "Experience Partners",
+			"link" : "https://www.xoxoday.com/",
+		},
 		"townscript" : {
 			"name" : "Townscript",
 			"designation" : "Online Payment Partners",
 			"link" : "https://www.townscript.com/",
-		}
+		},
+		"ces" : {
+			"name" : "Campus Events",
+			"designation" : "Event Partners",
+			"link" : "http://www.campusevents.co.in/",
+		},
+		"imfs" : {
+			"name" : "IMFS",
+			"designation" : "Educational Consultant Partners",
+			"link" : "http://www.imfs.co.in/",
+		},
+		"forum" : {
+			"name" : "Forum Fiza Mall",
+			"designation" : "Official Mall Partners",
+			"link" : "http://www.forummalls.in/forum-fiza/",
+		},
 	},
 }
