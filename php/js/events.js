@@ -506,7 +506,7 @@ function open_event(event_data, category) {
 	} else if(event_data['code'] == 'spinshock') {
 		reg_link = "https://goo.gl/forms/Tp0qBX92btvdkHxA2";
 	} else {
-		reg_link = "https://www.townscript.com/widget/incident-233014";
+		reg_link = "#modal1";
 	}
 
 	event_content = `<div class="event-view">
@@ -524,7 +524,7 @@ function open_event(event_data, category) {
 				<div class="col s12 m12 l6 pull-l6"><p>` + event_data['description'] + `</p></div>
 			</div>
 			<div class="buttons-container row">
-				<div class="col m10 s10 l2 offset-l3 offset-m1 offset-s1 link-buttons center register-button"><a target="_blank" href="` + reg_link + `">Register</a></div>
+				<div class="col m10 s10 l2 offset-l3 offset-m1 offset-s1 link-buttons center register-button"><a class="modal-trigger" target="_blank" href="` + reg_link + `">Register</a></div>
 				<div class="col m10 s10 l2 offset-l2 offset-m1 offset-s1 link-buttons center rules-button"><a target="_blank" href="` + event_data['ruleslink'] + `">Rules</a></div>
 			</div>
 		</div>
