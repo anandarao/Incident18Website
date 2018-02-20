@@ -321,7 +321,7 @@ var categories_data = [
 			{
 				name: 'General Quiz',
 				ruleslink: 'https://drive.google.com/open?id=1USpxzrAGh6Ek8-j5Fq-LoBq8kjAob_UB',
-				prize: '7.2k',
+				prize: '9k',
 				contact: '+91&nbsp;73377&nbsp;80954',
 				date: '3rd March 2018',
 				code: 'genquiz',
@@ -331,7 +331,7 @@ var categories_data = [
 			{
 				name: 'Travel Quiz',
 				ruleslink: 'https://drive.google.com/open?id=1iYtH-wrH8TfDvSbkPGAwK28ai89CxcBn',
-				prize: '4.8k',
+				prize: '9k',
 				contact: '+91&nbsp;73377&nbsp;80954',
 				date: '3rd March 2018',
 				code: 'travelquiz',
@@ -341,7 +341,7 @@ var categories_data = [
 			{
 				name: 'India Quiz',
 				ruleslink: 'https://drive.google.com/open?id=1_9L0zTKiggK2vUMFQB6WcGwpGk3GSc6d',
-				prize: '4.8k',
+				prize: '6k',
 				contact: '+91&nbsp;73377&nbsp;80954',
 				date: '2nd March 2018',
 				code: 'indiaquiz',
