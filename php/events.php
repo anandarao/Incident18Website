@@ -74,7 +74,7 @@
 			<img id="gaming" class="map-contienents samer" src="images/events/world_map/samer.png"/>
 			<img id="music" class="map-contienents namer" src="images/events/world_map/namer.png"/>
 			<img id="sports" class="map-contienents europe" src="images/events/world_map/europe.png"/>
-			<img id="lit" class="map-contienents antarctica" src="images/events/world_map/antarctica.png"/>
+			<img id="quiz" class="map-contienents antarctica" src="images/events/world_map/antarctica.png"/>
 			<img class="events-logo" src="images/inci-logo-final.png"/>
 		</div>
 		<div class="m-maps-container hide-on-large-only">

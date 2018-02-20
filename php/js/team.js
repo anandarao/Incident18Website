@@ -80,11 +80,6 @@ $(function() {
 	$('.utkarsh').attr('class', 'col s12 m4 l4 utkarsh');
 	$('.azmeera').attr('class', 'col s12 m12 l12 azmeera');
 
-	$('.emmanuel').attr('class', 'col s12 m4 l4 emmanuel');
-	$('.amarnath').attr('class', 'col s12 m4 l4 amarnath');
-	$('.kartik').attr('class', 'col s12 m4 l4 kartik');
-
-
 	$(".team-image").on("error", function(){
         $(this).attr('src', 'http://via.placeholder.com/200x200');
     });

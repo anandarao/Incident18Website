@@ -210,5 +210,13 @@ var team = {
 			"facebook" : "https://www.facebook.com/kartik.pillai.75",
 			"linkedin" : "https://www.linkedin.com/in/kartik-pillai-500186158/",
 		},
+		"manjunath" : {
+			"name" : "Manjunath Maigur",
+			"email" : "manjumbmb97@gmail.com",
+			"phone" : "8792623389",
+			"designation" : "Coordinator",
+			"facebook" : "https://www.facebook.com/manju.maigur6",
+			"linkedin" : "https://www.linkedin.com/in/manjunath-m-48960284",
+		},
 	},
 }

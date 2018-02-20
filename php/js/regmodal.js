@@ -48,10 +48,10 @@ $(function() {
 					  	<div class="section">
 					    	<h5>Accomodation</h5>
 					    	<ul class="collection">
-      							<li class="collection-item">Select the number of days that you need accommodation</li>
-      							<li class="collection-item">Fill details of the attendees</li>
+      							<li class="collection-item">Select the number of days that you need accommodation and fill details of the attendees</li>
       							<li class="collection-item">No add-ons are there in this category</li>
       							<li class="collection-item">Proceed to make the payment (NetBanking / Debit card / Credit card / Wallets)</li>
+      							<li class="collection-item"><b> Note that accommodation can be chosen as add-on in Events and Proshows</b></li>
    		 					</ul>
 					  	</div>
 		    		</div>

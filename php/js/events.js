@@ -315,7 +315,7 @@ var categories_data = [
 		],
 	},
 	{
-		category_name: 'lit',
+		category_name: 'quiz',
 		back_color: 'rgb(80, 143, 184)',
 		events_details: [
 			{
@@ -353,7 +353,7 @@ var categories_data = [
 				ruleslink: 'https://drive.google.com/open?id=1wNeIVkbhOHKaKkVej7x5_cxAWyA7qEaK',
 				prize: '3k',
 				contact: '+91&nbsp;73377&nbsp;80954',
-				date: '1st March 2018',
+				date: '2nd March 2018',
 				code: 'lonewolfquiz',
 				tagline: '',
 				description: `Do you know everything from fun facts about infinity war to the intricacies of global economics? Are you generally shunned among your peers for being a know it all? (Or does information unintentionally come out blurting whenever you open your mouth?) Well, here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth!`
@@ -448,6 +448,7 @@ $(function() {
 });
 
 function open_events_view(event_category) {
+	console.log(event_category);
 	var data, event_list_divs = '';
 	for (var i = 0; i < categories_data.length; i++) {
 		if (categories_data[i]['category_name'] === event_category)
@@ -501,7 +502,7 @@ function open_event(event_data, category) {
 
 	if(category == 'gaming') {
 		reg_link = "https://goo.gl/forms/QLjeEpKEX2tiZThz2";
-	} else if(category == 'lit') {
+	} else if(category == 'quiz') {
 		reg_link = "https://goo.gl/forms/kpCBWwrO6TIVB9rb2";
 	} else if(event_data['code'] == 'spinshock') {
 		reg_link = "https://goo.gl/forms/Tp0qBX92btvdkHxA2";
