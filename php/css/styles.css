@@ -889,20 +889,82 @@ img.map-contienents:hover {
 	cursor: pointer;
 }
 
-.highlights-body {
-	background-image: url('../images/gifs/comingsoon.gif');
-	background-size: cover;
-}
-
-.comingsoon {
+.highlights-coverup {
 	width: 100vw;
 	height: 100vh;
-	position: absolute;
+	padding-top: 35vh;
+	overflow: hidden;
 }
 
-.comingsoon > h1 {
-	width: 100vw !important;
-	font-family: 'Maven Pro', sans-serif;
+.highlights-coverup > .row:nth-child(1) > div:nth-child(1) {
+	background-image: url('../images/highlights/proshows.JPG');
+}
+
+.highlights-coverup > .row:nth-child(1) > div:nth-child(2) {
+	background-image: url('../images/highlights/incitalks.JPG');
+}
+
+.highlights-coverup > .row:nth-child(1) > div:nth-child(3) {
+	background-image: url('../images/highlights/hogathon.JPG');
+}
+
+.highlights-coverup > .row:nth-child(2) > div:nth-child(1) {
+	background-image: url('../images/highlights/informals.JPG');
+}
+
+.highlights-coverup > .row:nth-child(2) > div:nth-child(2) {
+	background-image: url('../images/highlights/beach.JPG');
+}
+
+.highlights-coverup > .row:nth-child(2) > div:nth-child(3) {
+	background-image: url('../images/highlights/workshop.JPG');
+}
+
+.highlights-coverup > .row > div {
+	height: 27vh;
+	background-size: cover;
+	color: white;
+	font-size: 2rem;
+	border-bottom: 4px solid white;
+	border-right: 4px solid white;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-family: 'Quicksand', sans-serif;
+	background-position: center;
+}
+
+.highlights-coverup > .row > div:hover {
+	font-size: 2.3rem;
+	transition: all 0.2s;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.highlights-coverup > .row {
+	margin-bottom: 0px;
+}
+
+.highlights-body {
+	background: linear-gradient(rgb(254, 230, 211), white);
+}
+
+.overlay-window {
+	width: 100vw;
+	min-height: 100vh;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.overlay-close {
+	position: relative;
+	top: 15px;
+	left: 15px;
+	color: white;
+	font-size: 2.2rem;
+	cursor: pointer;
 }
 
 /*.placeholder {
@@ -974,6 +1036,11 @@ img.map-contienents:hover {
 
 	.highlights-body {
 		background-image: url('../images/gifs/mobcomingsoon.gif');
+	}
+
+	.highlights-coverup {
+		width: initial;
+		height: initial;
 	}
 }
 
