@@ -65,14 +65,24 @@
 		</nav>
 	</header>
 
-	<div id="m-logo" class="hide-on-large-only"><img class="logo" src="images/inci-logo-final.png"></div>
+	<div id="m-logo"><img class="logo" src="images/inci-logo-final.png"></div>
 
 	<main>
-		<div class="valign-wrapper comingsoon hide-on-large-only"><h1 class="center">Coming Soon</h1></div>
+		<div class="container highlights-coverup">
+			<div class="row">
+				<div class="col s12 m12 l6" id="proshows">Pro Shows</div>
+				<div class="col s12 m12 l3" id="incitalks">Inci Talks</div>
+				<div class="col s12 m12 l3" id="hogathon">Hogathon</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l3" id="informals">Informals</div>
+				<div class="col s12 m12 l3" id="beachevents">Beach Events</div>
+				<div class="col s12 m12 l6" id="workshops">Workshops</div>
+			</div>
+		</div>
 	</main>
 
-	<div id="modal1" class="modal modal-fixed-footer">
-	  	</div>
+	<div id="modal1" class="modal modal-fixed-footer"></div>
 
 	<script type="text/javascript">
 		$('#modal1').modal();

@@ -16,6 +16,20 @@ $(function() {
 	$('.fa-linkedin').click(function(){
 		window.open('https://www.linkedin.com/company-beta/13373310');
 	});
+	var mapper = {
+		"proshows": "url('../images/highlights/proshows.JPG')",
+		"incitalks": "url('../images/highlights/incitalks.JPG')",
+		"hogathon": "url('../images/highlights/hogathon.JPG')",
+		"informals": "url('../images/highlights/informals.JPG')",
+		"beachevents": "url('../images/highlights/beach.JPG')",
+		"workshops": "url('../images/highlights/workshop.JPG')",
+	};
+	$('.highlights-coverup > .row > div').click(function() {
+		$('body').append('<div class="overlay-window"><i class="material-icons overlay-close">&#xE5CD;</i></div>');
+		$('.overlay-close').click(function() {$('.overlay-window').remove();});
+		var store = $(this).attr('id');
+		$('.overlay-window').css('background-image', mapper[store]);
+	});
 });
 
 function modal_open_up() {
