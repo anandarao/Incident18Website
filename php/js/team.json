@@ -48,6 +48,14 @@ var team = {
 			"facebook" : "https://www.facebook.com/ajmeera.rajjadav",
 			"linkedin" : "https://www.linkedin.com/in/ajmeera-bhanuprakash-19718310a/",
 		},
+		"sai" : {
+			"name" : "K Saicharan",
+			"email" : "komuravellisaicharan@gmail.com",
+			"phone" : "9964300193",
+			"designation" : "Events Coordinator",
+			"facebook" : "https://www.facebook.com/saicha.daichu",
+			"linkedin" : "https://www.linkedin.com/in/komuravelli-saicharan-b029aa109",
+		},
 		"dasari" : {
 			"name" : "Dasari Srikanth",
 			"email" : "srikanth.dasari1998@gmail.com",
@@ -64,6 +72,22 @@ var team = {
 			"facebook" : "https://www.facebook.com/revanth.reddy.7505",
 			"linkedin" : "https://www.linkedin.com/in/revanth-reddy-a80301154",
 		},
+		"rahul1" : {
+			"name" : "Rahul Agrawal",
+			"email" : "studentculturalsecretary@nitk.edu.in",
+			"phone" : "9481635716",
+			"designation" : "Cultural Secretary",
+			"facebook" : "https://www.facebook.com/rahul.theknightrider",
+			"linkedin" : "https://www.linkedin.com/in/rahul-agrawal-886119b0/",
+		},
+		"vaishnavi" : {
+			"name" : "P. Vaishnavi Raman",
+			"email" : "vaishdho10@gmail.com",
+			"phone" : "9591166435",
+			"designation" : "Girls' Representative",
+			"facebook" : "https://www.facebook.com/profile.php?id=100004388299186",
+			"linkedin" : "https://www.linkedin.com/in/vaishnavi-raman-01418b140",
+		},
 		"humaid" : {
 			"name" : "Humaid Patel",
 			"email" : "patel.humaid1997@gmail.com",
@@ -79,14 +103,6 @@ var team = {
 			"designation" : "Proshows Coordinator",
 			"facebook" : "http://www.facebook.com/ad1l.mohd",
 			"linkedin" : "https://www.linkedin.com/in/adil-mohamed-887353109",
-		},
-		"rahul1" : {
-			"name" : "Rahul Agrawal",
-			"email" : "studentculturalsecretary@nitk.edu.in",
-			"phone" : "9481635716",
-			"designation" : "Cultural Secretary",
-			"facebook" : "https://www.facebook.com/rahul.theknightrider",
-			"linkedin" : "https://www.linkedin.com/in/rahul-agrawal-886119b0/",
 		},
 		"gagan" : {
 			"name" : "Gagan Mujumdar",
@@ -217,6 +233,14 @@ var team = {
 			"designation" : "Coordinator",
 			"facebook" : "https://www.facebook.com/manju.maigur6",
 			"linkedin" : "https://www.linkedin.com/in/manjunath-m-48960284",
+		},
+		"rahulmodi" : {
+			"name" : "Rahul Modi",
+			"email" : "rdssmart@gmail.com",
+			"phone" : "8369907823",
+			"designation" : "Video Coordinator",
+			"facebook" : "https://www.facebook.com/rahul.modi.50364",
+			"linkedin" : "https://www.linkedin.com/in/rahul-modi-601706153",
 		},
 	},
 }

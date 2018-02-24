@@ -17,7 +17,7 @@ var sponsors = {
 			"designation" : "Power Sponsors",
 			"link" : "http://www.colorsofyouth.com/",
 		},
-		/*"bc" : {
+		"bc" : {
 			"name" : "British Council",
 			"designation" : "Cultural Partners",
 			"link" : "https://www.britishcouncil.in/",
@@ -26,7 +26,7 @@ var sponsors = {
 			"name" : "VH1 and Comedy Central",
 			"designation" : "Associate Partners",
 			"link" : "",
-		},*/
+		},
 	},
 	"l3" : {
 		"sephora" : {
@@ -49,6 +49,16 @@ var sponsors = {
 			"designation" : "Studio Partners",
 			"link" : "http://resonancestudios.in/",
 		},
+		"zeb" : {
+			"name" : "Zebronics",
+			"designation" : "Gaming Partners",
+			"link" : "https://zebronics.com/",
+		},
+		"ps" : {
+			"name" : "Sony PlayStation",
+			"designation" : "Gaming Console Partners",
+			"link" : "https://www.playstation.com/en-in/",
+		},
 		"xoxoday" : {
 			"name" : "Xoxoday",
 			"designation" : "Experience Partners",
@@ -59,15 +69,35 @@ var sponsors = {
 			"designation" : "Online Payment Partners",
 			"link" : "https://www.townscript.com/",
 		},
+		"bms" : {
+			"name" : "BookMyShow",
+			"designation" : "Ticketing Partners",
+			"link" : "https://in.bookmyshow.com/",
+		},
 		"ces" : {
 			"name" : "Campus Events",
 			"designation" : "Event Partners",
 			"link" : "http://www.campusevents.co.in/",
 		},
+		"ohcampus" : {
+			"name" : "OhCampus.com",
+			"designation" : "Online Media Partners",
+			"link" : "http://ohcampus.com/v2/",
+		},
+		"nestle" : {
+			"name" : "Nestle",
+			"designation" : "Refreshment Partners",
+			"link" : "https://www.nestle.in/",
+		},
 		"imfs" : {
 			"name" : "IMFS",
 			"designation" : "Educational Consultant Partners",
 			"link" : "http://www.imfs.co.in/",
+		},
+		"chopras" : {
+			"name" : "The Chopras",
+			"designation" : "Educational Consultant Partners",
+			"link" : "https://www.thechopras.com/",
 		},
 		"forum" : {
 			"name" : "Forum Fiza Mall",
