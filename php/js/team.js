@@ -80,6 +80,8 @@ $(function() {
 	$('.utkarsh').attr('class', 'col s12 m4 l4 utkarsh');
 	$('.azmeera').attr('class', 'col s12 m12 l12 azmeera');
 
+	$('.pavan').attr('class', 'col s12 m12 l12 pavan');
+
 	$(".team-image").on("error", function(){
         $(this).attr('src', 'http://via.placeholder.com/200x200');
     });
