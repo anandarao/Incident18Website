@@ -81,6 +81,19 @@ $(function() {
 	$('.azmeera').attr('class', 'col s12 m12 l12 azmeera');
 
 	$('.pavan').attr('class', 'col s12 m12 l12 pavan');
+	$('.rahul').attr('class', 'col s12 m4 l4 rahul');
+	$('.bhanu').attr('class', 'col s12 m4 l4 bhanu');
+	$('.sai').attr('class', 'col s12 m4 l4 sai');
+
+	$('.humaid').attr('class', 'col s12 m4 l4 humaid');
+	$('.adil').attr('class', 'col s12 m4 l4 adil');
+	$('.gagan').attr('class', 'col s12 m4 l4 gagan');
+
+	$('.emmanuel').attr('class', 'col s12 m4 l4 emmanuel');
+	$('.amarnath').attr('class', 'col s12 m4 l4 amarnath');
+	$('.kartik').attr('class', 'col s12 m4 l4 kartik');
+	$('.manjunath').attr('class', 'col s12 m6 l6 manjunath');
+	$('.rahulmodi').attr('class', 'col s12 m6 l6 rahulmodi');
 
 	$(".team-image").on("error", function(){
         $(this).attr('src', 'http://via.placeholder.com/200x200');
