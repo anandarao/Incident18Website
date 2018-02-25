@@ -112,6 +112,14 @@ var team = {
 			"facebook" : "https://www.facebook.com/gagan.mujumdar",
 			"linkedin" : "https://www.linkedin.com/in/gagan-mujumdar-734881124/",
 		},
+		"pavan" : {
+			"name" : "Pavan Biradar",
+			"email" : "pkbiradar786@gmail.com",
+			"phone" : "9663793205",
+			"designation" : "Secretary",
+			"facebook" : "https://www.facebook.com/pavankumar.biradar.16",
+			"linkedin" : "https://www.linkedin.com/in/pavan-kumar-biradar-7bb435106/",
+		}
 	},
 	"Marketing" : {
 		"anand" : {
