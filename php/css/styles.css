@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Viga|Slabo+27px|Nunito|Maven+Pro|Poiret+One|Alegreya+Sans|Macondo|Quicksand|Julius+Sans+One|Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Viga|Slabo+27px|Maven+Pro|Macondo|Quicksand|Julius+Sans+One|Alegreya+Sans');
 
 
 @font-face
@@ -955,7 +955,23 @@ img.map-contienents:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 9999;
+	z-index: 99;
+	opacity: 0;
+	transition: opacity 0.20s linear;
+}
+
+.slider-row {
+	position: fixed;
+	height: 100vh !important;
+	width: 100vw !important;
+}
+
+.slider-row > div {
+	height: 100vh !important;
+}
+
+.slider-row > div > div {
+	width: 100%;
 }
 
 .overlay-close {
@@ -965,6 +981,74 @@ img.map-contienents:hover {
 	color: white;
 	font-size: 2.2rem;
 	cursor: pointer;
+}
+
+.element-duration {
+	color: #d7ccc8;
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: 'Quicksand', sans-serif;
+	transition: opacity 0.3s ease;
+}
+
+.element-points {
+	text-align: justify;
+	transition: opacity 0.3s ease;
+}
+
+.element-points > ul > li {
+	list-style-type: circle;
+	color: white;
+	font-size: 1.6rem;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.element-btn {
+	margin-bottom: 10px;
+	transition: opacity 0.3s ease;
+}
+
+.element-headd {
+	color: #80d8ff;
+	font-family: 'Viga', sans-serif;
+	font-size: 4rem;
+	margin-bottom: 30px;
+	transition: opacity 0.3s ease;
+}
+
+.element-descp {
+	text-align: justify;
+	font-size: 1.8rem;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	transition: opacity 0.3s ease;
+}
+
+.left-material-arrow > div > i, .right-material-arrow > div > i {
+	cursor: pointer;
+}
+
+.element-venue {
+	font-size: 2rem;
+	font-family: 'Quicksand', sans-serif;
+	color: #c8e6c9;
+	font-weight: 600;
+	transition: opacity 0.3s ease;
+}
+
+.element-date {
+	font-size: 2rem;
+	font-family: 'Quicksand', sans-serif;
+	color: #c5cae9;
+	font-weight: 600;
+	transition: opacity 0.3s ease;
+}
+
+.element-image {
+	transition: opacity 0.3s ease;
 }
 
 /*.placeholder {
@@ -1041,6 +1125,56 @@ img.map-contienents:hover {
 	.highlights-coverup {
 		width: initial;
 		height: initial;
+	}
+
+	.element-date {
+		font-size: 1.7rem;
+	}
+
+	.element-venue {
+		font-size: 1.7rem;
+	}
+
+	.element-image > img {
+		height: 25vh;
+	}
+
+	.element-headd {
+		font-size: 2.5rem;
+		margin-bottom: 0;
+	}
+
+	.element-descp {
+		font-size: 1.1rem;
+	}
+
+	.element-points > ul > li {
+		font-size: 0.95rem;
+	}
+
+	.left-material-arrow {
+		padding: 0 !important;
+	}
+
+	.left-material-arrow > div > i {
+		font-size: 2.5rem;
+	}
+
+	.right-material-arrow {
+		padding: 0 !important;
+	}
+
+	.right-material-arrow > div > i {
+		font-size: 2.5rem;
+	}
+
+	.slider-row > div:nth-child(2) {
+		padding: 0 !important;
+	}
+
+	.informals-descp {
+		font-size: 1.1rem !important;
+		margin: 0;
 	}
 }
 
