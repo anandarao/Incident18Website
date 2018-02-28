@@ -69,6 +69,21 @@ var sponsors = {
 			"designation" : "Banking Partners",
 			"link" : "https://www.canarabank.in/",
 		},
+		"nammatv" : {
+			"name" : "Namma TV",
+			"designation" : "Media Partners",
+			"link" : "http://namma.tv/",
+		},
+		"drnklab" : {
+			"name" : "Drnk Lab",
+			"designation" : "Slam Dunk Partners",
+			"link" : "http://drnklab.business.site/",
+		},
+		"magic" : {
+			"name" : "Canara Bank",
+			"designation" : "Slam Dunk Partners",
+			"link" : "https://www.indiamart.com/magicsportswearbangalore/",
+		},
 		"cosco" : {
 			"name" : "Cosco",
 			"designation" : "Slam Dunk Partners",
