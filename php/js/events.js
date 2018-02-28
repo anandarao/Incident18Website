@@ -147,28 +147,6 @@ var categories_data = [
 							yourself to the taal. Expose yourself to the magic and richness of Indian
 							culture through its music at the musical events this Incident 2018.`,
 			},
-			/*{
-				name: 'War of DJs',
-				ruleslink: 'https://incident.co.in',
-				prize: '-',
-				contact: '+91&nbsp;91919&nbsp;19191',
-				date: '4th March 2018',
-				code: 'djwars',
-				tagline : 'The Beach DJ Competition',
-				description: `The wind is howling, the waves are thrashing and the stage has been set. The battle
-							lines have been drawn. The beats have been dropped, the audience is on their feet
-							and their heart rates are rising with every passing moment. This is not just any
-							turntable battle. This is the Incident DJ Wars, where the fight for supremacy stands
-							tall. DJ Wars is one of the most highly anticipated shows during Incident. An event of
-							colossal magnitude, DJ Wars invites professional DJs from all over India to come
-							together and compete in a battle where the last man standing wins. In this contest,
-							DJs go head to head as they prove their mettle in order to win the DJ Was and the
-							glory that comes with it. Their duels are quite legendary and have made their way
-							into NITK folklore due to their intense routines which have set the stage on fire.
-							Adjudicated by reputed experts from the mainstream recording industry, this event
-							promises to propel the best in the business into the limelight, on a night which the
-							Malabar Coast will never forget.`,
-			},*/
 		],
 	},
 	{

@@ -59,6 +59,21 @@ var sponsors = {
 			"designation" : "Gaming Console Partners",
 			"link" : "https://www.playstation.com/en-in/",
 		},
+		"sbi" : {
+			"name" : "State Bank of India",
+			"designation" : "Banking Partners",
+			"link" : "https://www.sbi.co.in/",
+		},
+		"canara" : {
+			"name" : "Canara Bank",
+			"designation" : "Banking Partners",
+			"link" : "https://www.canarabank.in/",
+		},
+		"cosco" : {
+			"name" : "Cosco",
+			"designation" : "Slam Dunk Partners",
+			"link" : "http://www.cosco.in/",
+		},
 		"xoxoday" : {
 			"name" : "Xoxoday",
 			"designation" : "Experience Partners",
